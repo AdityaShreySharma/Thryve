@@ -1,0 +1,56 @@
+<%- include("../partials/header")  %>
+<style>
+    .Mysize{
+        font-size: larger;
+    }
+</style>
+<div class="w3-container w3-card-4 w3-padding-large" style="width: 98%;margin: 5px auto;">
+        <h1 class="font-DancingList" style="margin-bottom: 20px;">Add New Item</h1><hr>
+        <form action="/diet/food" method="POST">
+            <div>
+                <label class="font-Roboto Mysize">Food Name : </label>
+                <input class="w3-input" style="width:40%;margin:0 0 15px 13%;"  type="text" name="food[name]" placeholder="name" required="required">
+            </div>
+            <div>
+                <label class="font-Roboto Mysize">Category : </label>
+                <input class="w3-input" style="width:40%;margin:0 0 15px 13%;" type="text" name="food[categoryTag]" placeholder="category" required="required">
+            </div>
+            <div>    
+                <label class="font-Roboto Mysize">Protein Type : </label>
+                <input class="w3-input" style="width:40%;margin:0 0 15px 13%;" type="text" name="food[proteinTag]" placeholder=" low | medium | high" required="required">
+            </div>
+            <div>
+                <label class="font-Roboto Mysize">Fat Type : </label>    
+                <input class="w3-input" style="width:40%;margin:0 0 15px 13%;" type="text" name="food[fatTag]" placeholder=" low | medium | high" required="required">
+            <div>    
+                <label class="font-Roboto Mysize">Carbohydrate Type : </label>
+                <input class="w3-input" style="width:40%;margin:0 0 15px 13%;" type="text" name="food[carbohydratesTag]" placeholder=" low | medium | high" required="required">
+            </div>
+            <div>
+                <label class="font-Roboto Mysize">Energy(kcal) : </label>
+                <input class="w3-input" style="width:40%;margin:0 0 15px 13%;" type="number" name="food[energy][amount]" placeholder="energy(per 100g serving)" step="0.01" required="required">
+                <input class="w3-input" style="width:40%;margin:0 0 15px 13%;" type="text" name="food[energy][unit]" value="kcal" required="required" hidden>
+            </div>
+            <div>
+                <label class="font-Roboto Mysize">Protein(g) : </label>
+                <input class="w3-input" style="width:40%;margin:0 0 15px 13%;" type="number" name="food[nutrients][protein][amount]" placeholder="protein(per 100g serving)" step="0.01" required="required">
+                <input class="w3-input" style="width:40%;margin:0 0 15px 13%;" type="text" name="food[nutrients][protein][unit]" value="g" required="required" hidden>
+            </div>
+            <div>
+                <label class="font-Roboto Mysize">Fat(g) : </label>
+                <input class="w3-input" style="width:40%;margin:0 0 15px 13%;" type="number" name="food[nutrients][fat][amount]" placeholder="fat(per 100g serving)" step="0.01" required="required">
+                <input class="w3-input" style="width:40%;margin:0 0 15px 13%;" type="text" name="food[nutrients][fat][unit]" value="g" required="required" hidden>
+            </div>
+            <div>
+                <label class="font-Roboto Mysize">Carbohydrates(g) : </label>
+                <input class="w3-input" style="width:40%;margin:0 0 15px 13%;" type="number" name="food[nutrients][carbohydrates][amount]" placeholder="carbohydrates(per 100g serving)" step="0.01" required="required">
+                <input class="w3-input" style="width:40%;margin:0 0 15px 13%;" type="text" name="food[nutrients][carbohydrates][unit]" value="g" required="required" hidden>
+            </div>
+            <div>
+                <a class="w3-button w3-teal w3-round" style="text-decoration: none;" href="/diet">BACK</a>
+                <button class="w3-button w3-blue  w3-ripple w3-round w3-margin-left"  type="submit" required="required">EDIT</button>
+            </div>
+        </form>
+</div>
+<!-- <a href="/diet/food/newcat">Add Category</a> -->
+<%- include("../partials/footer")  %>

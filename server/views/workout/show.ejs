@@ -1,0 +1,17 @@
+<%- include("../partials/header")  %>
+<div class="w3-display-container w3-padding-large" style="min-height: 100vh;">
+    <h1 style="margin: 20px;"><%= exercise.name %></h1>
+        <h3><%= exercise.tag %></h4>
+        <p><%- exercise.steps %></p>
+        <div class="w3-container" style="margin-top: 100px;">
+            <form action="/workout/exercise/<%= exercise._id %>?_method=DELETE" method="POST">
+               
+                <a class="w3-button w3-teal" style="text-decoration: none;" href="/workout">BACK</a>
+                <a class="w3-button w3-teal" style="text-decoration: none;" href="/workout/exercise/<%= exercise._id %>/edit">EDIT</a>
+                 <button class="w3-button w3-red">Delete</button>
+                <!-- <span class="w3-button w3-red">Delete</span> -->
+            </form>
+        </div>
+</div>
+
+<%- include("../partials/footer")  %>

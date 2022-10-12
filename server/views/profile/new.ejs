@@ -1,0 +1,64 @@
+<%- include("../partials/header")  %>
+
+<style>
+    .Mysize{
+        font-size: larger;
+    }
+</style>
+
+<div style="min-height: 100vh;">
+<div class="w3-container w3-card-4 w3-padding-large" style="width: 98%;margin: 5px auto;">
+    <h1 class="font-DancingList" style="margin-bottom: 20px;">Enter Your Info</h1><hr>
+<form action="/profile" method="POST">
+    <div style="max-width: 95%;margin-bottom: 20px;">
+        <label class="font-Roboto Mysize">First Name : </label> 
+        <input style="width:60%;margin:0 0 15px 3.5%;display: inline;" class="w3-input" type="text" name="profile[name][first]"  maxlength="80" required>
+    </div>
+    <div style="max-width: 95%;margin-bottom: 20px;">
+        <label class="font-Roboto Mysize">Last Name : </label> 
+        <input style="width:60%;margin:0 0 15px 3.5%;display: inline;" class="w3-input" type="text" name="profile[name][last]"  maxlength="80" required>
+    </div>
+    <div style="max-width: 95%;margin-bottom: 20px;">
+        <label  class="font-Roboto Mysize">Gender : </label> 
+        <select style="width:60%;margin:0 0 15px 5.8%;display: inline;" class="w3-select" name="profile[gender]" required>
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+            <option value="other">Other</option>
+        </select>
+    </div>
+    <div style="max-width: 95%;margin-bottom: 20px;">
+        <label class="font-Roboto Mysize">Date Of Birth : </label>
+        <input id="Mydate" style="width:60%;margin:0 0 15px 2%;display: inline;" class="w3-input" type="date" name="profile[dob]"  min="1900-01-01" required>
+    </div>
+    <div style="margin-bottom: 20px;">
+        <label class="font-Roboto Mysize">Height : </label>
+        <input style="width:57%;margin:0 0 15px 5.8%;display: inline;" class="w3-input" type="number" name="profile[height][magnitude]" step="0.01" min="50.00" max="275" required>
+        <input style="width:5%;margin:0 0 15px 0;display: inline;" class="w3-input"  type="text" name="profile[height][unit]" value="cm" disabled>
+    </div>
+    <div style="max-width: 93%;margin-bottom: 20px;">
+        <label class="font-Roboto Mysize">Weight : </label>
+        <input style="width:61.5%;margin:0 0 15px 5.8%;display: inline;" class="w3-input" type="number" name="profile[weight][magnitude]" step="0.1" min="5" max="650" required>
+        <input style="width:5%;margin:0 0 15px 0;display: inline;" class="w3-input" type="text" name="profile[weight][unit]" value="kg" disabled>
+    </div>
+    <div class="w3-center">
+        <button class="w3-button w3-blue w3-ripple w3-round w3-large">Submit</button>
+    </div>
+</form>
+</div>
+
+<script>
+
+    var today = new Date();
+    
+    var date = today.getFullYear()+'-'+(today.getMonth()+1)+'-'+today.getDate();
+    console.log(date);
+    var dateset = document.querySelector('input[type="date"]');
+    // var dateset = document.getElementById('Mydate');
+
+        // document.getElementById('Mydate').setAttribute('max', date);
+        // dateset.setAttribute('max', date)
+        dateset.setAttribute('max', date)
+
+    </script>
+
+<%- include("../partials/footer")  %>

@@ -1,0 +1,5361 @@
+{
+  "table": [
+    {
+      "energy": { "amount": 57, "unit": "kcal" },
+      "nutrients": {
+        "protein": { "amount": 0.3, "unit": "g" },
+        "fat": { "amount": 0.2, "unit": "g" },
+        "carbohydrates": { "amount": 15, "unit": "g" }
+      },
+      "activeUsers": 0,
+      "verified": true,
+      "_id": "5ec38da5680b16255c87d0c1",
+      "name": "apple",
+      "categoryTag": "fruit",
+      "proteinTag": "medium",
+      "fatTag": "medium",
+      "carbohydratesTag": "medium",
+      "__v": 0
+    },
+    {
+      "energy": { "amount": 60.6, "unit": "kcal" },
+      "nutrients": {
+        "protein": { "amount": 0.8, "unit": "g" },
+        "fat": { "amount": 0.4, "unit": "g" },
+        "carbohydrates": { "amount": 15, "unit": "g" }
+      },
+      "activeUsers": 0,
+      "verified": true,
+      "_id": "5ec38da5680b16255c87d0c2",
+      "name": "mango",
+      "categoryTag": "fruit",
+      "proteinTag": "medium",
+      "fatTag": "medium",
+      "carbohydratesTag": "medium",
+      "__v": 0
+    },
+    {
+      "energy": { "amount": 68, "unit": "kcal" },
+      "nutrients": {
+        "protein": { "amount": 0.7, "unit": "g" },
+        "fat": { "amount": 0.2, "unit": "g" },
+        "carbohydrates": { "amount": 17.8, "unit": "g" }
+      },
+      "activeUsers": 0,
+      "verified": true,
+      "_id": "5ec38da5680b16255c87d0c3",
+      "name": "grapes",
+      "categoryTag": "fruit",
+      "proteinTag": "medium",
+      "fatTag": "medium",
+      "carbohydratesTag": "medium",
+      "__v": 0
+    },
+    {
+      "energy": { "amount": 34.4, "unit": "kcal" },
+      "nutrients": {
+        "protein": { "amount": 1.7, "unit": "g" },
+        "fat": { "amount": 0.4, "unit": "g" },
+        "carbohydrates": { "amount": 22, "unit": "g" }
+      },
+      "activeUsers": 0,
+      "verified": true,
+      "_id": "5ec38da5680b16255c87d0c4",
+      "name": "watermelon",
+      "categoryTag": "fruit",
+      "proteinTag": "medium",
+      "fatTag": "medium",
+      "carbohydratesTag": "medium",
+      "__v": 0
+    },
+    {
+      "energy": { "amount": 60, "unit": "kcal" },
+      "nutrients": {
+        "protein": { "amount": 0.9, "unit": "g" },
+        "fat": { "amount": 0.4, "unit": "g" },
+        "carbohydrates": { "amount": 15, "unit": "g" }
+      },
+      "activeUsers": 0,
+      "verified": true,
+      "_id": "5ec38da5680b16255c87d0c5",
+      "name": "plum",
+      "categoryTag": "fruit",
+      "proteinTag": "medium",
+      "fatTag": "medium",
+      "carbohydratesTag": "medium",
+      "__v": 0
+    },
+    {
+      "energy": { "amount": 84.2, "unit": "kcal" },
+      "nutrients": {
+        "protein": { "amount": 1.7, "unit": "g" },
+        "fat": { "amount": 1.2, "unit": "g" },
+        "carbohydrates": { "amount": 19.1, "unit": "g" }
+      },
+      "activeUsers": 0,
+      "verified": true,
+      "_id": "5ec38da5680b16255c87d0c6",
+      "name": "pomegranate",
+      "categoryTag": "fruit",
+      "proteinTag": "medium",
+      "fatTag": "medium",
+      "carbohydratesTag": "medium",
+      "__v": 0
+    },
+    {
+      "energy": { "amount": 105, "unit": "kcal" },
+      "nutrients": {
+        "protein": { "amount": 1.3, "unit": "g" },
+        "fat": { "amount": 0.4, "unit": "g" },
+        "carbohydrates": { "amount": 27, "unit": "g" }
+      },
+      "activeUsers": 0,
+      "verified": true,
+      "_id": "5ec38da5680b16255c87d0c7",
+      "name": "banana",
+      "categoryTag": "fruit",
+      "proteinTag": "medium",
+      "fatTag": "medium",
+      "carbohydratesTag": "medium",
+      "__v": 0
+    },
+    {
+      "energy": { "amount": 40.8, "unit": "kcal" },
+      "nutrients": {
+        "protein": { "amount": 1.6, "unit": "g" },
+        "fat": { "amount": 0.4, "unit": "g" },
+        "carbohydrates": { "amount": 17, "unit": "g" }
+      },
+      "activeUsers": 0,
+      "verified": true,
+      "_id": "5ec38da5680b16255c87d0c8",
+      "name": "peach",
+      "categoryTag": "fruit",
+      "proteinTag": "medium",
+      "fatTag": "medium",
+      "carbohydratesTag": "medium",
+      "__v": 0
+    },
+    {
+      "energy": { "amount": 74, "unit": "kcal" },
+      "nutrients": {
+        "protein": { "amount": 0.8, "unit": "g" },
+        "fat": { "amount": 0.3, "unit": "g" },
+        "carbohydrates": { "amount": 19.2, "unit": "g" }
+      },
+      "activeUsers": 0,
+      "verified": true,
+      "_id": "5ec38da5680b16255c87d0c9",
+      "name": "fig",
+      "categoryTag": "fruit",
+      "proteinTag": "medium",
+      "fatTag": "medium",
+      "carbohydratesTag": "medium",
+      "__v": 0
+    },
+    {
+      "energy": { "amount": 30.5, "unit": "kcal" },
+      "nutrients": {
+        "protein": { "amount": 0.6, "unit": "g" },
+        "fat": { "amount": 0.3, "unit": "g" },
+        "carbohydrates": { "amount": 7.5, "unit": "g" }
+      },
+      "activeUsers": 0,
+      "verified": true,
+      "_id": "5ec38da5680b16255c87d0ca",
+      "name": "dragon fruit",
+      "categoryTag": "fruit",
+      "proteinTag": "medium",
+      "fatTag": "medium",
+      "carbohydratesTag": "medium",
+      "__v": 0
+    },
+    {
+      "energy": { "amount": 60.6, "unit": "kcal" },
+      "nutrients": {
+        "protein": { "amount": 0.6, "unit": "g" },
+        "fat": { "amount": 0.3, "unit": "g" },
+        "carbohydrates": { "amount": 27, "unit": "g" }
+      },
+      "activeUsers": 0,
+      "verified": true,
+      "_id": "5ec38da5680b16255c87d0cb",
+      "name": "pear",
+      "categoryTag": "fruit",
+      "proteinTag": "medium",
+      "fatTag": "medium",
+      "carbohydratesTag": "medium",
+      "__v": 0
+    },
+    {
+      "energy": { "amount": 84.6, "unit": "kcal" },
+      "nutrients": {
+        "protein": { "amount": 0.8, "unit": "g" },
+        "fat": { "amount": 1.9, "unit": "g" },
+        "carbohydrates": { "amount": 34, "unit": "g" }
+      },
+      "activeUsers": 0,
+      "verified": true,
+      "_id": "5ec38da5680b16255c87d0cc",
+      "name": "chikoo",
+      "categoryTag": "fruit",
+      "proteinTag": "medium",
+      "fatTag": "medium",
+      "carbohydratesTag": "medium",
+      "__v": 0
+    },
+    {
+      "energy": { "amount": 49.2, "unit": "kcal" },
+      "nutrients": {
+        "protein": { "amount": 0.5, "unit": "g" },
+        "fat": { "amount": 0.1, "unit": "g" },
+        "carbohydrates": { "amount": 13.2, "unit": "g" }
+      },
+      "activeUsers": 0,
+      "verified": true,
+      "_id": "5ec38da5680b16255c87d0cd",
+      "name": "pineapple",
+      "categoryTag": "fruit",
+      "proteinTag": "medium",
+      "fatTag": "medium",
+      "carbohydratesTag": "medium",
+      "__v": 0
+    },
+    {
+      "energy": { "amount": 48.9, "unit": "kcal" },
+      "nutrients": {
+        "protein": { "amount": 0.9, "unit": "g" },
+        "fat": { "amount": 0.1, "unit": "g" },
+        "carbohydrates": { "amount": 12.6, "unit": "g" }
+      },
+      "activeUsers": 0,
+      "verified": true,
+      "_id": "5ec38da5680b16255c87d0ce",
+      "name": "orange",
+      "categoryTag": "fruit",
+      "proteinTag": "medium",
+      "fatTag": "medium",
+      "carbohydratesTag": "medium",
+      "__v": 0
+    },
+    {
+      "energy": { "amount": 30, "unit": "kcal" },
+      "nutrients": {
+        "protein": { "amount": 0.7, "unit": "g" },
+        "fat": { "amount": 0.2, "unit": "g" },
+        "carbohydrates": { "amount": 10.6, "unit": "g" }
+      },
+      "activeUsers": 0,
+      "verified": true,
+      "_id": "5ec38da5680b16255c87d0cf",
+      "name": "sweet lime",
+      "categoryTag": "fruit",
+      "proteinTag": "medium",
+      "fatTag": "medium",
+      "carbohydratesTag": "medium",
+      "__v": 0
+    },
+    {
+      "energy": { "amount": 51, "unit": "kcal" },
+      "nutrients": {
+        "protein": { "amount": 1.5, "unit": "g" },
+        "fat": { "amount": 0.4, "unit": "g" },
+        "carbohydrates": { "amount": 11.7, "unit": "g" }
+      },
+      "activeUsers": 0,
+      "verified": true,
+      "_id": "5ec38da5680b16255c87d0d0",
+      "name": "apricot",
+      "categoryTag": "fruit",
+      "proteinTag": "medium",
+      "fatTag": "medium",
+      "carbohydratesTag": "medium",
+      "__v": 0
+    },
+    {
+      "energy": { "amount": 465.6, "unit": "kcal" },
+      "nutrients": {
+        "protein": { "amount": 3.2, "unit": "g" },
+        "fat": { "amount": 28.8, "unit": "g" },
+        "carbohydrates": { "amount": 52.8, "unit": "g" }
+      },
+      "activeUsers": 0,
+      "verified": true,
+      "_id": "5ec38da5680b16255c87d0d1",
+      "name": "coconut",
+      "categoryTag": "fruit",
+      "proteinTag": "medium",
+      "fatTag": "medium",
+      "carbohydratesTag": "medium",
+      "__v": 0
+    },
+    {
+      "energy": { "amount": 42, "unit": "kcal" },
+      "nutrients": {
+        "protein": { "amount": 1.3, "unit": "g" },
+        "fat": { "amount": 0.4, "unit": "g" },
+        "carbohydrates": { "amount": 9.3, "unit": "g" }
+      },
+      "activeUsers": 0,
+      "verified": true,
+      "_id": "5ec38da5680b16255c87d0d2",
+      "name": "blackberry",
+      "categoryTag": "fruit",
+      "proteinTag": "medium",
+      "fatTag": "medium",
+      "carbohydratesTag": "medium",
+      "__v": 0
+    },
+    {
+      "energy": { "amount": 6.4, "unit": "kcal" },
+      "nutrients": {
+        "protein": { "amount": 1.1, "unit": "g" },
+        "fat": { "amount": 0.2, "unit": "g" },
+        "carbohydrates": { "amount": 15.6, "unit": "g" }
+      },
+      "activeUsers": 0,
+      "verified": true,
+      "_id": "5ec38da5680b16255c87d0d3",
+      "name": "cherry",
+      "categoryTag": "fruit",
+      "proteinTag": "medium",
+      "fatTag": "medium",
+      "carbohydratesTag": "medium",
+      "__v": 0
+    },
+    {
+      "energy": { "amount": 74, "unit": "kcal" },
+      "nutrients": {
+        "protein": { "amount": 0.8, "unit": "g" },
+        "fat": { "amount": 0.3, "unit": "g" },
+        "carbohydrates": { "amount": 19.2, "unit": "g" }
+      },
+      "activeUsers": 0,
+      "verified": true,
+      "_id": "5ec38da5680b16255c87d0d4",
+      "name": "fig",
+      "categoryTag": "fruit",
+      "proteinTag": "medium",
+      "fatTag": "medium",
+      "carbohydratesTag": "medium",
+      "__v": 0
+    },
+    {
+      "energy": { "amount": 63, "unit": "kcal" },
+      "nutrients": {
+        "protein": { "amount": 1.2, "unit": "g" },
+        "fat": { "amount": 0.5, "unit": "g" },
+        "carbohydrates": { "amount": 15, "unit": "g" }
+      },
+      "activeUsers": 0,
+      "verified": true,
+      "_id": "5ec38da5680b16255c87d0d5",
+      "name": "kiwi",
+      "categoryTag": "fruit",
+      "proteinTag": "medium",
+      "fatTag": "medium",
+      "carbohydratesTag": "medium",
+      "__v": 0
+    },
+    {
+      "energy": { "amount": 43.4, "unit": "kcal" },
+      "nutrients": {
+        "protein": { "amount": 0.5, "unit": "g" },
+        "fat": { "amount": 0.3, "unit": "g" },
+        "carbohydrates": { "amount": 11.2, "unit": "g" }
+      },
+      "activeUsers": 0,
+      "verified": true,
+      "_id": "5ec38da5680b16255c87d0d6",
+      "name": "papaya",
+      "categoryTag": "fruit",
+      "proteinTag": "medium",
+      "fatTag": "medium",
+      "carbohydratesTag": "medium",
+      "__v": 0
+    },
+    {
+      "energy": { "amount": 44, "unit": "kcal" },
+      "nutrients": {
+        "protein": { "amount": 1.7, "unit": "g" },
+        "fat": { "amount": 0.2, "unit": "g" },
+        "carbohydrates": { "amount": 10, "unit": "g" }
+      },
+      "activeUsers": 0,
+      "verified": true,
+      "_id": "5ec38da5680b16255c87d0d7",
+      "name": "beetroot",
+      "categoryTag": "vegetable",
+      "proteinTag": "medium",
+      "fatTag": "medium",
+      "carbohydratesTag": "medium",
+      "__v": 0
+    },
+    {
+      "energy": { "amount": 35.2, "unit": "kcal" },
+      "nutrients": {
+        "protein": { "amount": 0.8, "unit": "g" },
+        "fat": { "amount": 0.2, "unit": "g" },
+        "carbohydrates": { "amount": 8.4, "unit": "g" }
+      },
+      "activeUsers": 0,
+      "verified": true,
+      "_id": "5ec38da5680b16255c87d0d8",
+      "name": "carrot",
+      "categoryTag": "vegetable",
+      "proteinTag": "medium",
+      "fatTag": "medium",
+      "carbohydratesTag": "medium",
+      "__v": 0
+    },
+    {
+      "energy": { "amount": 15.8, "unit": "kcal" },
+      "nutrients": {
+        "protein": { "amount": 0.7, "unit": "g" },
+        "fat": { "amount": 0, "unit": "g" },
+        "carbohydrates": { "amount": 3.3, "unit": "g" }
+      },
+      "activeUsers": 0,
+      "verified": true,
+      "_id": "5ec38da5680b16255c87d0d9",
+      "name": "radish",
+      "categoryTag": "vegetable",
+      "proteinTag": "medium",
+      "fatTag": "medium",
+      "carbohydratesTag": "medium",
+      "__v": 0
+    },
+    {
+      "energy": { "amount": 50, "unit": "kcal" },
+      "nutrients": {
+        "protein": { "amount": 1, "unit": "g" },
+        "fat": { "amount": 0.5, "unit": "g" },
+        "carbohydrates": { "amount": 12, "unit": "g" }
+      },
+      "activeUsers": 0,
+      "verified": true,
+      "_id": "5ec38da5680b16255c87d0da",
+      "name": "raspberry",
+      "categoryTag": "fruit",
+      "proteinTag": "medium",
+      "fatTag": "medium",
+      "carbohydratesTag": "medium",
+      "__v": 0
+    },
+    {
+      "energy": { "amount": 22.4, "unit": "kcal" },
+      "nutrients": {
+        "protein": { "amount": 1.9, "unit": "g" },
+        "fat": { "amount": 0.4, "unit": "g" },
+        "carbohydrates": { "amount": 4.1, "unit": "g" }
+      },
+      "activeUsers": 0,
+      "verified": true,
+      "_id": "5ec38da5680b16255c87d0db",
+      "name": "cauliflower",
+      "categoryTag": "vegetable",
+      "proteinTag": "medium",
+      "fatTag": "medium",
+      "carbohydratesTag": "medium",
+      "__v": 0
+    },
+    {
+      "energy": { "amount": 23.8, "unit": "kcal" },
+      "nutrients": {
+        "protein": { "amount": 1.3, "unit": "g" },
+        "fat": { "amount": 0.1, "unit": "g" },
+        "carbohydrates": { "amount": 5.7, "unit": "g" }
+      },
+      "activeUsers": 0,
+      "verified": true,
+      "_id": "5ec38da5680b16255c87d0dc",
+      "name": "cabbage",
+      "categoryTag": "vegetable",
+      "proteinTag": "medium",
+      "fatTag": "medium",
+      "carbohydratesTag": "medium",
+      "__v": 0
+    },
+    {
+      "energy": { "amount": 39.6, "unit": "kcal" },
+      "nutrients": {
+        "protein": { "amount": 2, "unit": "g" },
+        "fat": { "amount": 0.2, "unit": "g" },
+        "carbohydrates": { "amount": 9.5, "unit": "g" }
+      },
+      "activeUsers": 0,
+      "verified": true,
+      "_id": "5ec38da5680b16255c87d0dd",
+      "name": "capsicum",
+      "categoryTag": "vegetable",
+      "proteinTag": "medium",
+      "fatTag": "medium",
+      "carbohydratesTag": "medium",
+      "__v": 0
+    },
+    {
+      "energy": { "amount": 360, "unit": "kcal" },
+      "nutrients": {
+        "protein": { "amount": 10.8, "unit": "g" },
+        "fat": { "amount": 9, "unit": "g" },
+        "carbohydrates": { "amount": 59.4, "unit": "g" }
+      },
+      "activeUsers": 0,
+      "verified": true,
+      "_id": "5ec38da5680b16255c87d0de",
+      "name": "lady's finger",
+      "categoryTag": "vegetable",
+      "proteinTag": "medium",
+      "fatTag": "medium",
+      "carbohydratesTag": "medium",
+      "__v": 0
+    },
+    {
+      "energy": { "amount": 35.2, "unit": "kcal" },
+      "nutrients": {
+        "protein": { "amount": 1.9, "unit": "g" },
+        "fat": { "amount": 0.3, "unit": "g" },
+        "carbohydrates": { "amount": 8, "unit": "g" }
+      },
+      "activeUsers": 0,
+      "verified": true,
+      "_id": "5ec38da5680b16255c87d0df",
+      "name": "french beans",
+      "categoryTag": "vegetable",
+      "proteinTag": "medium",
+      "fatTag": "medium",
+      "carbohydratesTag": "medium",
+      "__v": 0
+    },
+    {
+      "energy": { "amount": 15, "unit": "kcal" },
+      "nutrients": {
+        "protein": { "amount": 0.7, "unit": "g" },
+        "fat": { "amount": 0.1, "unit": "g" },
+        "carbohydrates": { "amount": 3.6, "unit": "g" }
+      },
+      "activeUsers": 0,
+      "verified": true,
+      "_id": "5ec38da5680b16255c87d0e0",
+      "name": "cucumber",
+      "categoryTag": "vegetable",
+      "proteinTag": "medium",
+      "fatTag": "medium",
+      "carbohydratesTag": "medium",
+      "__v": 0
+    },
+    {
+      "energy": { "amount": 35.6, "unit": "kcal" },
+      "nutrients": {
+        "protein": { "amount": 0.8, "unit": "g" },
+        "fat": { "amount": 0.2, "unit": "g" },
+        "carbohydrates": { "amount": 8.8, "unit": "g" }
+      },
+      "activeUsers": 0,
+      "verified": true,
+      "_id": "5ec38da5680b16255c87d0e1",
+      "name": "brinjal",
+      "categoryTag": "vegetable",
+      "proteinTag": "medium",
+      "fatTag": "medium",
+      "carbohydratesTag": "medium",
+      "__v": 0
+    },
+    {
+      "energy": { "amount": 45.1, "unit": "kcal" },
+      "nutrients": {
+        "protein": { "amount": 1.4, "unit": "g" },
+        "fat": { "amount": 0.2, "unit": "g" },
+        "carbohydrates": { "amount": 10.5, "unit": "g" }
+      },
+      "activeUsers": 0,
+      "verified": true,
+      "_id": "5ec38da5680b16255c87d0e2",
+      "name": "onion",
+      "categoryTag": "vegetable",
+      "proteinTag": "medium",
+      "fatTag": "medium",
+      "carbohydratesTag": "medium",
+      "__v": 0
+    },
+    {
+      "energy": { "amount": 80.4, "unit": "kcal" },
+      "nutrients": {
+        "protein": { "amount": 5.2, "unit": "g" },
+        "fat": { "amount": 0.2, "unit": "g" },
+        "carbohydrates": { "amount": 15, "unit": "g" }
+      },
+      "activeUsers": 0,
+      "verified": true,
+      "_id": "5ec38da5680b16255c87d0e3",
+      "name": "peas",
+      "categoryTag": "vegetable",
+      "proteinTag": "medium",
+      "fatTag": "medium",
+      "carbohydratesTag": "medium",
+      "__v": 0
+    },
+    {
+      "energy": { "amount": 96.6, "unit": "kcal" },
+      "nutrients": {
+        "protein": { "amount": 2.6, "unit": "g" },
+        "fat": { "amount": 0.1, "unit": "g" },
+        "carbohydrates": { "amount": 22.2, "unit": "g" }
+      },
+      "activeUsers": 0,
+      "verified": true,
+      "_id": "5ec38da5680b16255c87d0e4",
+      "name": "potato",
+      "categoryTag": "vegetable",
+      "proteinTag": "high",
+      "fatTag": "low",
+      "carbohydratesTag": "medium",
+      "__v": 0
+    },
+    {
+      "energy": { "amount": 22.6, "unit": "kcal" },
+      "nutrients": {
+        "protein": { "amount": 2.9, "unit": "g" },
+        "fat": { "amount": 0.3, "unit": "g" },
+        "carbohydrates": { "amount": 3.7, "unit": "g" }
+      },
+      "activeUsers": 0,
+      "verified": true,
+      "_id": "5ec38da5680b16255c87d0e5",
+      "name": "spinach",
+      "categoryTag": "vegetable",
+      "proteinTag": "medium",
+      "fatTag": "medium",
+      "carbohydratesTag": "medium",
+      "__v": 0
+    },
+    {
+      "energy": { "amount": 17.6, "unit": "kcal" },
+      "nutrients": {
+        "protein": { "amount": 0.9, "unit": "g" },
+        "fat": { "amount": 0.2, "unit": "g" },
+        "carbohydrates": { "amount": 3.8, "unit": "g" }
+      },
+      "activeUsers": 0,
+      "verified": true,
+      "_id": "5ec38da5680b16255c87d0e6",
+      "name": "tomato",
+      "categoryTag": "vegetable",
+      "proteinTag": "medium",
+      "fatTag": "medium",
+      "carbohydratesTag": "medium",
+      "__v": 0
+    },
+    {
+      "energy": { "amount": 15.4, "unit": "kcal" },
+      "nutrients": {
+        "protein": { "amount": 0.6, "unit": "g" },
+        "fat": { "amount": 0, "unit": "g" },
+        "carbohydrates": { "amount": 3.8, "unit": "g" }
+      },
+      "activeUsers": 0,
+      "verified": true,
+      "_id": "5ec38da5680b16255c87d0e7",
+      "name": "bottle gourd",
+      "categoryTag": "vegetable",
+      "proteinTag": "medium",
+      "fatTag": "medium",
+      "carbohydratesTag": "medium",
+      "__v": 0
+    },
+    {
+      "energy": { "amount": 19.2, "unit": "kcal" },
+      "nutrients": {
+        "protein": { "amount": 0.8, "unit": "g" },
+        "fat": { "amount": 0.2, "unit": "g" },
+        "carbohydrates": { "amount": 4.3, "unit": "g" }
+      },
+      "activeUsers": 0,
+      "verified": true,
+      "_id": "5ec38da5680b16255c87d0e8",
+      "name": "bitter gourd",
+      "categoryTag": "vegetable",
+      "proteinTag": "medium",
+      "fatTag": "medium",
+      "carbohydratesTag": "medium",
+      "__v": 0
+    },
+    {
+      "energy": { "amount": 156.8, "unit": "kcal" },
+      "nutrients": {
+        "protein": { "amount": 5.8, "unit": "g" },
+        "fat": { "amount": 1, "unit": "g" },
+        "carbohydrates": { "amount": 30.4, "unit": "g" }
+      },
+      "activeUsers": 0,
+      "verified": true,
+      "_id": "5ec38da5680b16255c87d0e9",
+      "name": "noodles",
+      "categoryTag": "chinese",
+      "proteinTag": "medium",
+      "fatTag": "medium",
+      "carbohydratesTag": "medium",
+      "__v": 0
+    },
+    {
+      "energy": { "amount": 173, "unit": "kcal" },
+      "nutrients": {
+        "protein": { "amount": 2.3, "unit": "g" },
+        "fat": { "amount": 11.7, "unit": "g" },
+        "carbohydrates": { "amount": 16.1, "unit": "g" }
+      },
+      "activeUsers": 0,
+      "verified": true,
+      "_id": "5ec38da5680b16255c87d0ea",
+      "name": "manchurian",
+      "categoryTag": "chinese",
+      "proteinTag": "medium",
+      "fatTag": "medium",
+      "carbohydratesTag": "medium",
+      "__v": 0
+    },
+    {
+      "energy": { "amount": 229.4, "unit": "kcal" },
+      "nutrients": {
+        "protein": { "amount": 6.2, "unit": "g" },
+        "fat": { "amount": 5.3, "unit": "g" },
+        "carbohydrates": { "amount": 37.2, "unit": "g" }
+      },
+      "activeUsers": 0,
+      "verified": true,
+      "_id": "5ec38da5680b16255c87d0eb",
+      "name": "dumpling",
+      "categoryTag": "chinese",
+      "proteinTag": "medium",
+      "fatTag": "medium",
+      "carbohydratesTag": "medium",
+      "__v": 0
+    },
+    {
+      "energy": { "amount": 162.3, "unit": "kcal" },
+      "nutrients": {
+        "protein": { "amount": 9.9, "unit": "g" },
+        "fat": { "amount": 8.3, "unit": "g" },
+        "carbohydrates": { "amount": 12.1, "unit": "g" }
+      },
+      "activeUsers": 0,
+      "verified": true,
+      "_id": "5ec38da5680b16255c87d0ec",
+      "name": "chowmein",
+      "categoryTag": "chinese",
+      "proteinTag": "medium",
+      "fatTag": "medium",
+      "carbohydratesTag": "medium",
+      "__v": 0
+    },
+    {
+      "energy": { "amount": 230.9, "unit": "kcal" },
+      "nutrients": {
+        "protein": { "amount": 5.8, "unit": "g" },
+        "fat": { "amount": 9.7, "unit": "g" },
+        "carbohydrates": { "amount": 29.6, "unit": "g" }
+      },
+      "activeUsers": 0,
+      "verified": true,
+      "_id": "5ec38da5680b16255c87d0ed",
+      "name": "spring roll",
+      "categoryTag": "chinese",
+      "proteinTag": "medium",
+      "fatTag": "medium",
+      "carbohydratesTag": "medium",
+      "__v": 0
+    },
+    {
+      "energy": { "amount": 207.7, "unit": "kcal" },
+      "nutrients": {
+        "protein": { "amount": 8.1, "unit": "g" },
+        "fat": { "amount": 55.7, "unit": "g" },
+        "carbohydrates": { "amount": 29.4, "unit": "g" }
+      },
+      "activeUsers": 0,
+      "verified": true,
+      "_id": "5ec38da5680b16255c87d0ee",
+      "name": "dim sum",
+      "categoryTag": "chinese",
+      "proteinTag": "medium",
+      "fatTag": "medium",
+      "carbohydratesTag": "medium",
+      "__v": 0
+    },
+    {
+      "energy": { "amount": 176.1, "unit": "kcal" },
+      "nutrients": {
+        "protein": { "amount": 4.1, "unit": "g" },
+        "fat": { "amount": 3, "unit": "g" },
+        "carbohydrates": { "amount": 33.3, "unit": "g" }
+      },
+      "activeUsers": 0,
+      "verified": true,
+      "_id": "5ec38da5680b16255c87d0ef",
+      "name": "fried rice",
+      "categoryTag": "chinese",
+      "proteinTag": "medium",
+      "fatTag": "medium",
+      "carbohydratesTag": "medium",
+      "__v": 0
+    },
+    {
+      "energy": { "amount": 130.6, "unit": "kcal" },
+      "nutrients": {
+        "protein": { "amount": 9.7, "unit": "g" },
+        "fat": { "amount": 6.9, "unit": "g" },
+        "carbohydrates": { "amount": 7.3, "unit": "g" }
+      },
+      "activeUsers": 0,
+      "verified": true,
+      "_id": "5ec38da5680b16255c87d0f0",
+      "name": "hot pot",
+      "categoryTag": "chinese",
+      "proteinTag": "medium",
+      "fatTag": "medium",
+      "carbohydratesTag": "medium",
+      "__v": 0
+    },
+    {
+      "energy": { "amount": 238.7, "unit": "kcal" },
+      "nutrients": {
+        "protein": { "amount": 10.8, "unit": "g" },
+        "fat": { "amount": 14.8, "unit": "g" },
+        "carbohydrates": { "amount": 15.1, "unit": "g" }
+      },
+      "activeUsers": 0,
+      "verified": true,
+      "_id": "5ec38da5680b16255c87d0f1",
+      "name": "peking duck",
+      "categoryTag": "chinese",
+      "proteinTag": "medium",
+      "fatTag": "medium",
+      "carbohydratesTag": "medium",
+      "__v": 0
+    },
+    {
+      "energy": { "amount": 316.5, "unit": "kcal" },
+      "nutrients": {
+        "protein": { "amount": 12.5, "unit": "g" },
+        "fat": { "amount": 19.2, "unit": "g" },
+        "carbohydrates": { "amount": 22.5, "unit": "g" }
+      },
+      "activeUsers": 0,
+      "verified": true,
+      "_id": "5ec38da5680b16255c87d0f2",
+      "name": "fried shrimp",
+      "categoryTag": "chinese",
+      "proteinTag": "medium",
+      "fatTag": "medium",
+      "carbohydratesTag": "medium",
+      "__v": 0
+    },
+    {
+      "energy": { "amount": 269.6, "unit": "kcal" },
+      "nutrients": {
+        "protein": { "amount": 8.9, "unit": "g" },
+        "fat": { "amount": 15.6, "unit": "g" },
+        "carbohydrates": { "amount": 23.3, "unit": "g" }
+      },
+      "activeUsers": 0,
+      "verified": true,
+      "_id": "5ec38da5680b16255c87d0f3",
+      "name": "sweet and sour pork",
+      "categoryTag": "chinese",
+      "proteinTag": "medium",
+      "fatTag": "medium",
+      "carbohydratesTag": "medium",
+      "__v": 0
+    },
+    {
+      "energy": { "amount": 130.1, "unit": "kcal" },
+      "nutrients": {
+        "protein": { "amount": 9.9, "unit": "g" },
+        "fat": { "amount": 7, "unit": "g" },
+        "carbohydrates": { "amount": 6.8, "unit": "g" }
+      },
+      "activeUsers": 0,
+      "verified": true,
+      "_id": "5ec38da5680b16255c87d0f4",
+      "name": "kung pao chicken",
+      "categoryTag": "chinese",
+      "proteinTag": "medium",
+      "fatTag": "medium",
+      "carbohydratesTag": "medium",
+      "__v": 0
+    },
+    {
+      "energy": { "amount": 35.7, "unit": "kcal" },
+      "nutrients": {
+        "protein": { "amount": 0.7, "unit": "g" },
+        "fat": { "amount": 0.2, "unit": "g" },
+        "carbohydrates": { "amount": 7.6, "unit": "g" }
+      },
+      "activeUsers": 0,
+      "verified": true,
+      "_id": "5ec38da5680b16255c87d0f5",
+      "name": "tomato soup",
+      "categoryTag": "soup",
+      "proteinTag": "medium",
+      "fatTag": "medium",
+      "carbohydratesTag": "medium",
+      "__v": 0
+    },
+    {
+      "energy": { "amount": 104.8, "unit": "kcal" },
+      "nutrients": {
+        "protein": { "amount": 1.4, "unit": "g" },
+        "fat": { "amount": 8.5, "unit": "g" },
+        "carbohydrates": { "amount": 6.7, "unit": "g" }
+      },
+      "activeUsers": 0,
+      "verified": true,
+      "_id": "5ec38da5680b16255c87d0f6",
+      "name": "corn soup",
+      "categoryTag": "soup",
+      "proteinTag": "medium",
+      "fatTag": "medium",
+      "carbohydratesTag": "medium",
+      "__v": 0
+    },
+    {
+      "energy": { "amount": 33.4, "unit": "kcal" },
+      "nutrients": {
+        "protein": { "amount": 1.2, "unit": "g" },
+        "fat": { "amount": 0.8, "unit": "g" },
+        "carbohydrates": { "amount": 5.5, "unit": "g" }
+      },
+      "activeUsers": 0,
+      "verified": true,
+      "_id": "5ec38da5680b16255c87d0f7",
+      "name": "vegetable soup",
+      "categoryTag": "soup",
+      "proteinTag": "medium",
+      "fatTag": "medium",
+      "carbohydratesTag": "medium",
+      "__v": 0
+    },
+    {
+      "energy": { "amount": 292.6, "unit": "kcal" },
+      "nutrients": {
+        "protein": { "amount": 7.4, "unit": "g" },
+        "fat": { "amount": 0.4, "unit": "g" },
+        "carbohydrates": { "amount": 65.2, "unit": "g" }
+      },
+      "activeUsers": 0,
+      "verified": true,
+      "_id": "5ec38da5680b16255c87d0f8",
+      "name": "onion soup",
+      "categoryTag": "soup",
+      "proteinTag": "medium",
+      "fatTag": "medium",
+      "carbohydratesTag": "medium",
+      "__v": 0
+    },
+    {
+      "energy": { "amount": 55.6, "unit": "kcal" },
+      "nutrients": {
+        "protein": { "amount": 3.7, "unit": "g" },
+        "fat": { "amount": 1.1, "unit": "g" },
+        "carbohydrates": { "amount": 8, "unit": "g" }
+      },
+      "activeUsers": 0,
+      "verified": true,
+      "_id": "5ec38da5680b16255c87d0f9",
+      "name": "lentil soup",
+      "categoryTag": "soup",
+      "proteinTag": "medium",
+      "fatTag": "medium",
+      "carbohydratesTag": "medium",
+      "__v": 0
+    },
+    {
+      "energy": { "amount": 79.5, "unit": "kcal" },
+      "nutrients": {
+        "protein": { "amount": 1.4, "unit": "g" },
+        "fat": { "amount": 5.3, "unit": "g" },
+        "carbohydrates": { "amount": 6.9, "unit": "g" }
+      },
+      "activeUsers": 0,
+      "verified": true,
+      "_id": "5ec38da5680b16255c87d0fa",
+      "name": "mushroom soup",
+      "categoryTag": "soup",
+      "proteinTag": "medium",
+      "fatTag": "medium",
+      "carbohydratesTag": "medium",
+      "__v": 0
+    },
+    {
+      "energy": { "amount": 90.9, "unit": "kcal" },
+      "nutrients": {
+        "protein": { "amount": 4.4, "unit": "g" },
+        "fat": { "amount": 6.1, "unit": "g" },
+        "carbohydrates": { "amount": 4.8, "unit": "g" }
+      },
+      "activeUsers": 0,
+      "verified": true,
+      "_id": "5ec38da5680b16255c87d0fb",
+      "name": "broccoli soup",
+      "categoryTag": "soup",
+      "proteinTag": "medium",
+      "fatTag": "medium",
+      "carbohydratesTag": "medium",
+      "__v": 0
+    },
+    {
+      "energy": { "amount": 34.9, "unit": "kcal" },
+      "nutrients": {
+        "protein": { "amount": 0.7, "unit": "g" },
+        "fat": { "amount": 2.5, "unit": "g" },
+        "carbohydrates": { "amount": 2.9, "unit": "g" }
+      },
+      "activeUsers": 0,
+      "verified": true,
+      "_id": "5ec38da5680b16255c87d0fc",
+      "name": "cabbage soup",
+      "categoryTag": "soup",
+      "proteinTag": "medium",
+      "fatTag": "medium",
+      "carbohydratesTag": "medium",
+      "__v": 0
+    },
+    {
+      "energy": { "amount": 46.2, "unit": "kcal" },
+      "nutrients": {
+        "protein": { "amount": 2.4, "unit": "g" },
+        "fat": { "amount": 0.6, "unit": "g" },
+        "carbohydrates": { "amount": 7.7, "unit": "g" }
+      },
+      "activeUsers": 0,
+      "verified": true,
+      "_id": "5ec38da5680b16255c87d0fd",
+      "name": "bean soup",
+      "categoryTag": "soup",
+      "proteinTag": "medium",
+      "fatTag": "medium",
+      "carbohydratesTag": "medium",
+      "__v": 0
+    },
+    {
+      "energy": { "amount": 49.4, "unit": "kcal" },
+      "nutrients": {
+        "protein": { "amount": 1.9, "unit": "g" },
+        "fat": { "amount": 2.3, "unit": "g" },
+        "carbohydrates": { "amount": 5.5, "unit": "g" }
+      },
+      "activeUsers": 0,
+      "verified": true,
+      "_id": "5ec38da5680b16255c87d0fe",
+      "name": "pumpkin soup",
+      "categoryTag": "soup",
+      "proteinTag": "medium",
+      "fatTag": "medium",
+      "carbohydratesTag": "medium",
+      "__v": 0
+    },
+    {
+      "energy": { "amount": 51.3, "unit": "kcal" },
+      "nutrients": {
+        "protein": { "amount": 3.5, "unit": "g" },
+        "fat": { "amount": 1.9, "unit": "g" },
+        "carbohydrates": { "amount": 4.9, "unit": "g" }
+      },
+      "activeUsers": 0,
+      "verified": true,
+      "_id": "5ec38da5680b16255c87d0ff",
+      "name": "milk",
+      "categoryTag": "dairy",
+      "proteinTag": "medium",
+      "fatTag": "medium",
+      "carbohydratesTag": "medium",
+      "__v": 0
+    },
+    {
+      "energy": { "amount": 62.1, "unit": "kcal" },
+      "nutrients": {
+        "protein": { "amount": 3.5, "unit": "g" },
+        "fat": { "amount": 3.3, "unit": "g" },
+        "carbohydrates": { "amount": 4.8, "unit": "g" }
+      },
+      "activeUsers": 0,
+      "verified": true,
+      "_id": "5ec38da5680b16255c87d100",
+      "name": "curd",
+      "categoryTag": "dairy",
+      "proteinTag": "medium",
+      "fatTag": "medium",
+      "carbohydratesTag": "medium",
+      "__v": 0
+    },
+    {
+      "energy": { "amount": 40.2, "unit": "kcal" },
+      "nutrients": {
+        "protein": { "amount": 3.3, "unit": "g" },
+        "fat": { "amount": 0.9, "unit": "g" },
+        "carbohydrates": { "amount": 4.9, "unit": "g" }
+      },
+      "activeUsers": 0,
+      "verified": true,
+      "_id": "5ec38da5680b16255c87d101",
+      "name": "buttermilk",
+      "categoryTag": "dairy",
+      "proteinTag": "medium",
+      "fatTag": "medium",
+      "carbohydratesTag": "medium",
+      "__v": 0
+    },
+    {
+      "energy": { "amount": 53.3, "unit": "kcal" },
+      "nutrients": {
+        "protein": { "amount": 2.8, "unit": "g" },
+        "fat": { "amount": 0.9, "unit": "g" },
+        "carbohydrates": { "amount": 9, "unit": "g" }
+      },
+      "activeUsers": 0,
+      "verified": true,
+      "_id": "5ec38da5680b16255c87d102",
+      "name": "lassi",
+      "categoryTag": "dairy",
+      "proteinTag": "medium",
+      "fatTag": "medium",
+      "carbohydratesTag": "medium",
+      "__v": 0
+    },
+    {
+      "energy": { "amount": 734.4, "unit": "kcal" },
+      "nutrients": {
+        "protein": { "amount": 0.9, "unit": "g" },
+        "fat": { "amount": 86.4, "unit": "g" },
+        "carbohydrates": { "amount": 0.1, "unit": "g" }
+      },
+      "activeUsers": 0,
+      "verified": true,
+      "_id": "5ec38da5680b16255c87d103",
+      "name": "butter",
+      "categoryTag": "dairy",
+      "proteinTag": "medium",
+      "fatTag": "medium",
+      "carbohydratesTag": "medium",
+      "__v": 0
+    },
+    {
+      "energy": { "amount": 406.8, "unit": "kcal" },
+      "nutrients": {
+        "protein": { "amount": 23, "unit": "g" },
+        "fat": { "amount": 33.5, "unit": "g" },
+        "carbohydrates": { "amount": 3.1, "unit": "g" }
+      },
+      "activeUsers": 0,
+      "verified": true,
+      "_id": "5ec38da5680b16255c87d104",
+      "name": "cheese",
+      "categoryTag": "dairy",
+      "proteinTag": "medium",
+      "fatTag": "medium",
+      "carbohydratesTag": "medium",
+      "__v": 0
+    },
+    {
+      "energy": { "amount": 207.5, "unit": "kcal" },
+      "nutrients": {
+        "protein": { "amount": 3.5, "unit": "g" },
+        "fat": { "amount": 11.4, "unit": "g" },
+        "carbohydrates": { "amount": 23.6, "unit": "g" }
+      },
+      "activeUsers": 0,
+      "verified": true,
+      "_id": "5ec38da5680b16255c87d105",
+      "name": "ice cream",
+      "categoryTag": "dairy",
+      "proteinTag": "medium",
+      "fatTag": "medium",
+      "carbohydratesTag": "medium",
+      "__v": 0
+    },
+    {
+      "energy": { "amount": 63.1, "unit": "kcal" },
+      "nutrients": {
+        "protein": { "amount": 5.3, "unit": "g" },
+        "fat": { "amount": 1.5, "unit": "g" },
+        "carbohydrates": { "amount": 7.1, "unit": "g" }
+      },
+      "activeUsers": 0,
+      "verified": true,
+      "_id": "5ec38da5680b16255c87d106",
+      "name": "yoghurt",
+      "categoryTag": "dairy",
+      "proteinTag": "medium",
+      "fatTag": "medium",
+      "carbohydratesTag": "medium",
+      "__v": 0
+    },
+    {
+      "energy": { "amount": 327.2, "unit": "kcal" },
+      "nutrients": {
+        "protein": { "amount": 8, "unit": "g" },
+        "fat": { "amount": 8.8, "unit": "g" },
+        "carbohydrates": { "amount": 55.9, "unit": "g" }
+      },
+      "activeUsers": 0,
+      "verified": true,
+      "_id": "5ec38da5680b16255c87d107",
+      "name": "condensed milk",
+      "categoryTag": "dairy",
+      "proteinTag": "medium",
+      "fatTag": "medium",
+      "carbohydratesTag": "medium",
+      "__v": 0
+    },
+    {
+      "energy": { "amount": 98.4, "unit": "kcal" },
+      "nutrients": {
+        "protein": { "amount": 11, "unit": "g" },
+        "fat": { "amount": 4.3, "unit": "g" },
+        "carbohydrates": { "amount": 3.4, "unit": "g" }
+      },
+      "activeUsers": 0,
+      "verified": true,
+      "_id": "5ec38da5680b16255c87d108",
+      "name": "cottage cheese",
+      "categoryTag": "dairy",
+      "proteinTag": "medium",
+      "fatTag": "medium",
+      "carbohydratesTag": "medium",
+      "__v": 0
+    },
+    {
+      "energy": { "amount": 336.3, "unit": "kcal" },
+      "nutrients": {
+        "protein": { "amount": 2.8, "unit": "g" },
+        "fat": { "amount": 36.6, "unit": "g" },
+        "carbohydrates": { "amount": 2.7, "unit": "g" }
+      },
+      "activeUsers": 0,
+      "verified": true,
+      "_id": "5ec38da5680b16255c87d109",
+      "name": "cream",
+      "categoryTag": "dairy",
+      "proteinTag": "medium",
+      "fatTag": "medium",
+      "carbohydratesTag": "medium",
+      "__v": 0
+    },
+    {
+      "energy": { "amount": 351.9, "unit": "kcal" },
+      "nutrients": {
+        "protein": { "amount": 6.2, "unit": "g" },
+        "fat": { "amount": 34.5, "unit": "g" },
+        "carbohydrates": { "amount": 5.5, "unit": "g" }
+      },
+      "activeUsers": 0,
+      "verified": true,
+      "_id": "5ec38da5680b16255c87d10a",
+      "name": "cream cheese",
+      "categoryTag": "dairy",
+      "proteinTag": "medium",
+      "fatTag": "medium",
+      "carbohydratesTag": "medium",
+      "__v": 0
+    },
+    {
+      "energy": { "amount": 862.4, "unit": "kcal" },
+      "nutrients": {
+        "protein": { "amount": 0.3, "unit": "g" },
+        "fat": { "amount": 100.1, "unit": "g" },
+        "carbohydrates": { "amount": 0, "unit": "g" }
+      },
+      "activeUsers": 0,
+      "verified": true,
+      "_id": "5ec38da5680b16255c87d10b",
+      "name": "ghee",
+      "categoryTag": "dairy",
+      "proteinTag": "medium",
+      "fatTag": "medium",
+      "carbohydratesTag": "medium",
+      "__v": 0
+    },
+    {
+      "energy": { "amount": 276, "unit": "kcal" },
+      "nutrients": {
+        "protein": { "amount": 16.8, "unit": "g" },
+        "fat": { "amount": 15.2, "unit": "g" },
+        "carbohydrates": { "amount": 17.6, "unit": "g" }
+      },
+      "activeUsers": 0,
+      "verified": true,
+      "_id": "5ec38da5680b16255c87d10c",
+      "name": "anchovy fry",
+      "categoryTag": "south indian",
+      "proteinTag": "high",
+      "fatTag": "medium",
+      "carbohydratesTag": "high",
+      "__v": 0
+    },
+    {
+      "energy": { "amount": 188, "unit": "kcal" },
+      "nutrients": {
+        "protein": { "amount": 3, "unit": "g" },
+        "fat": { "amount": 4.8, "unit": "g" },
+        "carbohydrates": { "amount": 34, "unit": "g" }
+      },
+      "activeUsers": 0,
+      "verified": true,
+      "_id": "5ec38da5680b16255c87d10d",
+      "name": "appam",
+      "categoryTag": "south indian",
+      "proteinTag": "low",
+      "fatTag": "low",
+      "carbohydratesTag": "high",
+      "__v": 0
+    },
+    {
+      "energy": { "amount": 52, "unit": "kcal" },
+      "nutrients": {
+        "protein": { "amount": 0.12, "unit": "g" },
+        "fat": { "amount": 0.12, "unit": "g" },
+        "carbohydrates": { "amount": 14, "unit": "g" }
+      },
+      "activeUsers": 0,
+      "verified": true,
+      "_id": "5ec38da5680b16255c87d10e",
+      "name": "apple juice",
+      "categoryTag": "juices",
+      "proteinTag": "low",
+      "fatTag": "low",
+      "carbohydratesTag": "medium",
+      "__v": 0
+    },
+    {
+      "energy": { "amount": 220, "unit": "kcal" },
+      "nutrients": {
+        "protein": { "amount": 12, "unit": "g" },
+        "fat": { "amount": 15, "unit": "g" },
+        "carbohydrates": { "amount": 23, "unit": "g" }
+      },
+      "activeUsers": 0,
+      "verified": true,
+      "_id": "5ec38da5680b16255c87d10f",
+      "name": "asian sesame chicken",
+      "categoryTag": "south indian",
+      "proteinTag": "medium",
+      "fatTag": "medium",
+      "carbohydratesTag": "high",
+      "__v": 0
+    },
+    {
+      "energy": { "amount": 75, "unit": "kcal" },
+      "nutrients": {
+        "protein": { "amount": 3.5, "unit": "g" },
+        "fat": { "amount": 0.34, "unit": "g" },
+        "carbohydrates": { "amount": 13.2, "unit": "g" }
+      },
+      "activeUsers": 0,
+      "verified": true,
+      "_id": "5ec38da5680b16255c87d110",
+      "name": "sambar",
+      "categoryTag": "south indian",
+      "proteinTag": "low",
+      "fatTag": "low",
+      "carbohydratesTag": "medium",
+      "__v": 0
+    },
+    {
+      "energy": { "amount": 71, "unit": "kcal" },
+      "nutrients": {
+        "protein": { "amount": 2, "unit": "g" },
+        "fat": { "amount": 4.5, "unit": "g" },
+        "carbohydrates": { "amount": 5.1, "unit": "g" }
+      },
+      "activeUsers": 0,
+      "verified": true,
+      "_id": "5ec38da5680b16255c87d111",
+      "name": "avial",
+      "categoryTag": "south indian",
+      "proteinTag": "low",
+      "fatTag": "low",
+      "carbohydratesTag": "medium",
+      "__v": 0
+    },
+    {
+      "energy": { "amount": 112, "unit": "kcal" },
+      "nutrients": {
+        "protein": { "amount": 3.1, "unit": "g" },
+        "fat": { "amount": 7.3, "unit": "g" },
+        "carbohydrates": { "amount": 10.1, "unit": "g" }
+      },
+      "activeUsers": 0,
+      "verified": true,
+      "_id": "5ec38da5680b16255c87d112",
+      "name": "avocado juice",
+      "categoryTag": "juices",
+      "proteinTag": "low",
+      "fatTag": "medium",
+      "carbohydratesTag": "high",
+      "__v": 0
+    },
+    {
+      "energy": { "amount": 569, "unit": "kcal" },
+      "nutrients": {
+        "protein": { "amount": 2.4, "unit": "g" },
+        "fat": { "amount": 36, "unit": "g" },
+        "carbohydrates": { "amount": 67, "unit": "g" }
+      },
+      "activeUsers": 0,
+      "verified": true,
+      "_id": "5ec38da5680b16255c87d113",
+      "name": "banana chips",
+      "categoryTag": "south indian",
+      "proteinTag": "low",
+      "fatTag": "high",
+      "carbohydratesTag": "high",
+      "__v": 0
+    },
+    {
+      "energy": { "amount": 167, "unit": "kcal" },
+      "nutrients": {
+        "protein": { "amount": 8.3, "unit": "g" },
+        "fat": { "amount": 5.7, "unit": "g" },
+        "carbohydrates": { "amount": 20.6, "unit": "g" }
+      },
+      "activeUsers": 0,
+      "verified": true,
+      "_id": "5ec38da5680b16255c87d114",
+      "name": "cabbage kootu",
+      "categoryTag": "south indian",
+      "proteinTag": "medium",
+      "fatTag": "medium",
+      "carbohydratesTag": "high",
+      "__v": 0
+    },
+    {
+      "energy": { "amount": 165, "unit": "kcal" },
+      "nutrients": {
+        "protein": { "amount": 1.4, "unit": "g" },
+        "fat": { "amount": 11.5, "unit": "g" },
+        "carbohydrates": { "amount": 16.5, "unit": "g" }
+      },
+      "activeUsers": 0,
+      "verified": true,
+      "_id": "5ec38da5680b16255c87d115",
+      "name": "cabbage salad with raisins",
+      "categoryTag": "salad",
+      "proteinTag": "low",
+      "fatTag": "high",
+      "carbohydratesTag": "high",
+      "__v": 0
+    },
+    {
+      "energy": { "amount": 115, "unit": "kcal" },
+      "nutrients": {
+        "protein": { "amount": 6.6, "unit": "g" },
+        "fat": { "amount": 8.7, "unit": "g" },
+        "carbohydrates": { "amount": 2.6, "unit": "g" }
+      },
+      "activeUsers": 0,
+      "verified": true,
+      "_id": "5ec38da5680b16255c87d116",
+      "name": "caprese salad",
+      "categoryTag": "salad",
+      "proteinTag": "medium",
+      "fatTag": "medium",
+      "carbohydratesTag": "low",
+      "__v": 0
+    },
+    {
+      "energy": { "amount": 187, "unit": "kcal" },
+      "nutrients": {
+        "protein": { "amount": 1.05, "unit": "g" },
+        "fat": { "amount": 16, "unit": "g" },
+        "carbohydrates": { "amount": 18, "unit": "g" }
+      },
+      "activeUsers": 0,
+      "verified": true,
+      "_id": "5ec38da5680b16255c87d117",
+      "name": "carrot salad",
+      "categoryTag": "salad",
+      "proteinTag": "low",
+      "fatTag": "high",
+      "carbohydratesTag": "high",
+      "__v": 0
+    },
+    {
+      "energy": { "amount": 190, "unit": "kcal" },
+      "nutrients": {
+        "protein": { "amount": 21, "unit": "g" },
+        "fat": { "amount": 13, "unit": "g" },
+        "carbohydrates": { "amount": 0, "unit": "g" }
+      },
+      "activeUsers": 0,
+      "verified": true,
+      "_id": "5ec38da5680b16255c87d118",
+      "name": "chicken 65",
+      "categoryTag": "south indian",
+      "proteinTag": "high",
+      "fatTag": "high",
+      "carbohydratesTag": "low",
+      "__v": 0
+    },
+    {
+      "energy": { "amount": 120, "unit": "kcal" },
+      "nutrients": {
+        "protein": { "amount": 13, "unit": "g" },
+        "fat": { "amount": 5.3, "unit": "g" },
+        "carbohydrates": { "amount": 3.6, "unit": "g" }
+      },
+      "activeUsers": 0,
+      "verified": true,
+      "_id": "5ec38da5680b16255c87d119",
+      "name": "chicken curry",
+      "categoryTag": "south indian",
+      "proteinTag": "high",
+      "fatTag": "low",
+      "carbohydratesTag": "low",
+      "__v": 0
+    },
+    {
+      "energy": { "amount": 150, "unit": "kcal" },
+      "nutrients": {
+        "protein": { "amount": 3.3, "unit": "g" },
+        "fat": { "amount": 11, "unit": "g" },
+        "carbohydrates": { "amount": 12.3, "unit": "g" }
+      },
+      "activeUsers": 0,
+      "verified": true,
+      "_id": "5ec38da5680b16255c87d11a",
+      "name": "coconut chutney",
+      "categoryTag": "south indian",
+      "proteinTag": "low",
+      "fatTag": "high",
+      "carbohydratesTag": "high",
+      "__v": 0
+    },
+    {
+      "energy": { "amount": 79, "unit": "kcal" },
+      "nutrients": {
+        "protein": { "amount": 3.5, "unit": "g" },
+        "fat": { "amount": 1.9, "unit": "g" },
+        "carbohydrates": { "amount": 12.5, "unit": "g" }
+      },
+      "activeUsers": 0,
+      "verified": true,
+      "_id": "5ec38da5680b16255c87d11b",
+      "name": "cold asian noodle salad",
+      "categoryTag": "salad",
+      "proteinTag": "low",
+      "fatTag": "low",
+      "carbohydratesTag": "high",
+      "__v": 0
+    },
+    {
+      "energy": { "amount": 90.7, "unit": "kcal" },
+      "nutrients": {
+        "protein": { "amount": 0.5, "unit": "g" },
+        "fat": { "amount": 0.2, "unit": "g" },
+        "carbohydrates": { "amount": 22.2, "unit": "g" }
+      },
+      "activeUsers": 0,
+      "verified": true,
+      "_id": "5ec38da5680b16255c87d11c",
+      "name": "cranberry juice",
+      "categoryTag": "juices",
+      "proteinTag": "low",
+      "fatTag": "low",
+      "carbohydratesTag": "high",
+      "__v": 0
+    },
+    {
+      "energy": { "amount": 25, "unit": "kcal" },
+      "nutrients": {
+        "protein": { "amount": 0.5, "unit": "g" },
+        "fat": { "amount": 0.2, "unit": "g" },
+        "carbohydrates": { "amount": 5.6, "unit": "g" }
+      },
+      "activeUsers": 0,
+      "verified": true,
+      "_id": "5ec38da5680b16255c87d11d",
+      "name": "cucumber salad",
+      "categoryTag": "salad",
+      "proteinTag": "low",
+      "fatTag": "low",
+      "carbohydratesTag": "low",
+      "__v": 0
+    },
+    {
+      "energy": { "amount": 235, "unit": "kcal" },
+      "nutrients": {
+        "protein": { "amount": 8.6, "unit": "g" },
+        "fat": { "amount": 20.3, "unit": "g" },
+        "carbohydrates": { "amount": 2.4, "unit": "g" }
+      },
+      "activeUsers": 0,
+      "verified": true,
+      "_id": "5ec38da5680b16255c87d11e",
+      "name": "egg salad",
+      "categoryTag": "salad",
+      "proteinTag": "medium",
+      "fatTag": "high",
+      "carbohydratesTag": "low",
+      "__v": 0
+    },
+    {
+      "energy": { "amount": 74, "unit": "kcal" },
+      "nutrients": {
+        "protein": { "amount": 0.45, "unit": "g" },
+        "fat": { "amount": 0.15, "unit": "g" },
+        "carbohydrates": { "amount": 18.3, "unit": "g" }
+      },
+      "activeUsers": 0,
+      "verified": true,
+      "_id": "5ec38da5680b16255c87d11f",
+      "name": "grape juice",
+      "categoryTag": "juices",
+      "proteinTag": "low",
+      "fatTag": "low",
+      "carbohydratesTag": "high",
+      "__v": 0
+    },
+    {
+      "energy": { "amount": 92, "unit": "kcal" },
+      "nutrients": {
+        "protein": { "amount": 2.7, "unit": "g" },
+        "fat": { "amount": 8.5, "unit": "g" },
+        "carbohydrates": { "amount": 3.9, "unit": "g" }
+      },
+      "activeUsers": 0,
+      "verified": true,
+      "_id": "5ec38da5680b16255c87d120",
+      "name": "greek salad",
+      "categoryTag": "salad",
+      "proteinTag": "low",
+      "fatTag": "medium",
+      "carbohydratesTag": "low",
+      "__v": 0
+    },
+    {
+      "energy": { "amount": 146, "unit": "kcal" },
+      "nutrients": {
+        "protein": { "amount": 10, "unit": "g" },
+        "fat": { "amount": 4.7, "unit": "g" },
+        "carbohydrates": { "amount": 15.5, "unit": "g" }
+      },
+      "activeUsers": 0,
+      "verified": true,
+      "_id": "5ec38da5680b16255c87d121",
+      "name": "hyderabadi biryani",
+      "categoryTag": "south indian",
+      "proteinTag": "high",
+      "fatTag": "low",
+      "carbohydratesTag": "high",
+      "__v": 0
+    },
+    {
+      "energy": { "amount": 172, "unit": "kcal" },
+      "nutrients": {
+        "protein": { "amount": 4.6, "unit": "g" },
+        "fat": { "amount": 1.2, "unit": "g" },
+        "carbohydrates": { "amount": 34, "unit": "g" }
+      },
+      "activeUsers": 0,
+      "verified": true,
+      "_id": "5ec38da5680b16255c87d122",
+      "name": "idli",
+      "categoryTag": "south indian",
+      "proteinTag": "low",
+      "fatTag": "low",
+      "carbohydratesTag": "high",
+      "__v": 0
+    },
+    {
+      "energy": { "amount": 59, "unit": "kcal" },
+      "nutrients": {
+        "protein": { "amount": 0.65, "unit": "g" },
+        "fat": { "amount": 0.25, "unit": "g" },
+        "carbohydrates": { "amount": 15.3, "unit": "g" }
+      },
+      "activeUsers": 0,
+      "verified": true,
+      "_id": "5ec38da5680b16255c87d123",
+      "name": "kiwi juice",
+      "categoryTag": "juices",
+      "proteinTag": "low",
+      "fatTag": "low",
+      "carbohydratesTag": "high",
+      "__v": 0
+    },
+    {
+      "energy": { "amount": 220, "unit": "kcal" },
+      "nutrients": {
+        "protein": { "amount": 4.33, "unit": "g" },
+        "fat": { "amount": 4.2, "unit": "g" },
+        "carbohydrates": { "amount": 23.4, "unit": "g" }
+      },
+      "activeUsers": 0,
+      "verified": true,
+      "_id": "5ec38da5680b16255c87d124",
+      "name": "kuzhi paniyaram",
+      "categoryTag": "south indian",
+      "proteinTag": "low",
+      "fatTag": "low",
+      "carbohydratesTag": "high",
+      "__v": 0
+    },
+    {
+      "energy": { "amount": 17, "unit": "kcal" },
+      "nutrients": {
+        "protein": { "amount": 0.4, "unit": "g" },
+        "fat": { "amount": 0, "unit": "g" },
+        "carbohydrates": { "amount": 5.6, "unit": "g" }
+      },
+      "activeUsers": 0,
+      "verified": true,
+      "_id": "5ec38da5680b16255c87d125",
+      "name": "lemon juice",
+      "categoryTag": "juices",
+      "proteinTag": "low",
+      "fatTag": "low",
+      "carbohydratesTag": "low",
+      "__v": 0
+    },
+    {
+      "energy": { "amount": 112, "unit": "kcal" },
+      "nutrients": {
+        "protein": { "amount": 2.7, "unit": "g" },
+        "fat": { "amount": 1.6, "unit": "g" },
+        "carbohydrates": { "amount": 21.6, "unit": "g" }
+      },
+      "activeUsers": 0,
+      "verified": true,
+      "_id": "5ec38da5680b16255c87d126",
+      "name": "lemon rice",
+      "categoryTag": "south indian",
+      "proteinTag": "low",
+      "fatTag": "low",
+      "carbohydratesTag": "high",
+      "__v": 0
+    },
+    {
+      "energy": { "amount": 168, "unit": "kcal" },
+      "nutrients": {
+        "protein": { "amount": 3.9, "unit": "g" },
+        "fat": { "amount": 3.7, "unit": "g" },
+        "carbohydrates": { "amount": 29, "unit": "g" }
+      },
+      "activeUsers": 0,
+      "verified": true,
+      "_id": "5ec38da5680b16255c87d127",
+      "name": "masala dosa",
+      "categoryTag": "south indian",
+      "proteinTag": "low",
+      "fatTag": "low",
+      "carbohydratesTag": "high",
+      "__v": 0
+    },
+    {
+      "energy": { "amount": 26, "unit": "kcal" },
+      "nutrients": {
+        "protein": { "amount": 1.4, "unit": "g" },
+        "fat": { "amount": 0.3, "unit": "g" },
+        "carbohydrates": { "amount": 5.4, "unit": "g" }
+      },
+      "activeUsers": 0,
+      "verified": true,
+      "_id": "5ec38da5680b16255c87d128",
+      "name": "mixed salad greens",
+      "categoryTag": "salad",
+      "proteinTag": "low",
+      "fatTag": "low",
+      "carbohydratesTag": "low",
+      "__v": 0
+    },
+    {
+      "energy": { "amount": 240, "unit": "kcal" },
+      "nutrients": {
+        "protein": { "amount": 3.9, "unit": "g" },
+        "fat": { "amount": 16.9, "unit": "g" },
+        "carbohydrates": { "amount": 17.6, "unit": "g" }
+      },
+      "activeUsers": 0,
+      "verified": true,
+      "_id": "5ec38da5680b16255c87d129",
+      "name": "onion bhaji",
+      "categoryTag": "south indian",
+      "proteinTag": "low",
+      "fatTag": "high",
+      "carbohydratesTag": "high",
+      "__v": 0
+    },
+    {
+      "energy": { "amount": 187, "unit": "kcal" },
+      "nutrients": {
+        "protein": { "amount": 2.97, "unit": "g" },
+        "fat": { "amount": 1.22, "unit": "g" },
+        "carbohydrates": { "amount": 39.99, "unit": "g" }
+      },
+      "activeUsers": 0,
+      "verified": true,
+      "_id": "5ec38da5680b16255c87d12a",
+      "name": "puttu",
+      "categoryTag": "south indian",
+      "proteinTag": "low",
+      "fatTag": "low",
+      "carbohydratesTag": "high",
+      "__v": 0
+    },
+    {
+      "energy": { "amount": 129, "unit": "kcal" },
+      "nutrients": {
+        "protein": { "amount": 3.5, "unit": "g" },
+        "fat": { "amount": 9.2, "unit": "g" },
+        "carbohydrates": { "amount": 8.1, "unit": "g" }
+      },
+      "activeUsers": 0,
+      "verified": true,
+      "_id": "5ec38da5680b16255c87d12b",
+      "name": "kadala curry",
+      "categoryTag": "south indian",
+      "proteinTag": "low",
+      "fatTag": "high",
+      "carbohydratesTag": "medium",
+      "__v": 0
+    },
+    {
+      "energy": { "amount": 130, "unit": "kcal" },
+      "nutrients": {
+        "protein": { "amount": 14, "unit": "g" },
+        "fat": { "amount": 4, "unit": "g" },
+        "carbohydrates": { "amount": 10.2, "unit": "g" }
+      },
+      "activeUsers": 0,
+      "verified": true,
+      "_id": "5ec38da5680b16255c87d12c",
+      "name": "stew",
+      "categoryTag": "south indian",
+      "proteinTag": "high",
+      "fatTag": "low",
+      "carbohydratesTag": "high",
+      "__v": 0
+    },
+    {
+      "energy": { "amount": 56, "unit": "kcal" },
+      "nutrients": {
+        "protein": { "amount": 0.8, "unit": "g" },
+        "fat": { "amount": 0.3, "unit": "g" },
+        "carbohydrates": { "amount": 13, "unit": "g" }
+      },
+      "activeUsers": 0,
+      "verified": true,
+      "_id": "5ec38da5680b16255c87d12d",
+      "name": "orange juice",
+      "categoryTag": "juices",
+      "proteinTag": "low",
+      "fatTag": "low",
+      "carbohydratesTag": "high",
+      "__v": 0
+    },
+    {
+      "energy": { "amount": 189, "unit": "kcal" },
+      "nutrients": {
+        "protein": { "amount": 3.2, "unit": "g" },
+        "fat": { "amount": 13, "unit": "g" },
+        "carbohydrates": { "amount": 15.5, "unit": "g" }
+      },
+      "activeUsers": 0,
+      "verified": true,
+      "_id": "5ec38da5680b16255c87d12e",
+      "name": "panzanella",
+      "categoryTag": "salad",
+      "proteinTag": "low",
+      "fatTag": "high",
+      "carbohydratesTag": "high",
+      "__v": 0
+    },
+    {
+      "energy": { "amount": 264, "unit": "kcal" },
+      "nutrients": {
+        "protein": { "amount": 5.7, "unit": "g" },
+        "fat": { "amount": 10.7, "unit": "g" },
+        "carbohydrates": { "amount": 38, "unit": "g" }
+      },
+      "activeUsers": 0,
+      "verified": true,
+      "_id": "5ec38da5680b16255c87d12f",
+      "name": "parotta",
+      "categoryTag": "south indian",
+      "proteinTag": "low",
+      "fatTag": "high",
+      "carbohydratesTag": "high",
+      "__v": 0
+    },
+    {
+      "energy": { "amount": 64, "unit": "kcal" },
+      "nutrients": {
+        "protein": { "amount": 0.36, "unit": "g" },
+        "fat": { "amount": 0.1, "unit": "g" },
+        "carbohydrates": { "amount": 16, "unit": "g" }
+      },
+      "activeUsers": 0,
+      "verified": true,
+      "_id": "5ec38da5680b16255c87d130",
+      "name": "pineapple juice",
+      "categoryTag": "juices",
+      "proteinTag": "low",
+      "fatTag": "low",
+      "carbohydratesTag": "high",
+      "__v": 0
+    },
+    {
+      "energy": { "amount": 168, "unit": "kcal" },
+      "nutrients": {
+        "protein": { "amount": 3.9, "unit": "g" },
+        "fat": { "amount": 3.7, "unit": "g" },
+        "carbohydrates": { "amount": 29, "unit": "g" }
+      },
+      "activeUsers": 0,
+      "verified": true,
+      "_id": "5ec38da5680b16255c87d131",
+      "name": "plain dosa",
+      "categoryTag": "south indian",
+      "proteinTag": "low",
+      "fatTag": "low",
+      "carbohydratesTag": "high",
+      "__v": 0
+    },
+    {
+      "energy": { "amount": 65, "unit": "kcal" },
+      "nutrients": {
+        "protein": { "amount": 0.2, "unit": "g" },
+        "fat": { "amount": 0.36, "unit": "g" },
+        "carbohydrates": { "amount": 16.4, "unit": "g" }
+      },
+      "activeUsers": 0,
+      "verified": true,
+      "_id": "5ec38da5680b16255c87d132",
+      "name": "pomegranate juice",
+      "categoryTag": "juices",
+      "proteinTag": "low",
+      "fatTag": "low",
+      "carbohydratesTag": "high",
+      "__v": 0
+    },
+    {
+      "energy": { "amount": 178, "unit": "kcal" },
+      "nutrients": {
+        "protein": { "amount": 3.2, "unit": "g" },
+        "fat": { "amount": 10.4, "unit": "g" },
+        "carbohydrates": { "amount": 13.4, "unit": "g" }
+      },
+      "activeUsers": 0,
+      "verified": true,
+      "_id": "5ec38da5680b16255c87d133",
+      "name": "potato salad",
+      "categoryTag": "salad",
+      "proteinTag": "low",
+      "fatTag": "high",
+      "carbohydratesTag": "high",
+      "__v": 0
+    },
+    {
+      "energy": { "amount": 290, "unit": "kcal" },
+      "nutrients": {
+        "protein": { "amount": 4.7, "unit": "g" },
+        "fat": { "amount": 19.8, "unit": "g" },
+        "carbohydrates": { "amount": 25, "unit": "g" }
+      },
+      "activeUsers": 0,
+      "verified": true,
+      "_id": "5ec38da5680b16255c87d134",
+      "name": "puri",
+      "categoryTag": "south indian",
+      "proteinTag": "low",
+      "fatTag": "high",
+      "carbohydratesTag": "high",
+      "__v": 0
+    },
+    {
+      "energy": { "amount": 140, "unit": "kcal" },
+      "nutrients": {
+        "protein": { "amount": 2.2, "unit": "g" },
+        "fat": { "amount": 7.9, "unit": "g" },
+        "carbohydrates": { "amount": 16, "unit": "g" }
+      },
+      "activeUsers": 0,
+      "verified": true,
+      "_id": "5ec38da5680b16255c87d135",
+      "name": "ragi dosa",
+      "categoryTag": "south indian",
+      "proteinTag": "low",
+      "fatTag": "medium",
+      "carbohydratesTag": "high",
+      "__v": 0
+    },
+    {
+      "energy": { "amount": 139, "unit": "kcal" },
+      "nutrients": {
+        "protein": { "amount": 2, "unit": "g" },
+        "fat": { "amount": 7.6, "unit": "g" },
+        "carbohydrates": { "amount": 15.6, "unit": "g" }
+      },
+      "activeUsers": 0,
+      "verified": true,
+      "_id": "5ec38da5680b16255c87d136",
+      "name": "rava dosa",
+      "categoryTag": "south indian",
+      "proteinTag": "low",
+      "fatTag": "medium",
+      "carbohydratesTag": "high",
+      "__v": 0
+    },
+    {
+      "energy": { "amount": 213, "unit": "kcal" },
+      "nutrients": {
+        "protein": { "amount": 12, "unit": "g" },
+        "fat": { "amount": 17.5, "unit": "g" },
+        "carbohydrates": { "amount": 1.7, "unit": "g" }
+      },
+      "activeUsers": 0,
+      "verified": true,
+      "_id": "5ec38da5680b16255c87d137",
+      "name": "seafood garden salad",
+      "categoryTag": "salad",
+      "proteinTag": "high",
+      "fatTag": "high",
+      "carbohydratesTag": "low",
+      "__v": 0
+    },
+    {
+      "energy": { "amount": 92, "unit": "kcal" },
+      "nutrients": {
+        "protein": { "amount": 8.2, "unit": "g" },
+        "fat": { "amount": 3.2, "unit": "g" },
+        "carbohydrates": { "amount": 9.5, "unit": "g" }
+      },
+      "activeUsers": 0,
+      "verified": true,
+      "_id": "5ec38da5680b16255c87d138",
+      "name": "shrimp garden salad",
+      "categoryTag": "salad",
+      "proteinTag": "medium",
+      "fatTag": "low",
+      "carbohydratesTag": "high",
+      "__v": 0
+    },
+    {
+      "energy": { "amount": 365, "unit": "kcal" },
+      "nutrients": {
+        "protein": { "amount": 4, "unit": "g" },
+        "fat": { "amount": 17, "unit": "g" },
+        "carbohydrates": { "amount": 48, "unit": "g" }
+      },
+      "activeUsers": 0,
+      "verified": true,
+      "_id": "5ec38da5680b16255c87d139",
+      "name": "spicy potato fry",
+      "categoryTag": "south indian",
+      "proteinTag": "low",
+      "fatTag": "high",
+      "carbohydratesTag": "high",
+      "__v": 0
+    },
+    {
+      "energy": { "amount": 23, "unit": "kcal" },
+      "nutrients": {
+        "protein": { "amount": 3.2, "unit": "g" },
+        "fat": { "amount": 0.4, "unit": "g" },
+        "carbohydrates": { "amount": 3.9, "unit": "g" }
+      },
+      "activeUsers": 0,
+      "verified": true,
+      "_id": "5ec38da5680b16255c87d13a",
+      "name": "spinach poriyal",
+      "categoryTag": "south indian",
+      "proteinTag": "low",
+      "fatTag": "low",
+      "carbohydratesTag": "low",
+      "__v": 0
+    },
+    {
+      "energy": { "amount": 159, "unit": "kcal" },
+      "nutrients": {
+        "protein": { "amount": 3.7, "unit": "g" },
+        "fat": { "amount": 4.5, "unit": "g" },
+        "carbohydrates": { "amount": 28, "unit": "g" }
+      },
+      "activeUsers": 0,
+      "verified": true,
+      "_id": "5ec38da5680b16255c87d13b",
+      "name": "sweet pongal",
+      "categoryTag": "south indian",
+      "proteinTag": "low",
+      "fatTag": "low",
+      "carbohydratesTag": "high",
+      "__v": 0
+    },
+    {
+      "energy": { "amount": 68, "unit": "kcal" },
+      "nutrients": {
+        "protein": { "amount": 0.7, "unit": "g" },
+        "fat": { "amount": 0.3, "unit": "g" },
+        "carbohydrates": { "amount": 15.4, "unit": "g" }
+      },
+      "activeUsers": 0,
+      "verified": true,
+      "_id": "5ec38da5680b16255c87d13c",
+      "name": "tomato chutney",
+      "categoryTag": "south indian",
+      "proteinTag": "low",
+      "fatTag": "low",
+      "carbohydratesTag": "high",
+      "__v": 0
+    },
+    {
+      "energy": { "amount": 103, "unit": "kcal" },
+      "nutrients": {
+        "protein": { "amount": 2.3, "unit": "g" },
+        "fat": { "amount": 3.9, "unit": "g" },
+        "carbohydrates": { "amount": 20, "unit": "g" }
+      },
+      "activeUsers": 0,
+      "verified": true,
+      "_id": "5ec38da5680b16255c87d13d",
+      "name": "tomato rice",
+      "categoryTag": "south indian",
+      "proteinTag": "low",
+      "fatTag": "low",
+      "carbohydratesTag": "high",
+      "__v": 0
+    },
+    {
+      "energy": { "amount": 192, "unit": "kcal" },
+      "nutrients": {
+        "protein": { "amount": 16.5, "unit": "g" },
+        "fat": { "amount": 9.5, "unit": "g" },
+        "carbohydrates": { "amount": 9.5, "unit": "g" }
+      },
+      "activeUsers": 0,
+      "verified": true,
+      "_id": "5ec38da5680b16255c87d13e",
+      "name": "tuna fish salad",
+      "categoryTag": "salad",
+      "proteinTag": "high",
+      "fatTag": "high",
+      "carbohydratesTag": "high",
+      "__v": 0
+    },
+    {
+      "energy": { "amount": 320, "unit": "kcal" },
+      "nutrients": {
+        "protein": { "amount": 12, "unit": "g" },
+        "fat": { "amount": 1, "unit": "g" },
+        "carbohydrates": { "amount": 66, "unit": "g" }
+      },
+      "activeUsers": 0,
+      "verified": true,
+      "_id": "5ec38da5680b16255c87d13f",
+      "name": "uttapam",
+      "categoryTag": "south indian",
+      "proteinTag": "high",
+      "fatTag": "low",
+      "carbohydratesTag": "high",
+      "__v": 0
+    },
+    {
+      "energy": { "amount": 151, "unit": "kcal" },
+      "nutrients": {
+        "protein": { "amount": 4.6, "unit": "g" },
+        "fat": { "amount": 8.6, "unit": "g" },
+        "carbohydrates": { "amount": 14, "unit": "g" }
+      },
+      "activeUsers": 0,
+      "verified": true,
+      "_id": "5ec38da5680b16255c87d140",
+      "name": "vada",
+      "categoryTag": "south indian",
+      "proteinTag": "low",
+      "fatTag": "medium",
+      "carbohydratesTag": "high",
+      "__v": 0
+    },
+    {
+      "energy": { "amount": 56, "unit": "kcal" },
+      "nutrients": {
+        "protein": { "amount": 1.4, "unit": "g" },
+        "fat": { "amount": 1.3, "unit": "g" },
+        "carbohydrates": { "amount": 11.7, "unit": "g" }
+      },
+      "activeUsers": 0,
+      "verified": true,
+      "_id": "5ec38da5680b16255c87d141",
+      "name": "vegetable som tam salad",
+      "categoryTag": "salad",
+      "proteinTag": "low",
+      "fatTag": "low",
+      "carbohydratesTag": "high",
+      "__v": 0
+    },
+    {
+      "energy": { "amount": 212, "unit": "kcal" },
+      "nutrients": {
+        "protein": { "amount": 5.5, "unit": "g" },
+        "fat": { "amount": 8.2, "unit": "g" },
+        "carbohydrates": { "amount": 29, "unit": "g" }
+      },
+      "activeUsers": 0,
+      "verified": true,
+      "_id": "5ec38da5680b16255c87d142",
+      "name": "ven pongal",
+      "categoryTag": "south indian",
+      "proteinTag": "low",
+      "fatTag": "medium",
+      "carbohydratesTag": "high",
+      "__v": 0
+    },
+    {
+      "energy": { "amount": 32, "unit": "kcal" },
+      "nutrients": {
+        "protein": { "amount": 0.2, "unit": "g" },
+        "fat": { "amount": 0.1, "unit": "g" },
+        "carbohydrates": { "amount": 10.5, "unit": "g" }
+      },
+      "activeUsers": 0,
+      "verified": true,
+      "_id": "5ec38da5680b16255c87d143",
+      "name": "watermelon juice",
+      "categoryTag": "juices",
+      "proteinTag": "low",
+      "fatTag": "low",
+      "carbohydratesTag": "high",
+      "__v": 0
+    },
+    {
+      "energy": { "amount": 88, "unit": "kcal" },
+      "nutrients": {
+        "protein": { "amount": 1.6, "unit": "g" },
+        "fat": { "amount": 5.1, "unit": "g" },
+        "carbohydrates": { "amount": 13, "unit": "g" }
+      },
+      "activeUsers": 0,
+      "verified": true,
+      "_id": "5ec38da5680b16255c87d144",
+      "name": "watermelon,olive and feta salad",
+      "categoryTag": "salad",
+      "proteinTag": "low",
+      "fatTag": "low",
+      "carbohydratesTag": "high",
+      "__v": 0
+    },
+    {
+      "energy": { "amount": 168, "unit": "kcal" },
+      "nutrients": {
+        "protein": { "amount": 3.9, "unit": "g" },
+        "fat": { "amount": 3.7, "unit": "g" },
+        "carbohydrates": { "amount": 29, "unit": "g" }
+      },
+      "activeUsers": 0,
+      "verified": true,
+      "_id": "5ec38da5680b16255c87d145",
+      "name": "wheat dosa",
+      "categoryTag": "south indian",
+      "proteinTag": "low",
+      "fatTag": "low",
+      "carbohydratesTag": "high",
+      "__v": 0
+    },
+    {
+      "energy": { "amount": 198, "unit": "kcal" },
+      "nutrients": {
+        "protein": { "amount": 4.3, "unit": "g" },
+        "fat": { "amount": 0.4, "unit": "g" },
+        "carbohydrates": { "amount": 45, "unit": "g" }
+      },
+      "activeUsers": 0,
+      "verified": true,
+      "_id": "5ec38da5680b16255c87d146",
+      "name": "white rice",
+      "categoryTag": "south indian",
+      "proteinTag": "low",
+      "fatTag": "low",
+      "carbohydratesTag": "high",
+      "__v": 0
+    },
+    {
+      "energy": { "amount": 150, "unit": "kcal" },
+      "nutrients": {
+        "protein": { "amount": 1.7, "unit": "g" },
+        "fat": { "amount": 3.6, "unit": "g" },
+        "carbohydrates": { "amount": 29, "unit": "g" }
+      },
+      "activeUsers": 0,
+      "verified": true,
+      "_id": "5ec38da5680b16255c87d147",
+      "name": "idiyappam",
+      "categoryTag": "south indian",
+      "proteinTag": "low",
+      "fatTag": "low",
+      "carbohydratesTag": "high",
+      "__v": 0
+    },
+    {
+      "energy": { "amount": 100, "unit": "kcal" },
+      "nutrients": {
+        "protein": { "amount": 4.8, "unit": "g" },
+        "fat": { "amount": 6, "unit": "g" },
+        "carbohydrates": { "amount": 93.5, "unit": "g" }
+      },
+      "activeUsers": 0,
+      "verified": true,
+      "_id": "5ec38da5680b16255c87d148",
+      "name": "egg curry",
+      "categoryTag": "south indian",
+      "proteinTag": "low",
+      "fatTag": "medium",
+      "carbohydratesTag": "high",
+      "__v": 0
+    },
+    {
+      "energy": { "amount": 430, "unit": "kcal" },
+      "nutrients": {
+        "protein": { "amount": 27, "unit": "g" },
+        "fat": { "amount": 36, "unit": "g" },
+        "carbohydrates": { "amount": 5.3, "unit": "g" }
+      },
+      "activeUsers": 0,
+      "verified": true,
+      "_id": "5ec38da5680b16255c87d149",
+      "name": "kerala beef fry",
+      "categoryTag": "south indian",
+      "proteinTag": "high",
+      "fatTag": "high",
+      "carbohydratesTag": "low",
+      "__v": 0
+    },
+    {
+      "energy": { "amount": 165, "unit": "kcal" },
+      "nutrients": {
+        "protein": { "amount": 1.4, "unit": "g" },
+        "fat": { "amount": 0.3, "unit": "g" },
+        "carbohydrates": { "amount": 39, "unit": "g" }
+      },
+      "activeUsers": 0,
+      "verified": true,
+      "_id": "5ec38da5680b16255c87d14a",
+      "name": "cassava Kerala fish curry",
+      "categoryTag": "south indian",
+      "proteinTag": "low",
+      "fatTag": "low",
+      "carbohydratesTag": "high",
+      "__v": 0
+    },
+    {
+      "energy": { "amount": 131, "unit": "kcal" },
+      "nutrients": {
+        "protein": { "amount": 4.2, "unit": "g" },
+        "fat": { "amount": 5.3, "unit": "g" },
+        "carbohydrates": { "amount": 17, "unit": "g" }
+      },
+      "activeUsers": 0,
+      "verified": true,
+      "_id": "5ec38da5680b16255c87d14b",
+      "name": "payasam",
+      "categoryTag": "south indian",
+      "proteinTag": "low",
+      "fatTag": "low",
+      "carbohydratesTag": "high",
+      "__v": 0
+    },
+    {
+      "energy": { "amount": 172, "unit": "kcal" },
+      "nutrients": {
+        "protein": { "amount": 3.7, "unit": "g" },
+        "fat": { "amount": 6.5, "unit": "g" },
+        "carbohydrates": { "amount": 25.5, "unit": "g" }
+      },
+      "activeUsers": 0,
+      "verified": true,
+      "_id": "5ec38da5680b16255c87d14c",
+      "name": "pulihora",
+      "categoryTag": "south indian",
+      "proteinTag": "low",
+      "fatTag": "medium",
+      "carbohydratesTag": "high",
+      "__v": 0
+    },
+    {
+      "energy": { "amount": 300, "unit": "kcal" },
+      "nutrients": {
+        "protein": { "amount": 4.3, "unit": "g" },
+        "fat": { "amount": 20.9, "unit": "g" },
+        "carbohydrates": { "amount": 23.5, "unit": "g" }
+      },
+      "activeUsers": 0,
+      "verified": true,
+      "_id": "5ec38da5680b16255c87d14d",
+      "name": "punugulu",
+      "categoryTag": "south indian",
+      "proteinTag": "low",
+      "fatTag": "high",
+      "carbohydratesTag": "high",
+      "__v": 0
+    },
+    {
+      "energy": { "amount": 119, "unit": "kcal" },
+      "nutrients": {
+        "protein": { "amount": 4.8, "unit": "g" },
+        "fat": { "amount": 3.4, "unit": "g" },
+        "carbohydrates": { "amount": 26, "unit": "g" }
+      },
+      "activeUsers": 0,
+      "verified": true,
+      "_id": "5ec38da5680b16255c87d14e",
+      "name": "strawberry juice",
+      "categoryTag": "juices",
+      "proteinTag": "low",
+      "fatTag": "low",
+      "carbohydratesTag": "high",
+      "__v": 0
+    },
+    {
+      "energy": { "amount": 82.5, "unit": "kcal" },
+      "nutrients": {
+        "protein": { "amount": 3, "unit": "g" },
+        "fat": { "amount": 2.4, "unit": "g" },
+        "carbohydrates": { "amount": 13.5, "unit": "g" }
+      },
+      "activeUsers": 0,
+      "verified": true,
+      "_id": "5ec38da5680b16255c87d14f",
+      "name": "banana juice",
+      "categoryTag": "juices",
+      "proteinTag": "low",
+      "fatTag": "low",
+      "carbohydratesTag": "high",
+      "__v": 0
+    },
+    {
+      "energy": { "amount": 64, "unit": "kcal" },
+      "nutrients": {
+        "protein": { "amount": 0.1, "unit": "g" },
+        "fat": { "amount": 0.1, "unit": "g" },
+        "carbohydrates": { "amount": 16.5, "unit": "g" }
+      },
+      "activeUsers": 0,
+      "verified": true,
+      "_id": "5ec38da5680b16255c87d150",
+      "name": "mango juice",
+      "categoryTag": "juices",
+      "proteinTag": "low",
+      "fatTag": "low",
+      "carbohydratesTag": "high",
+      "__v": 0
+    },
+    {
+      "energy": { "amount": 592.3, "unit": "kcal" },
+      "nutrients": {
+        "protein": { "amount": 20.8, "unit": "g" },
+        "fat": { "amount": 52.4, "unit": "g" },
+        "carbohydrates": { "amount": 20.8, "unit": "g" }
+      },
+      "activeUsers": 0,
+      "verified": true,
+      "_id": "5ec38da5680b16255c87d151",
+      "name": "almonds",
+      "categoryTag": "nuts and seeds",
+      "proteinTag": "high",
+      "fatTag": "high",
+      "carbohydratesTag": "high",
+      "__v": 0
+    },
+    {
+      "energy": { "amount": 572, "unit": "kcal" },
+      "nutrients": {
+        "protein": { "amount": 21.4, "unit": "g" },
+        "fat": { "amount": 45.8, "unit": "g" },
+        "carbohydrates": { "amount": 27.2, "unit": "g" }
+      },
+      "activeUsers": 0,
+      "verified": true,
+      "_id": "5ec38da5680b16255c87d152",
+      "name": "pistachios",
+      "categoryTag": "nuts and seeds",
+      "proteinTag": "high",
+      "fatTag": "high",
+      "carbohydratesTag": "high",
+      "__v": 0
+    },
+    {
+      "energy": { "amount": 650, "unit": "kcal" },
+      "nutrients": {
+        "protein": { "amount": 15.5, "unit": "g" },
+        "fat": { "amount": 65, "unit": "g" },
+        "carbohydrates": { "amount": 14, "unit": "g" }
+      },
+      "activeUsers": 0,
+      "verified": true,
+      "_id": "5ec38da5680b16255c87d153",
+      "name": "walnuts",
+      "categoryTag": "nuts and seeds",
+      "proteinTag": "high",
+      "fatTag": "high",
+      "carbohydratesTag": "high",
+      "__v": 0
+    },
+    {
+      "energy": { "amount": 567, "unit": "kcal" },
+      "nutrients": {
+        "protein": { "amount": 15.1, "unit": "g" },
+        "fat": { "amount": 46, "unit": "g" },
+        "carbohydrates": { "amount": 32.1, "unit": "g" }
+      },
+      "activeUsers": 0,
+      "verified": true,
+      "_id": "5ec38da5680b16255c87d154",
+      "name": "cashew",
+      "categoryTag": "nuts and seeds",
+      "proteinTag": "high",
+      "fatTag": "high",
+      "carbohydratesTag": "high",
+      "__v": 0
+    },
+    {
+      "energy": { "amount": 670, "unit": "kcal" },
+      "nutrients": {
+        "protein": { "amount": 9.4, "unit": "g" },
+        "fat": { "amount": 73.7, "unit": "g" },
+        "carbohydrates": { "amount": 14.1, "unit": "g" }
+      },
+      "activeUsers": 0,
+      "verified": true,
+      "_id": "5ec38da5680b16255c87d155",
+      "name": "pecans",
+      "categoryTag": "nuts and seeds",
+      "proteinTag": "high",
+      "fatTag": "high",
+      "carbohydratesTag": "high",
+      "__v": 0
+    },
+    {
+      "energy": { "amount": 816, "unit": "kcal" },
+      "nutrients": {
+        "protein": { "amount": 8.8, "unit": "g" },
+        "fat": { "amount": 84, "unit": "g" },
+        "carbohydrates": { "amount": 15.6, "unit": "g" }
+      },
+      "activeUsers": 0,
+      "verified": true,
+      "_id": "5ec38da5680b16255c87d156",
+      "name": "macadamia nuts",
+      "categoryTag": "nuts and seeds",
+      "proteinTag": "medium",
+      "fatTag": "high",
+      "carbohydratesTag": "high",
+      "__v": 0
+    },
+    {
+      "energy": { "amount": 660, "unit": "kcal" },
+      "nutrients": {
+        "protein": { "amount": 14.4, "unit": "g" },
+        "fat": { "amount": 68, "unit": "g" },
+        "carbohydrates": { "amount": 11.8, "unit": "g" }
+      },
+      "activeUsers": 0,
+      "verified": true,
+      "_id": "5ec38da5680b16255c87d157",
+      "name": "brazil nuts",
+      "categoryTag": "nuts and seeds",
+      "proteinTag": "high",
+      "fatTag": "high",
+      "carbohydratesTag": "high",
+      "__v": 0
+    },
+    {
+      "energy": { "amount": 716, "unit": "kcal" },
+      "nutrients": {
+        "protein": { "amount": 15.8, "unit": "g" },
+        "fat": { "amount": 68, "unit": "g" },
+        "carbohydrates": { "amount": 18, "unit": "g" }
+      },
+      "activeUsers": 0,
+      "verified": true,
+      "_id": "5ec38da5680b16255c87d158",
+      "name": "hazelnuts",
+      "categoryTag": "nuts and seeds",
+      "proteinTag": "high",
+      "fatTag": "high",
+      "carbohydratesTag": "high",
+      "__v": 0
+    },
+    {
+      "energy": { "amount": 590, "unit": "kcal" },
+      "nutrients": {
+        "protein": { "amount": 24, "unit": "g" },
+        "fat": { "amount": 50, "unit": "g" },
+        "carbohydrates": { "amount": 21, "unit": "g" }
+      },
+      "activeUsers": 0,
+      "verified": true,
+      "_id": "5ec38da5680b16255c87d159",
+      "name": "peanuts",
+      "categoryTag": "nuts and seeds",
+      "proteinTag": "high",
+      "fatTag": "high",
+      "carbohydratesTag": "high",
+      "__v": 0
+    },
+    {
+      "energy": { "amount": 550, "unit": "kcal" },
+      "nutrients": {
+        "protein": { "amount": 19, "unit": "g" },
+        "fat": { "amount": 43, "unit": "g" },
+        "carbohydrates": { "amount": 30, "unit": "g" }
+      },
+      "activeUsers": 0,
+      "verified": true,
+      "_id": "5ec38da5680b16255c87d15a",
+      "name": "flaxseeds",
+      "categoryTag": "nuts and seeds",
+      "proteinTag": "high",
+      "fatTag": "high",
+      "carbohydratesTag": "high",
+      "__v": 0
+    },
+    {
+      "energy": { "amount": 464, "unit": "kcal" },
+      "nutrients": {
+        "protein": { "amount": 16, "unit": "g" },
+        "fat": { "amount": 29.6, "unit": "g" },
+        "carbohydrates": { "amount": 40.8, "unit": "g" }
+      },
+      "activeUsers": 0,
+      "verified": true,
+      "_id": "5ec38da5680b16255c87d15b",
+      "name": "chia seeds",
+      "categoryTag": "nuts and seeds",
+      "proteinTag": "high",
+      "fatTag": "high",
+      "carbohydratesTag": "high",
+      "__v": 0
+    },
+    {
+      "energy": { "amount": 553.3, "unit": "kcal" },
+      "nutrients": {
+        "protein": { "amount": 31.7, "unit": "g" },
+        "fat": { "amount": 50, "unit": "g" },
+        "carbohydrates": { "amount": 8.7, "unit": "g" }
+      },
+      "activeUsers": 0,
+      "verified": true,
+      "_id": "5ec38da5680b16255c87d15c",
+      "name": "hemp seeds",
+      "categoryTag": "nuts and seeds",
+      "proteinTag": "high",
+      "fatTag": "high",
+      "carbohydratesTag": "medium",
+      "__v": 0
+    },
+    {
+      "energy": { "amount": 632, "unit": "kcal" },
+      "nutrients": {
+        "protein": { "amount": 19.2, "unit": "g" },
+        "fat": { "amount": 56, "unit": "g" },
+        "carbohydrates": { "amount": 29.2, "unit": "g" }
+      },
+      "activeUsers": 0,
+      "verified": true,
+      "_id": "5ec38da5680b16255c87d15d",
+      "name": "sesame seeds",
+      "categoryTag": "nuts and seeds",
+      "proteinTag": "high",
+      "fatTag": "high",
+      "carbohydratesTag": "high",
+      "__v": 0
+    },
+    {
+      "energy": { "amount": 570, "unit": "kcal" },
+      "nutrients": {
+        "protein": { "amount": 24, "unit": "g" },
+        "fat": { "amount": 24, "unit": "g" },
+        "carbohydrates": { "amount": 68, "unit": "g" }
+      },
+      "activeUsers": 0,
+      "verified": true,
+      "_id": "5ec38da5680b16255c87d15e",
+      "name": "pumpkin seeds",
+      "categoryTag": "nuts and seeds",
+      "proteinTag": "high",
+      "fatTag": "high",
+      "carbohydratesTag": "high",
+      "__v": 0
+    },
+    {
+      "energy": { "amount": 688, "unit": "kcal" },
+      "nutrients": {
+        "protein": { "amount": 25, "unit": "g" },
+        "fat": { "amount": 64, "unit": "g" },
+        "carbohydrates": { "amount": 20, "unit": "g" }
+      },
+      "activeUsers": 0,
+      "verified": true,
+      "_id": "5ec38da5680b16255c87d15f",
+      "name": "sunflower seeds",
+      "categoryTag": "nuts and seeds",
+      "proteinTag": "high",
+      "fatTag": "high",
+      "carbohydratesTag": "high",
+      "__v": 0
+    },
+    {
+      "energy": { "amount": 143, "unit": "kcal" },
+      "nutrients": {
+        "protein": { "amount": 12.6, "unit": "g" },
+        "fat": { "amount": 9.5, "unit": "g" },
+        "carbohydrates": { "amount": 1, "unit": "g" }
+      },
+      "activeUsers": 0,
+      "verified": true,
+      "_id": "5ec38da5680b16255c87d160",
+      "name": "chicken egg",
+      "categoryTag": "egg",
+      "proteinTag": "high",
+      "fatTag": "high",
+      "carbohydratesTag": "low",
+      "__v": 0
+    },
+    {
+      "energy": { "amount": 158, "unit": "kcal" },
+      "nutrients": {
+        "protein": { "amount": 13.1, "unit": "g" },
+        "fat": { "amount": 11.1, "unit": "g" },
+        "carbohydrates": { "amount": 0, "unit": "g" }
+      },
+      "activeUsers": 0,
+      "verified": true,
+      "_id": "5ec38da5680b16255c87d161",
+      "name": "quail egg",
+      "categoryTag": "egg",
+      "proteinTag": "high",
+      "fatTag": "high",
+      "carbohydratesTag": "low",
+      "__v": 0
+    },
+    {
+      "energy": { "amount": 185, "unit": "kcal" },
+      "nutrients": {
+        "protein": { "amount": 13.9, "unit": "g" },
+        "fat": { "amount": 13.3, "unit": "g" },
+        "carbohydrates": { "amount": 1, "unit": "g" }
+      },
+      "activeUsers": 0,
+      "verified": true,
+      "_id": "5ec38da5680b16255c87d162",
+      "name": "goose egg",
+      "categoryTag": "egg",
+      "proteinTag": "high",
+      "fatTag": "high",
+      "carbohydratesTag": "low",
+      "__v": 0
+    },
+    {
+      "energy": { "amount": 185, "unit": "kcal" },
+      "nutrients": {
+        "protein": { "amount": 12.81, "unit": "g" },
+        "fat": { "amount": 13.77, "unit": "g" },
+        "carbohydrates": { "amount": 1.45, "unit": "g" }
+      },
+      "activeUsers": 0,
+      "verified": true,
+      "_id": "5ec38da5680b16255c87d163",
+      "name": "duck egg",
+      "categoryTag": "egg",
+      "proteinTag": "high",
+      "fatTag": "high",
+      "carbohydratesTag": "low",
+      "__v": 0
+    },
+    {
+      "energy": { "amount": 171, "unit": "kcal" },
+      "nutrients": {
+        "protein": { "amount": 13.68, "unit": "g" },
+        "fat": { "amount": 11.88, "unit": "g" },
+        "carbohydrates": { "amount": 1.15, "unit": "g" }
+      },
+      "activeUsers": 0,
+      "verified": true,
+      "_id": "5ec38da5680b16255c87d164",
+      "name": "turkey egg",
+      "categoryTag": "egg",
+      "proteinTag": "high",
+      "fatTag": "high",
+      "carbohydratesTag": "low",
+      "__v": 0
+    },
+    {
+      "energy": { "amount": 264, "unit": "kcal" },
+      "nutrients": {
+        "protein": { "amount": 24.6, "unit": "g" },
+        "fat": { "amount": 17.9, "unit": "g" },
+        "carbohydrates": { "amount": 4, "unit": "g" }
+      },
+      "activeUsers": 0,
+      "verified": true,
+      "_id": "5ec38da5680b16255c87d165",
+      "name": "caviar",
+      "categoryTag": "egg",
+      "proteinTag": "high",
+      "fatTag": "high",
+      "carbohydratesTag": "low",
+      "__v": 0
+    },
+    {
+      "energy": { "amount": 263, "unit": "kcal" },
+      "nutrients": {
+        "protein": { "amount": 16.9, "unit": "g" },
+        "fat": { "amount": 21, "unit": "g" },
+        "carbohydrates": { "amount": 0, "unit": "g" }
+      },
+      "activeUsers": 0,
+      "verified": true,
+      "_id": "5ec38da5680b16255c87d166",
+      "name": "pork",
+      "categoryTag": "meat",
+      "proteinTag": "high",
+      "fatTag": "high",
+      "carbohydratesTag": "low",
+      "__v": 0
+    },
+    {
+      "energy": { "amount": 254, "unit": "kcal" },
+      "nutrients": {
+        "protein": { "amount": 17.2, "unit": "g" },
+        "fat": { "amount": 20, "unit": "g" },
+        "carbohydrates": { "amount": 0, "unit": "g" }
+      },
+      "activeUsers": 0,
+      "verified": true,
+      "_id": "5ec38da5680b16255c87d167",
+      "name": "beef",
+      "categoryTag": "meat",
+      "proteinTag": "high",
+      "fatTag": "high",
+      "carbohydratesTag": "low",
+      "__v": 0
+    },
+    {
+      "energy": { "amount": 282, "unit": "kcal" },
+      "nutrients": {
+        "protein": { "amount": 16.6, "unit": "g" },
+        "fat": { "amount": 23.4, "unit": "g" },
+        "carbohydrates": { "amount": 0, "unit": "g" }
+      },
+      "activeUsers": 0,
+      "verified": true,
+      "_id": "5ec38da5680b16255c87d168",
+      "name": "mutton",
+      "categoryTag": "meat",
+      "proteinTag": "high",
+      "fatTag": "high",
+      "carbohydratesTag": "low",
+      "__v": 0
+    },
+    {
+      "energy": { "amount": 143, "unit": "kcal" },
+      "nutrients": {
+        "protein": { "amount": 17.4, "unit": "g" },
+        "fat": { "amount": 8.1, "unit": "g" },
+        "carbohydrates": { "amount": 0, "unit": "g" }
+      },
+      "activeUsers": 0,
+      "verified": true,
+      "_id": "5ec38da5680b16255c87d169",
+      "name": "chicken",
+      "categoryTag": "meat",
+      "proteinTag": "high",
+      "fatTag": "high",
+      "carbohydratesTag": "low",
+      "__v": 0
+    },
+    {
+      "energy": { "amount": 149, "unit": "kcal" },
+      "nutrients": {
+        "protein": { "amount": 17.5, "unit": "g" },
+        "fat": { "amount": 8.3, "unit": "g" },
+        "carbohydrates": { "amount": 0, "unit": "g" }
+      },
+      "activeUsers": 0,
+      "verified": true,
+      "_id": "5ec38da5680b16255c87d16a",
+      "name": "turkey",
+      "categoryTag": "meat",
+      "proteinTag": "high",
+      "fatTag": "high",
+      "carbohydratesTag": "low",
+      "__v": 0
+    },
+    {
+      "energy": { "amount": 132, "unit": "kcal" },
+      "nutrients": {
+        "protein": { "amount": 18.3, "unit": "g" },
+        "fat": { "amount": 5.9, "unit": "g" },
+        "carbohydrates": { "amount": 0, "unit": "g" }
+      },
+      "activeUsers": 0,
+      "verified": true,
+      "_id": "5ec38da5680b16255c87d16b",
+      "name": "duck",
+      "categoryTag": "meat",
+      "proteinTag": "high",
+      "fatTag": "high",
+      "carbohydratesTag": "low",
+      "__v": 0
+    },
+    {
+      "energy": { "amount": 161, "unit": "kcal" },
+      "nutrients": {
+        "protein": { "amount": 22.8, "unit": "g" },
+        "fat": { "amount": 7.1, "unit": "g" },
+        "carbohydrates": { "amount": 0, "unit": "g" }
+      },
+      "activeUsers": 0,
+      "verified": true,
+      "_id": "5ec38da5680b16255c87d16c",
+      "name": "goose",
+      "categoryTag": "meat",
+      "proteinTag": "high",
+      "fatTag": "high",
+      "carbohydratesTag": "low",
+      "__v": 0
+    },
+    {
+      "energy": { "amount": 421, "unit": "kcal" },
+      "nutrients": {
+        "protein": { "amount": 6.8, "unit": "g" },
+        "fat": { "amount": 25.5, "unit": "g" },
+        "carbohydrates": { "amount": 53.1, "unit": "g" }
+      },
+      "activeUsers": 0,
+      "verified": true,
+      "_id": "5ec38da5680b16255c87d16d",
+      "name": "oatmeal cookies",
+      "categoryTag": "baked",
+      "proteinTag": "high",
+      "fatTag": "high",
+      "carbohydratesTag": "high",
+      "__v": 0
+    },
+    {
+      "energy": { "amount": 394, "unit": "kcal" },
+      "nutrients": {
+        "protein": { "amount": 5.7, "unit": "g" },
+        "fat": { "amount": 14.2, "unit": "g" },
+        "carbohydrates": { "amount": 62.8, "unit": "g" }
+      },
+      "activeUsers": 0,
+      "verified": true,
+      "_id": "5ec38da5680b16255c87d16e",
+      "name": "raisin cookies",
+      "categoryTag": "baked",
+      "proteinTag": "high",
+      "fatTag": "high",
+      "carbohydratesTag": "high",
+      "__v": 0
+    },
+    {
+      "energy": { "amount": 493, "unit": "kcal" },
+      "nutrients": {
+        "protein": { "amount": 4.3, "unit": "g" },
+        "fat": { "amount": 24.6, "unit": "g" },
+        "carbohydrates": { "amount": 66.6, "unit": "g" }
+      },
+      "activeUsers": 0,
+      "verified": true,
+      "_id": "5ec38da6680b16255c87d16f",
+      "name": "chocolate chip cookie",
+      "categoryTag": "baked",
+      "proteinTag": "high",
+      "fatTag": "high",
+      "carbohydratesTag": "high",
+      "__v": 0
+    },
+    {
+      "energy": { "amount": 453, "unit": "kcal" },
+      "nutrients": {
+        "protein": { "amount": 8.1, "unit": "g" },
+        "fat": { "amount": 24.3, "unit": "g" },
+        "carbohydrates": { "amount": 53.1, "unit": "g" }
+      },
+      "activeUsers": 0,
+      "verified": true,
+      "_id": "5ec38da6680b16255c87d170",
+      "name": "peanut butter cookies",
+      "categoryTag": "baked",
+      "proteinTag": "high",
+      "fatTag": "high",
+      "carbohydratesTag": "high",
+      "__v": 0
+    },
+    {
+      "energy": { "amount": 428, "unit": "kcal" },
+      "nutrients": {
+        "protein": { "amount": 4, "unit": "g" },
+        "fat": { "amount": 20, "unit": "g" },
+        "carbohydrates": { "amount": 59.3, "unit": "g" }
+      },
+      "activeUsers": 0,
+      "verified": true,
+      "_id": "5ec38da6680b16255c87d171",
+      "name": "coconut cookies",
+      "categoryTag": "baked",
+      "proteinTag": "high",
+      "fatTag": "high",
+      "carbohydratesTag": "high",
+      "__v": 0
+    },
+    {
+      "energy": { "amount": 529, "unit": "kcal" },
+      "nutrients": {
+        "protein": { "amount": 5.8, "unit": "g" },
+        "fat": { "amount": 36.6, "unit": "g" },
+        "carbohydrates": { "amount": 45.8, "unit": "g" }
+      },
+      "activeUsers": 0,
+      "verified": true,
+      "_id": "5ec38da6680b16255c87d172",
+      "name": "snowball cookies",
+      "categoryTag": "baked",
+      "proteinTag": "high",
+      "fatTag": "high",
+      "carbohydratesTag": "high",
+      "__v": 0
+    },
+    {
+      "energy": { "amount": 211, "unit": "kcal" },
+      "nutrients": {
+        "protein": { "amount": 5.29, "unit": "g" },
+        "fat": { "amount": 11.1, "unit": "g" },
+        "carbohydrates": { "amount": 64.7, "unit": "g" }
+      },
+      "activeUsers": 0,
+      "verified": true,
+      "_id": "5ec38da6680b16255c87d173",
+      "name": "chocolate crinkle cookies",
+      "categoryTag": "baked",
+      "proteinTag": "high",
+      "fatTag": "medium",
+      "carbohydratesTag": "high",
+      "__v": 0
+    },
+    {
+      "energy": { "amount": 400, "unit": "kcal" },
+      "nutrients": {
+        "protein": { "amount": 6.6, "unit": "g" },
+        "fat": { "amount": 20, "unit": "g" },
+        "carbohydrates": { "amount": 40, "unit": "g" }
+      },
+      "activeUsers": 0,
+      "verified": true,
+      "_id": "5ec38da6680b16255c87d174",
+      "name": "hazelnut macaroons",
+      "categoryTag": "baked",
+      "proteinTag": "high",
+      "fatTag": "high",
+      "carbohydratesTag": "high",
+      "__v": 0
+    },
+    {
+      "energy": { "amount": 500, "unit": "kcal" },
+      "nutrients": {
+        "protein": { "amount": 3.5, "unit": "g" },
+        "fat": { "amount": 32.4, "unit": "g" },
+        "carbohydrates": { "amount": 50, "unit": "g" }
+      },
+      "activeUsers": 0,
+      "verified": true,
+      "_id": "5ec38da6680b16255c87d175",
+      "name": "coconut macaroons",
+      "categoryTag": "baked",
+      "proteinTag": "medium",
+      "fatTag": "high",
+      "carbohydratesTag": "high",
+      "__v": 0
+    },
+    {
+      "energy": { "amount": 263, "unit": "kcal" },
+      "nutrients": {
+        "protein": { "amount": 10.4, "unit": "g" },
+        "fat": { "amount": 1.3, "unit": "g" },
+        "carbohydrates": { "amount": 52.3, "unit": "g" }
+      },
+      "activeUsers": 0,
+      "verified": true,
+      "_id": "5ec38da6680b16255c87d176",
+      "name": "plain bagel",
+      "categoryTag": "baked",
+      "proteinTag": "high",
+      "fatTag": "low",
+      "carbohydratesTag": "high",
+      "__v": 0
+    },
+    {
+      "energy": { "amount": 250, "unit": "kcal" },
+      "nutrients": {
+        "protein": { "amount": 10.2, "unit": "g" },
+        "fat": { "amount": 1.5, "unit": "g" },
+        "carbohydrates": { "amount": 48.9, "unit": "g" }
+      },
+      "activeUsers": 0,
+      "verified": true,
+      "_id": "5ec38da6680b16255c87d177",
+      "name": "whole wheat bagel",
+      "categoryTag": "baked",
+      "proteinTag": "high",
+      "fatTag": "low",
+      "carbohydratesTag": "high",
+      "__v": 0
+    },
+    {
+      "energy": { "amount": 294, "unit": "kcal" },
+      "nutrients": {
+        "protein": { "amount": 9.4, "unit": "g" },
+        "fat": { "amount": 2.1, "unit": "g" },
+        "carbohydrates": { "amount": 9.4, "unit": "g" }
+      },
+      "activeUsers": 0,
+      "verified": true,
+      "_id": "5ec38da6680b16255c87d178",
+      "name": "blueberry bagel",
+      "categoryTag": "baked",
+      "proteinTag": "high",
+      "fatTag": "low",
+      "carbohydratesTag": "medium",
+      "__v": 0
+    },
+    {
+      "energy": { "amount": 279, "unit": "kcal" },
+      "nutrients": {
+        "protein": { "amount": 12.7, "unit": "g" },
+        "fat": { "amount": 4.15, "unit": "g" },
+        "carbohydrates": { "amount": 48.3, "unit": "g" }
+      },
+      "activeUsers": 0,
+      "verified": true,
+      "_id": "5ec38da6680b16255c87d179",
+      "name": "asiago bagel",
+      "categoryTag": "baked",
+      "proteinTag": "high",
+      "fatTag": "low",
+      "carbohydratesTag": "high",
+      "__v": 0
+    },
+    {
+      "energy": { "amount": 283, "unit": "kcal" },
+      "nutrients": {
+        "protein": { "amount": 10.7, "unit": "g" },
+        "fat": { "amount": 4.2, "unit": "g" },
+        "carbohydrates": { "amount": 50.8, "unit": "g" }
+      },
+      "activeUsers": 0,
+      "verified": true,
+      "_id": "5ec38da6680b16255c87d17a",
+      "name": "sesame bagel",
+      "categoryTag": "baked",
+      "proteinTag": "high",
+      "fatTag": "low",
+      "carbohydratesTag": "high",
+      "__v": 0
+    },
+    {
+      "energy": { "amount": 277, "unit": "kcal" },
+      "nutrients": {
+        "protein": { "amount": 10.6, "unit": "g" },
+        "fat": { "amount": 2.13, "unit": "g" },
+        "carbohydrates": { "amount": 52.6, "unit": "g" }
+      },
+      "activeUsers": 0,
+      "verified": true,
+      "_id": "5ec38da6680b16255c87d17b",
+      "name": "egg bagel",
+      "categoryTag": "baked",
+      "proteinTag": "high",
+      "fatTag": "low",
+      "carbohydratesTag": "high",
+      "__v": 0
+    },
+    {
+      "energy": { "amount": 375, "unit": "kcal" },
+      "nutrients": {
+        "protein": { "amount": 4.5, "unit": "g" },
+        "fat": { "amount": 15.9, "unit": "g" },
+        "carbohydrates": { "amount": 53, "unit": "g" }
+      },
+      "activeUsers": 0,
+      "verified": true,
+      "_id": "5ec38da6680b16255c87d17c",
+      "name": "blueberry muffin",
+      "categoryTag": "baked",
+      "proteinTag": "high",
+      "fatTag": "high",
+      "carbohydratesTag": "high",
+      "__v": 0
+    },
+    {
+      "energy": { "amount": 329, "unit": "kcal" },
+      "nutrients": {
+        "protein": { "amount": 4.3, "unit": "g" },
+        "fat": { "amount": 11.25, "unit": "g" },
+        "carbohydrates": { "amount": 53.4, "unit": "g" }
+      },
+      "activeUsers": 0,
+      "verified": true,
+      "_id": "5ec38da6680b16255c87d17d",
+      "name": "cinnamon roll",
+      "categoryTag": "baked",
+      "proteinTag": "high",
+      "fatTag": "high",
+      "carbohydratesTag": "high",
+      "__v": 0
+    },
+    {
+      "energy": { "amount": 412, "unit": "kcal" },
+      "nutrients": {
+        "protein": { "amount": 4.9, "unit": "g" },
+        "fat": { "amount": 22.1, "unit": "g" },
+        "carbohydrates": { "amount": 52.4, "unit": "g" }
+      },
+      "activeUsers": 0,
+      "verified": true,
+      "_id": "5ec38da6680b16255c87d17e",
+      "name": "pecan pie",
+      "categoryTag": "baked",
+      "proteinTag": "high",
+      "fatTag": "high",
+      "carbohydratesTag": "high",
+      "__v": 0
+    },
+    {
+      "energy": { "amount": 236, "unit": "kcal" },
+      "nutrients": {
+        "protein": { "amount": 1.92, "unit": "g" },
+        "fat": { "amount": 11.2, "unit": "g" },
+        "carbohydrates": { "amount": 34.4, "unit": "g" }
+      },
+      "activeUsers": 0,
+      "verified": true,
+      "_id": "5ec38da6680b16255c87d17f",
+      "name": "apple pie",
+      "categoryTag": "baked",
+      "proteinTag": "medium",
+      "fatTag": "high",
+      "carbohydratesTag": "high",
+      "__v": 0
+    },
+    {
+      "energy": { "amount": 244, "unit": "kcal" },
+      "nutrients": {
+        "protein": { "amount": 2.7, "unit": "g" },
+        "fat": { "amount": 11.5, "unit": "g" },
+        "carbohydrates": { "amount": 33.3, "unit": "g" }
+      },
+      "activeUsers": 0,
+      "verified": true,
+      "_id": "5ec38da6680b16255c87d180",
+      "name": "blueberry pie",
+      "categoryTag": "baked",
+      "proteinTag": "medium",
+      "fatTag": "high",
+      "carbohydratesTag": "high",
+      "__v": 0
+    },
+    {
+      "energy": { "amount": 94, "unit": "kcal" },
+      "nutrients": {
+        "protein": { "amount": 4.7, "unit": "g" },
+        "fat": { "amount": 0.35, "unit": "g" },
+        "carbohydrates": { "amount": 21.2, "unit": "g" }
+      },
+      "activeUsers": 0,
+      "verified": true,
+      "_id": "5ec38da6680b16255c87d183",
+      "name": "baked beans",
+      "categoryTag": "baked",
+      "proteinTag": "high",
+      "fatTag": "low",
+      "carbohydratesTag": "high",
+      "__v": 0
+    },
+    {
+      "energy": { "amount": 93, "unit": "kcal" },
+      "nutrients": {
+        "protein": { "amount": 2.4, "unit": "g" },
+        "fat": { "amount": 0.11, "unit": "g" },
+        "carbohydrates": { "amount": 21.38, "unit": "g" }
+      },
+      "activeUsers": 0,
+      "verified": true,
+      "_id": "5ec38da6680b16255c87d184",
+      "name": "baked potatoes",
+      "categoryTag": "baked",
+      "proteinTag": "high",
+      "fatTag": "low",
+      "carbohydratesTag": "high",
+      "__v": 0
+    },
+    {
+      "energy": { "amount": 245, "unit": "kcal" },
+      "nutrients": {
+        "protein": { "amount": 3.1, "unit": "g" },
+        "fat": { "amount": 10.8, "unit": "g" },
+        "carbohydrates": { "amount": 31.8, "unit": "g" }
+      },
+      "activeUsers": 0,
+      "verified": true,
+      "_id": "5ec38da6680b16255c87d185",
+      "name": "baked yogurt",
+      "categoryTag": "baked",
+      "proteinTag": "medium",
+      "fatTag": "high",
+      "carbohydratesTag": "high",
+      "__v": 0
+    },
+    {
+      "energy": { "amount": 49, "unit": "kcal" },
+      "nutrients": {
+        "protein": { "amount": 2.2, "unit": "g" },
+        "fat": { "amount": 0.7, "unit": "g" },
+        "carbohydrates": { "amount": 9.5, "unit": "g" }
+      },
+      "activeUsers": 0,
+      "verified": true,
+      "_id": "5ec38da6680b16255c87d186",
+      "name": "baked vegetables",
+      "categoryTag": "baked",
+      "proteinTag": "medium",
+      "fatTag": "low",
+      "carbohydratesTag": "medium",
+      "__v": 0
+    },
+    {
+      "energy": { "amount": 387, "unit": "kcal" },
+      "nutrients": {
+        "protein": { "amount": 6.5, "unit": "g" },
+        "fat": { "amount": 24.3, "unit": "g" },
+        "carbohydrates": { "amount": 35.8, "unit": "g" }
+      },
+      "activeUsers": 0,
+      "verified": true,
+      "_id": "5ec38da6680b16255c87d187",
+      "name": "croissant",
+      "categoryTag": "baked",
+      "proteinTag": "high",
+      "fatTag": "high",
+      "carbohydratesTag": "high",
+      "__v": 0
+    },
+    {
+      "energy": { "amount": 6200, "unit": "kcal" },
+      "nutrients": {
+        "protein": { "amount": 110, "unit": "g" },
+        "fat": { "amount": 30, "unit": "g" },
+        "carbohydrates": { "amount": 1360, "unit": "g" }
+      },
+      "activeUsers": 0,
+      "verified": true,
+      "_id": "5ec38da6680b16255c87d188",
+      "name": "potato scone",
+      "categoryTag": "baked",
+      "proteinTag": "high",
+      "fatTag": "high",
+      "carbohydratesTag": "high",
+      "__v": 0
+    },
+    {
+      "energy": { "amount": 280, "unit": "kcal" },
+      "nutrients": {
+        "protein": { "amount": 6.2, "unit": "g" },
+        "fat": { "amount": 11, "unit": "g" },
+        "carbohydrates": { "amount": 38.7, "unit": "g" }
+      },
+      "activeUsers": 0,
+      "verified": true,
+      "_id": "5ec38da6680b16255c87d189",
+      "name": "kolache",
+      "categoryTag": "baked",
+      "proteinTag": "high",
+      "fatTag": "high",
+      "carbohydratesTag": "high",
+      "__v": 0
+    },
+    {
+      "energy": { "amount": 300, "unit": "kcal" },
+      "nutrients": {
+        "protein": { "amount": 8.2, "unit": "g" },
+        "fat": { "amount": 16.4, "unit": "g" },
+        "carbohydrates": { "amount": 29.9, "unit": "g" }
+      },
+      "activeUsers": 0,
+      "verified": true,
+      "_id": "5ec38da6680b16255c87d18a",
+      "name": "cheddar cheese scones",
+      "categoryTag": "baked",
+      "proteinTag": "high",
+      "fatTag": "high",
+      "carbohydratesTag": "high",
+      "__v": 0
+    },
+    {
+      "energy": { "amount": 291, "unit": "kcal" },
+      "nutrients": {
+        "protein": { "amount": 0.7, "unit": "g" },
+        "fat": { "amount": 28.6, "unit": "g" },
+        "carbohydrates": { "amount": 7.6, "unit": "g" }
+      },
+      "activeUsers": 0,
+      "verified": true,
+      "_id": "5ec38da6680b16255c87d18b",
+      "name": "carrot chips",
+      "categoryTag": "baked",
+      "proteinTag": "low",
+      "fatTag": "high",
+      "carbohydratesTag": "medium",
+      "__v": 0
+    },
+    {
+      "energy": { "amount": 403, "unit": "kcal" },
+      "nutrients": {
+        "protein": { "amount": 14.3, "unit": "g" },
+        "fat": { "amount": 7.9, "unit": "g" },
+        "carbohydrates": { "amount": 68.7, "unit": "g" }
+      },
+      "activeUsers": 0,
+      "verified": true,
+      "_id": "5ec38da6680b16255c87d18c",
+      "name": "baked chickpeas",
+      "categoryTag": "baked",
+      "proteinTag": "high",
+      "fatTag": "medium",
+      "carbohydratesTag": "high",
+      "__v": 0
+    },
+    {
+      "energy": { "amount": 498, "unit": "kcal" },
+      "nutrients": {
+        "protein": { "amount": 7, "unit": "g" },
+        "fat": { "amount": 23.5, "unit": "g" },
+        "carbohydrates": { "amount": 64.6, "unit": "g" }
+      },
+      "activeUsers": 0,
+      "verified": true,
+      "_id": "5ec38da6680b16255c87d18d",
+      "name": "baked cheeseballs",
+      "categoryTag": "baked",
+      "proteinTag": "high",
+      "fatTag": "high",
+      "carbohydratesTag": "high",
+      "__v": 0
+    },
+    {
+      "energy": { "amount": 245, "unit": "kcal" },
+      "nutrients": {
+        "protein": { "amount": 1.8, "unit": "g" },
+        "fat": { "amount": 25.6, "unit": "g" },
+        "carbohydrates": { "amount": 3.2, "unit": "g" }
+      },
+      "activeUsers": 0,
+      "verified": true,
+      "_id": "5ec38da6680b16255c87d18e",
+      "name": "baked zucchini chips",
+      "categoryTag": "baked",
+      "proteinTag": "medium",
+      "fatTag": "high",
+      "carbohydratesTag": "low",
+      "__v": 0
+    },
+    {
+      "energy": { "amount": 263, "unit": "kcal" },
+      "nutrients": {
+        "protein": { "amount": 17.1, "unit": "g" },
+        "fat": { "amount": 5.8, "unit": "g" },
+        "carbohydrates": { "amount": 35.5, "unit": "g" }
+      },
+      "activeUsers": 0,
+      "verified": true,
+      "_id": "5ec38da6680b16255c87d18f",
+      "name": "baked zucchini cutlet",
+      "categoryTag": "baked",
+      "proteinTag": "high",
+      "fatTag": "medium",
+      "carbohydratesTag": "high",
+      "__v": 0
+    },
+    {
+      "energy": { "amount": 242, "unit": "kcal" },
+      "nutrients": {
+        "protein": { "amount": 5.5, "unit": "g" },
+        "fat": { "amount": 6.6, "unit": "g" },
+        "carbohydrates": { "amount": 42.4, "unit": "g" }
+      },
+      "activeUsers": 0,
+      "verified": true,
+      "_id": "5ec38da6680b16255c87d190",
+      "name": "baked tortilla chips",
+      "categoryTag": "baked",
+      "proteinTag": "medium",
+      "fatTag": "medium",
+      "carbohydratesTag": "high",
+      "__v": 0
+    },
+    {
+      "energy": { "amount": 840, "unit": "kcal" },
+      "nutrients": {
+        "protein": { "amount": 1, "unit": "g" },
+        "fat": { "amount": 0.3, "unit": "g" },
+        "carbohydrates": { "amount": 21.5, "unit": "g" }
+      },
+      "activeUsers": 0,
+      "verified": true,
+      "_id": "5ec38da6680b16255c87d191",
+      "name": "banana chips",
+      "categoryTag": "baked",
+      "proteinTag": "low",
+      "fatTag": "low",
+      "carbohydratesTag": "high",
+      "__v": 0
+    },
+    {
+      "energy": { "amount": 484, "unit": "kcal" },
+      "nutrients": {
+        "protein": { "amount": 6.4, "unit": "g" },
+        "fat": { "amount": 19.6, "unit": "g" },
+        "carbohydrates": { "amount": 70.8, "unit": "g" }
+      },
+      "activeUsers": 0,
+      "verified": true,
+      "_id": "5ec38da6680b16255c87d192",
+      "name": "rosemary crackers",
+      "categoryTag": "baked",
+      "proteinTag": "medium",
+      "fatTag": "high",
+      "carbohydratesTag": "high",
+      "__v": 0
+    },
+    {
+      "energy": { "amount": 464, "unit": "kcal" },
+      "nutrients": {
+        "protein": { "amount": 17.9, "unit": "g" },
+        "fat": { "amount": 35.7, "unit": "g" },
+        "carbohydrates": { "amount": 25, "unit": "g" }
+      },
+      "activeUsers": 0,
+      "verified": true,
+      "_id": "5ec38da6680b16255c87d193",
+      "name": "kale chips",
+      "categoryTag": "baked",
+      "proteinTag": "high",
+      "fatTag": "high",
+      "carbohydratesTag": "high",
+      "__v": 0
+    },
+    {
+      "energy": { "amount": 336, "unit": "kcal" },
+      "nutrients": {
+        "protein": { "amount": 6.3, "unit": "g" },
+        "fat": { "amount": 14.7, "unit": "g" },
+        "carbohydrates": { "amount": 43.9, "unit": "g" }
+      },
+      "activeUsers": 0,
+      "verified": true,
+      "_id": "5ec38da6680b16255c87d198",
+      "name": "namak para",
+      "categoryTag": "baked",
+      "proteinTag": "medium",
+      "fatTag": "high",
+      "carbohydratesTag": "high",
+      "__v": 0
+    },
+    {
+      "energy": { "amount": 144, "unit": "kcal" },
+      "nutrients": {
+        "protein": { "amount": 4.5, "unit": "g" },
+        "fat": { "amount": 2.5, "unit": "g" },
+        "carbohydrates": { "amount": 26, "unit": "g" }
+      },
+      "activeUsers": 0,
+      "verified": true,
+      "_id": "5ec38da6680b16255c87d199",
+      "name": "baked ragi chakli",
+      "categoryTag": "baked",
+      "proteinTag": "medium",
+      "fatTag": "low",
+      "carbohydratesTag": "high",
+      "__v": 0
+    },
+    {
+      "energy": { "amount": 88, "unit": "kcal" },
+      "nutrients": {
+        "protein": { "amount": 7.9, "unit": "g" },
+        "fat": { "amount": 3.98, "unit": "g" },
+        "carbohydrates": { "amount": 4.42, "unit": "g" }
+      },
+      "activeUsers": 0,
+      "verified": true,
+      "_id": "5ec38da6680b16255c87d19a",
+      "name": "baked eggs",
+      "categoryTag": "baked",
+      "proteinTag": "high",
+      "fatTag": "low",
+      "carbohydratesTag": "low",
+      "__v": 0
+    },
+    {
+      "energy": { "amount": 257, "unit": "kcal" },
+      "nutrients": {
+        "protein": { "amount": 4.3, "unit": "g" },
+        "fat": { "amount": 15.2, "unit": "g" },
+        "carbohydrates": { "amount": 27, "unit": "g" }
+      },
+      "activeUsers": 0,
+      "verified": true,
+      "_id": "5ec38da6680b16255c87d19b",
+      "name": "blueberry cheesecake",
+      "categoryTag": "baked",
+      "proteinTag": "medium",
+      "fatTag": "high",
+      "carbohydratesTag": "high",
+      "__v": 0
+    },
+    {
+      "energy": { "amount": 363, "unit": "kcal" },
+      "nutrients": {
+        "protein": { "amount": 4.6, "unit": "g" },
+        "fat": { "amount": 16.4, "unit": "g" },
+        "carbohydrates": { "amount": 49.4, "unit": "g" }
+      },
+      "activeUsers": 0,
+      "verified": true,
+      "_id": "5ec38da6680b16255c87d19c",
+      "name": "lemon tart",
+      "categoryTag": "baked",
+      "proteinTag": "medium",
+      "fatTag": "high",
+      "carbohydratesTag": "high",
+      "__v": 0
+    },
+    {
+      "energy": { "amount": 440, "unit": "kcal" },
+      "nutrients": {
+        "protein": { "amount": 5.6, "unit": "g" },
+        "fat": { "amount": 40.8, "unit": "g" },
+        "carbohydrates": { "amount": 30.9, "unit": "g" }
+      },
+      "activeUsers": 0,
+      "verified": true,
+      "_id": "5ec38da6680b16255c87d19d",
+      "name": "chocolate tart",
+      "categoryTag": "baked",
+      "proteinTag": "high",
+      "fatTag": "high",
+      "carbohydratesTag": "high",
+      "__v": 0
+    },
+    {
+      "energy": { "amount": 175, "unit": "kcal" },
+      "nutrients": {
+        "protein": { "amount": 1.1, "unit": "g" },
+        "fat": { "amount": 7.2, "unit": "g" },
+        "carbohydrates": { "amount": 26.7, "unit": "g" }
+      },
+      "activeUsers": 0,
+      "verified": true,
+      "_id": "5ec38da6680b16255c87d19e",
+      "name": "apple tart",
+      "categoryTag": "baked",
+      "proteinTag": "medium",
+      "fatTag": "medium",
+      "carbohydratesTag": "high",
+      "__v": 0
+    },
+    {
+      "energy": { "amount": 291, "unit": "kcal" },
+      "nutrients": {
+        "protein": { "amount": 7.9, "unit": "g" },
+        "fat": { "amount": 141.1, "unit": "g" },
+        "carbohydrates": { "amount": 32.9, "unit": "g" }
+      },
+      "activeUsers": 0,
+      "verified": true,
+      "_id": "5ec38da6680b16255c87d19f",
+      "name": "waffle",
+      "categoryTag": "baked",
+      "proteinTag": "high",
+      "fatTag": "high",
+      "carbohydratesTag": "high",
+      "__v": 0
+    },
+    {
+      "energy": { "amount": 359, "unit": "kcal" },
+      "nutrients": {
+        "protein": { "amount": 6.8, "unit": "g" },
+        "fat": { "amount": 12.6, "unit": "g" },
+        "carbohydrates": { "amount": 56.5, "unit": "g" }
+      },
+      "activeUsers": 0,
+      "verified": true,
+      "_id": "5ec38da6680b16255c87d1a0",
+      "name": "fig biscotti",
+      "categoryTag": "baked",
+      "proteinTag": "high",
+      "fatTag": "high",
+      "carbohydratesTag": "high",
+      "__v": 0
+    },
+    {
+      "energy": { "amount": 323, "unit": "kcal" },
+      "nutrients": {
+        "protein": { "amount": 3.9, "unit": "g" },
+        "fat": { "amount": 18.4, "unit": "g" },
+        "carbohydrates": { "amount": 36, "unit": "g" }
+      },
+      "activeUsers": 0,
+      "verified": true,
+      "_id": "5ec38da6680b16255c87d1a1",
+      "name": "chocolate fudge muffins",
+      "categoryTag": "baked",
+      "proteinTag": "medium",
+      "fatTag": "high",
+      "carbohydratesTag": "high",
+      "__v": 0
+    },
+    {
+      "energy": { "amount": 304, "unit": "kcal" },
+      "nutrients": {
+        "protein": { "amount": 6.6, "unit": "g" },
+        "fat": { "amount": 5.3, "unit": "g" },
+        "carbohydrates": { "amount": 58.3, "unit": "g" }
+      },
+      "activeUsers": 0,
+      "verified": true,
+      "_id": "5ec38da6680b16255c87d1a2",
+      "name": "butterscotch pastry",
+      "categoryTag": "baked",
+      "proteinTag": "high",
+      "fatTag": "medium",
+      "carbohydratesTag": "high",
+      "__v": 0
+    },
+    {
+      "energy": { "amount": 270, "unit": "kcal" },
+      "nutrients": {
+        "protein": { "amount": 7, "unit": "g" },
+        "fat": { "amount": 7.4, "unit": "g" },
+        "carbohydrates": { "amount": 48.3, "unit": "g" }
+      },
+      "activeUsers": 0,
+      "verified": true,
+      "_id": "5ec38da6680b16255c87d1a3",
+      "name": "oatmeal muffin",
+      "categoryTag": "baked",
+      "proteinTag": "high",
+      "fatTag": "medium",
+      "carbohydratesTag": "high",
+      "__v": 0
+    },
+    {
+      "energy": { "amount": 382, "unit": "kcal" },
+      "nutrients": {
+        "protein": { "amount": 6.8, "unit": "g" },
+        "fat": { "amount": 21, "unit": "g" },
+        "carbohydrates": { "amount": 42, "unit": "g" }
+      },
+      "activeUsers": 0,
+      "verified": true,
+      "_id": "5ec38da6680b16255c87d1a4",
+      "name": "dates and walnut muffin",
+      "categoryTag": "baked",
+      "proteinTag": "high",
+      "fatTag": "high",
+      "carbohydratesTag": "high",
+      "__v": 0
+    },
+    {
+      "energy": { "amount": 118, "unit": "kcal" },
+      "nutrients": {
+        "protein": { "amount": 4, "unit": "g" },
+        "fat": { "amount": 9.5, "unit": "g" },
+        "carbohydrates": { "amount": 4.1, "unit": "g" }
+      },
+      "activeUsers": 0,
+      "verified": true,
+      "_id": "5ec38da6680b16255c87d1a5",
+      "name": "palak paneer",
+      "categoryTag": "north indian",
+      "proteinTag": "medium",
+      "fatTag": "medium",
+      "carbohydratesTag": "low",
+      "__v": 0
+    },
+    {
+      "energy": { "amount": 109, "unit": "kcal" },
+      "nutrients": {
+        "protein": { "amount": 2, "unit": "g" },
+        "fat": { "amount": 8.5, "unit": "g" },
+        "carbohydrates": { "amount": 6.3, "unit": "g" }
+      },
+      "activeUsers": 0,
+      "verified": true,
+      "_id": "5ec38da6680b16255c87d1a6",
+      "name": "dal makhani",
+      "categoryTag": "north indian",
+      "proteinTag": "medium",
+      "fatTag": "medium",
+      "carbohydratesTag": "medium",
+      "__v": 0
+    },
+    {
+      "energy": { "amount": 86, "unit": "kcal" },
+      "nutrients": {
+        "protein": { "amount": 3.7, "unit": "g" },
+        "fat": { "amount": 2.1, "unit": "g" },
+        "carbohydrates": { "amount": 13.6, "unit": "g" }
+      },
+      "activeUsers": 0,
+      "verified": true,
+      "_id": "5ec38da6680b16255c87d1a7",
+      "name": "channa masala",
+      "categoryTag": "north indian",
+      "proteinTag": "medium",
+      "fatTag": "low",
+      "carbohydratesTag": "high",
+      "__v": 0
+    },
+    {
+      "energy": { "amount": 149, "unit": "kcal" },
+      "nutrients": {
+        "protein": { "amount": 5.6, "unit": "g" },
+        "fat": { "amount": 12.4, "unit": "g" },
+        "carbohydrates": { "amount": 4, "unit": "g" }
+      },
+      "activeUsers": 0,
+      "verified": true,
+      "_id": "5ec38da6680b16255c87d1a8",
+      "name": "malai kofta",
+      "categoryTag": "north indian",
+      "proteinTag": "high",
+      "fatTag": "high",
+      "carbohydratesTag": "low",
+      "__v": 0
+    },
+    {
+      "energy": { "amount": 53, "unit": "kcal" },
+      "nutrients": {
+        "protein": { "amount": 2, "unit": "g" },
+        "fat": { "amount": 3.4, "unit": "g" },
+        "carbohydrates": { "amount": 3.6, "unit": "g" }
+      },
+      "activeUsers": 0,
+      "verified": true,
+      "_id": "5ec38da6680b16255c87d1a9",
+      "name": "kadhi",
+      "categoryTag": "north indian",
+      "proteinTag": "medium",
+      "fatTag": "low",
+      "carbohydratesTag": "low",
+      "__v": 0
+    },
+    {
+      "energy": { "amount": 67, "unit": "kcal" },
+      "nutrients": {
+        "protein": { "amount": 1.6, "unit": "g" },
+        "fat": { "amount": 4.3, "unit": "g" },
+        "carbohydrates": { "amount": 5.2, "unit": "g" }
+      },
+      "activeUsers": 0,
+      "verified": true,
+      "_id": "5ec38da6680b16255c87d1aa",
+      "name": "kadai mushroom",
+      "categoryTag": "north indian",
+      "proteinTag": "medium",
+      "fatTag": "medium",
+      "carbohydratesTag": "medium",
+      "__v": 0
+    },
+    {
+      "energy": { "amount": 58, "unit": "kcal" },
+      "nutrients": {
+        "protein": { "amount": 1.9, "unit": "g" },
+        "fat": { "amount": 2.4, "unit": "g" },
+        "carbohydrates": { "amount": 7.2, "unit": "g" }
+      },
+      "activeUsers": 0,
+      "verified": true,
+      "_id": "5ec38da6680b16255c87d1ab",
+      "name": "bhindi masala",
+      "categoryTag": "north indian",
+      "proteinTag": "medium",
+      "fatTag": "low",
+      "carbohydratesTag": "medium",
+      "__v": 0
+    },
+    {
+      "energy": { "amount": 74, "unit": "kcal" },
+      "nutrients": {
+        "protein": { "amount": 2.8, "unit": "g" },
+        "fat": { "amount": 1.5, "unit": "g" },
+        "carbohydrates": { "amount": 12.3, "unit": "g" }
+      },
+      "activeUsers": 0,
+      "verified": true,
+      "_id": "5ec38da6680b16255c87d1ac",
+      "name": "dal khichdi",
+      "categoryTag": "north indian",
+      "proteinTag": "medium",
+      "fatTag": "low",
+      "carbohydratesTag": "high",
+      "__v": 0
+    },
+    {
+      "energy": { "amount": 88, "unit": "kcal" },
+      "nutrients": {
+        "protein": { "amount": 2.7, "unit": "g" },
+        "fat": { "amount": 2.6, "unit": "g" },
+        "carbohydrates": { "amount": 13.5, "unit": "g" }
+      },
+      "activeUsers": 0,
+      "verified": true,
+      "_id": "5ec38da6680b16255c87d1ad",
+      "name": "masala khichdi",
+      "categoryTag": "north indian",
+      "proteinTag": "medium",
+      "fatTag": "low",
+      "carbohydratesTag": "high",
+      "__v": 0
+    },
+    {
+      "energy": { "amount": 68, "unit": "kcal" },
+      "nutrients": {
+        "protein": { "amount": 1.8, "unit": "g" },
+        "fat": { "amount": 3.7, "unit": "g" },
+        "carbohydrates": { "amount": 7.1, "unit": "g" }
+      },
+      "activeUsers": 0,
+      "verified": true,
+      "_id": "5ec38da6680b16255c87d1ae",
+      "name": "bhindi stir fry",
+      "categoryTag": "north indian",
+      "proteinTag": "medium",
+      "fatTag": "low",
+      "carbohydratesTag": "medium",
+      "__v": 0
+    },
+    {
+      "energy": { "amount": 171, "unit": "kcal" },
+      "nutrients": {
+        "protein": { "amount": 5.4, "unit": "g" },
+        "fat": { "amount": 10, "unit": "g" },
+        "carbohydrates": { "amount": 15.9, "unit": "g" }
+      },
+      "activeUsers": 0,
+      "verified": true,
+      "_id": "5ec38da6680b16255c87d1af",
+      "name": "dahi bhalla",
+      "categoryTag": "north indian",
+      "proteinTag": "high",
+      "fatTag": "high",
+      "carbohydratesTag": "high",
+      "__v": 0
+    },
+    {
+      "energy": { "amount": 46, "unit": "kcal" },
+      "nutrients": {
+        "protein": { "amount": 1.4, "unit": "g" },
+        "fat": { "amount": 2.3, "unit": "g" },
+        "carbohydrates": { "amount": 5.2, "unit": "g" }
+      },
+      "activeUsers": 0,
+      "verified": true,
+      "_id": "5ec38da6680b16255c87d1b0",
+      "name": "baingan bharta",
+      "categoryTag": "north indian",
+      "proteinTag": "medium",
+      "fatTag": "low",
+      "carbohydratesTag": "medium",
+      "__v": 0
+    },
+    {
+      "energy": { "amount": 115, "unit": "kcal" },
+      "nutrients": {
+        "protein": { "amount": 2, "unit": "g" },
+        "fat": { "amount": 5, "unit": "g" },
+        "carbohydrates": { "amount": 15.8, "unit": "g" }
+      },
+      "activeUsers": 0,
+      "verified": true,
+      "_id": "5ec38da6680b16255c87d1b1",
+      "name": "dum aloo",
+      "categoryTag": "north indian",
+      "proteinTag": "medium",
+      "fatTag": "medium",
+      "carbohydratesTag": "high",
+      "__v": 0
+    },
+    {
+      "energy": { "amount": 64, "unit": "kcal" },
+      "nutrients": {
+        "protein": { "amount": 2.8, "unit": "g" },
+        "fat": { "amount": 3.2, "unit": "g" },
+        "carbohydrates": { "amount": 6.3, "unit": "g" }
+      },
+      "activeUsers": 0,
+      "verified": true,
+      "_id": "5ec38da6680b16255c87d1b2",
+      "name": "sarso ka saag",
+      "categoryTag": "north indian",
+      "proteinTag": "medium",
+      "fatTag": "low",
+      "carbohydratesTag": "medium",
+      "__v": 0
+    },
+    {
+      "energy": { "amount": 112, "unit": "kcal" },
+      "nutrients": {
+        "protein": { "amount": 3.1, "unit": "g" },
+        "fat": { "amount": 5.4, "unit": "g" },
+        "carbohydrates": { "amount": 13, "unit": "g" }
+      },
+      "activeUsers": 0,
+      "verified": true,
+      "_id": "5ec38da6680b16255c87d1b3",
+      "name": "methi aloo",
+      "categoryTag": "north indian",
+      "proteinTag": "medium",
+      "fatTag": "medium",
+      "carbohydratesTag": "high",
+      "__v": 0
+    },
+    {
+      "energy": { "amount": 65, "unit": "kcal" },
+      "nutrients": {
+        "protein": { "amount": 1.5, "unit": "g" },
+        "fat": { "amount": 2.1, "unit": "g" },
+        "carbohydrates": { "amount": 10.2, "unit": "g" }
+      },
+      "activeUsers": 0,
+      "verified": true,
+      "_id": "5ec38da6680b16255c87d1b4",
+      "name": "aloo gobi",
+      "categoryTag": "north indian",
+      "proteinTag": "medium",
+      "fatTag": "low",
+      "carbohydratesTag": "high",
+      "__v": 0
+    },
+    {
+      "energy": { "amount": 84, "unit": "kcal" },
+      "nutrients": {
+        "protein": { "amount": 4, "unit": "g" },
+        "fat": { "amount": 2.7, "unit": "g" },
+        "carbohydrates": { "amount": 11, "unit": "g" }
+      },
+      "activeUsers": 0,
+      "verified": true,
+      "_id": "5ec38da6680b16255c87d1b5",
+      "name": "dal fry",
+      "categoryTag": "north indian",
+      "proteinTag": "medium",
+      "fatTag": "low",
+      "carbohydratesTag": "high",
+      "__v": 0
+    },
+    {
+      "energy": { "amount": 205, "unit": "kcal" },
+      "nutrients": {
+        "protein": { "amount": 10.8, "unit": "g" },
+        "fat": { "amount": 15, "unit": "g" },
+        "carbohydrates": { "amount": 7, "unit": "g" }
+      },
+      "activeUsers": 0,
+      "verified": true,
+      "_id": "5ec38da6680b16255c87d1b6",
+      "name": "paneer tikka",
+      "categoryTag": "north indian",
+      "proteinTag": "high",
+      "fatTag": "high",
+      "carbohydratesTag": "medium",
+      "__v": 0
+    },
+    {
+      "energy": { "amount": 155, "unit": "kcal" },
+      "nutrients": {
+        "protein": { "amount": 6.8, "unit": "g" },
+        "fat": { "amount": 7, "unit": "g" },
+        "carbohydrates": { "amount": 16, "unit": "g" }
+      },
+      "activeUsers": 0,
+      "verified": true,
+      "_id": "5ec38da6680b16255c87d1b7",
+      "name": "dhokla",
+      "categoryTag": "north indian",
+      "proteinTag": "high",
+      "fatTag": "high",
+      "carbohydratesTag": "medium",
+      "__v": 0
+    },
+    {
+      "energy": { "amount": 151, "unit": "kcal" },
+      "nutrients": {
+        "protein": { "amount": 3.3, "unit": "g" },
+        "fat": { "amount": 2.4, "unit": "g" },
+        "carbohydrates": { "amount": 29.3, "unit": "g" }
+      },
+      "activeUsers": 0,
+      "verified": true,
+      "_id": "5ec38da6680b16255c87d1b8",
+      "name": "pav bhaji",
+      "categoryTag": "north indian",
+      "proteinTag": "medium",
+      "fatTag": "low",
+      "carbohydratesTag": "high",
+      "__v": 0
+    },
+    {
+      "energy": { "amount": 178, "unit": "kcal" },
+      "nutrients": {
+        "protein": { "amount": 3.5, "unit": "g" },
+        "fat": { "amount": 9.9, "unit": "g" },
+        "carbohydrates": { "amount": 18.5, "unit": "g" }
+      },
+      "activeUsers": 0,
+      "verified": true,
+      "_id": "5ec38da6680b16255c87d1b9",
+      "name": "chole bhature",
+      "categoryTag": "north indian",
+      "proteinTag": "medium",
+      "fatTag": "medium",
+      "carbohydratesTag": "high",
+      "__v": 0
+    },
+    {
+      "energy": { "amount": 169, "unit": "kcal" },
+      "nutrients": {
+        "protein": { "amount": 1.4, "unit": "g" },
+        "fat": { "amount": 9.2, "unit": "g" },
+        "carbohydrates": { "amount": 20.3, "unit": "g" }
+      },
+      "activeUsers": 0,
+      "verified": true,
+      "_id": "5ec38da6680b16255c87d1ba",
+      "name": "aloo tikki",
+      "categoryTag": "north indian",
+      "proteinTag": "medium",
+      "fatTag": "medium",
+      "carbohydratesTag": "high",
+      "__v": 0
+    },
+    {
+      "energy": { "amount": 113, "unit": "kcal" },
+      "nutrients": {
+        "protein": { "amount": 4, "unit": "g" },
+        "fat": { "amount": 1, "unit": "g" },
+        "carbohydrates": { "amount": 22.1, "unit": "g" }
+      },
+      "activeUsers": 0,
+      "verified": true,
+      "_id": "5ec38da6680b16255c87d1bb",
+      "name": "dal bhaat",
+      "categoryTag": "north indian",
+      "proteinTag": "medium",
+      "fatTag": "low",
+      "carbohydratesTag": "high",
+      "__v": 0
+    },
+    {
+      "energy": { "amount": 86, "unit": "kcal" },
+      "nutrients": {
+        "protein": { "amount": 2.6, "unit": "g" },
+        "fat": { "amount": 2.5, "unit": "g" },
+        "carbohydrates": { "amount": 13.3, "unit": "g" }
+      },
+      "activeUsers": 0,
+      "verified": true,
+      "_id": "5ec38da6680b16255c87d1bc",
+      "name": "aloo matar",
+      "categoryTag": "north indian",
+      "proteinTag": "medium",
+      "fatTag": "low",
+      "carbohydratesTag": "high",
+      "__v": 0
+    },
+    {
+      "energy": { "amount": 126, "unit": "kcal" },
+      "nutrients": {
+        "protein": { "amount": 3.6, "unit": "g" },
+        "fat": { "amount": 2.7, "unit": "g" },
+        "carbohydrates": { "amount": 22.1, "unit": "g" }
+      },
+      "activeUsers": 0,
+      "verified": true,
+      "_id": "5ec38da6680b16255c87d1bd",
+      "name": "bisi bele bhaat",
+      "categoryTag": "north indian",
+      "proteinTag": "medium",
+      "fatTag": "low",
+      "carbohydratesTag": "high",
+      "__v": 0
+    },
+    {
+      "energy": { "amount": 203, "unit": "kcal" },
+      "nutrients": {
+        "protein": { "amount": 4.8, "unit": "g" },
+        "fat": { "amount": 6.3, "unit": "g" },
+        "carbohydrates": { "amount": 32.1, "unit": "g" }
+      },
+      "activeUsers": 0,
+      "verified": true,
+      "_id": "5ec38da6680b16255c87d1be",
+      "name": "aloo paratha",
+      "categoryTag": "north indian",
+      "proteinTag": "medium",
+      "fatTag": "medium",
+      "carbohydratesTag": "high",
+      "__v": 0
+    },
+    {
+      "energy": { "amount": 47, "unit": "kcal" },
+      "nutrients": {
+        "protein": { "amount": 1.9, "unit": "g" },
+        "fat": { "amount": 2.9, "unit": "g" },
+        "carbohydrates": { "amount": 3.5, "unit": "g" }
+      },
+      "activeUsers": 0,
+      "verified": true,
+      "_id": "5ec38da6680b16255c87d1bf",
+      "name": "palak saag",
+      "categoryTag": "north indian",
+      "proteinTag": "medium",
+      "fatTag": "low",
+      "carbohydratesTag": "low",
+      "__v": 0
+    },
+    {
+      "energy": { "amount": 85, "unit": "kcal" },
+      "nutrients": {
+        "protein": { "amount": 3.1, "unit": "g" },
+        "fat": { "amount": 1.1, "unit": "g" },
+        "carbohydrates": { "amount": 16, "unit": "g" }
+      },
+      "activeUsers": 0,
+      "verified": true,
+      "_id": "5ec38da6680b16255c87d1c0",
+      "name": "rajma chawal",
+      "categoryTag": "north indian",
+      "proteinTag": "medium",
+      "fatTag": "low",
+      "carbohydratesTag": "high",
+      "__v": 0
+    },
+    {
+      "energy": { "amount": 149, "unit": "kcal" },
+      "nutrients": {
+        "protein": { "amount": 6.3, "unit": "g" },
+        "fat": { "amount": 12.1, "unit": "g" },
+        "carbohydrates": { "amount": 3.8, "unit": "g" }
+      },
+      "activeUsers": 0,
+      "verified": true,
+      "_id": "5ec38da6680b16255c87d1c1",
+      "name": "paneer lababdar",
+      "categoryTag": "north indian",
+      "proteinTag": "high",
+      "fatTag": "high",
+      "carbohydratesTag": "low",
+      "__v": 0
+    },
+    {
+      "energy": { "amount": 226, "unit": "kcal" },
+      "nutrients": {
+        "protein": { "amount": 11.5, "unit": "g" },
+        "fat": { "amount": 18.4, "unit": "g" },
+        "carbohydrates": { "amount": 4, "unit": "g" }
+      },
+      "activeUsers": 0,
+      "verified": true,
+      "_id": "5ec38da6680b16255c87d1c2",
+      "name": "tawa paneer",
+      "categoryTag": "north indian",
+      "proteinTag": "high",
+      "fatTag": "high",
+      "carbohydratesTag": "low",
+      "__v": 0
+    },
+    {
+      "energy": { "amount": 98, "unit": "kcal" },
+      "nutrients": {
+        "protein": { "amount": 2.7, "unit": "g" },
+        "fat": { "amount": 4.3, "unit": "g" },
+        "carbohydrates": { "amount": 12.3, "unit": "g" }
+      },
+      "activeUsers": 0,
+      "verified": true,
+      "_id": "5ec38da6680b16255c87d1c3",
+      "name": "curd rice",
+      "categoryTag": "north indian",
+      "proteinTag": "high",
+      "fatTag": "low",
+      "carbohydratesTag": "high",
+      "__v": 0
+    },
+    {
+      "energy": { "amount": 101, "unit": "g" },
+      "nutrients": {
+        "protein": { "amount": 2.3, "unit": "g" },
+        "fat": { "amount": 4.6, "unit": "g" },
+        "carbohydrates": { "amount": 12.5, "unit": "g" }
+      },
+      "activeUsers": 0,
+      "verified": true,
+      "_id": "5ec38da6680b16255c87d1c4",
+      "name": "biryani",
+      "categoryTag": "north indian",
+      "proteinTag": "medium",
+      "fatTag": "low",
+      "carbohydratesTag": "high",
+      "__v": 0
+    },
+    {
+      "energy": { "amount": 125, "unit": "kcal" },
+      "nutrients": {
+        "protein": { "amount": 6.4, "unit": "g" },
+        "fat": { "amount": 8.7, "unit": "g" },
+        "carbohydrates": { "amount": 5.5, "unit": "g" }
+      },
+      "activeUsers": 0,
+      "verified": true,
+      "_id": "5ec38da6680b16255c87d1c5",
+      "name": "matar paneer",
+      "categoryTag": "north indian",
+      "proteinTag": "high",
+      "fatTag": "medium",
+      "carbohydratesTag": "medium",
+      "__v": 0
+    },
+    {
+      "energy": { "amount": 231, "unit": "kcal" },
+      "nutrients": {
+        "protein": { "amount": 3.3, "unit": "g" },
+        "fat": { "amount": 12.2, "unit": "g" },
+        "carbohydrates": { "amount": 26.9, "unit": "g" }
+      },
+      "activeUsers": 0,
+      "verified": true,
+      "_id": "5ec38da6680b16255c87d1c6",
+      "name": "pani puri",
+      "categoryTag": "north indian",
+      "proteinTag": "medium",
+      "fatTag": "high",
+      "carbohydratesTag": "high",
+      "__v": 0
+    },
+    {
+      "energy": { "amount": 61, "unit": "kcal" },
+      "nutrients": {
+        "protein": { "amount": 2.4, "unit": "g" },
+        "fat": { "amount": 3.2, "unit": "g" },
+        "carbohydrates": { "amount": 4.9, "unit": "g" }
+      },
+      "activeUsers": 0,
+      "verified": true,
+      "_id": "5ec38da6680b16255c87d1c7",
+      "name": "tawa mushroom",
+      "categoryTag": "north indian",
+      "proteinTag": "medium",
+      "fatTag": "low",
+      "carbohydratesTag": "low",
+      "__v": 0
+    },
+    {
+      "energy": { "amount": 154, "unit": "kcal" },
+      "nutrients": {
+        "protein": { "amount": 4.3, "unit": "g" },
+        "fat": { "amount": 11.6, "unit": "g" },
+        "carbohydrates": { "amount": 8.3, "unit": "g" }
+      },
+      "activeUsers": 0,
+      "verified": true,
+      "_id": "5ec38da6680b16255c87d1c8",
+      "name": "dahi kebab",
+      "categoryTag": "north indian",
+      "proteinTag": "medium",
+      "fatTag": "high",
+      "carbohydratesTag": "medium",
+      "__v": 0
+    },
+    {
+      "energy": { "amount": 81, "unit": "kcal" },
+      "nutrients": {
+        "protein": { "amount": 2.1, "unit": "g" },
+        "fat": { "amount": 5.7, "unit": "g" },
+        "carbohydrates": { "amount": 6.6, "unit": "g" }
+      },
+      "activeUsers": 0,
+      "verified": true,
+      "_id": "5ec38da6680b16255c87d1c9",
+      "name": "gobi",
+      "categoryTag": "north indian",
+      "proteinTag": "medium",
+      "fatTag": "medium",
+      "carbohydratesTag": "medium",
+      "__v": 0
+    },
+    {
+      "energy": { "amount": 282, "unit": "kcal" },
+      "nutrients": {
+        "protein": { "amount": 5.3, "unit": "g" },
+        "fat": { "amount": 17.9, "unit": "g" },
+        "carbohydrates": { "amount": 24.7, "unit": "g" }
+      },
+      "activeUsers": 0,
+      "verified": true,
+      "_id": "5ec38da6680b16255c87d1ca",
+      "name": "bread pakoda",
+      "categoryTag": "north indian",
+      "proteinTag": "high",
+      "fatTag": "high",
+      "carbohydratesTag": "high",
+      "__v": 0
+    },
+    {
+      "energy": { "amount": 168, "unit": "kcal" },
+      "nutrients": {
+        "protein": { "amount": 6, "unit": "g" },
+        "fat": { "amount": 8.2, "unit": "g" },
+        "carbohydrates": { "amount": 16.8, "unit": "g" }
+      },
+      "activeUsers": 0,
+      "verified": true,
+      "_id": "5ec38da6680b16255c87d1cb",
+      "name": "mushroom tikka",
+      "categoryTag": "north indian",
+      "proteinTag": "high",
+      "fatTag": "medium",
+      "carbohydratesTag": "high",
+      "__v": 0
+    },
+    {
+      "energy": { "amount": 245, "unit": "kcal" },
+      "nutrients": {
+        "protein": { "amount": 4.8, "unit": "g" },
+        "fat": { "amount": 10.2, "unit": "g" },
+        "carbohydrates": { "amount": 33.4, "unit": "g" }
+      },
+      "activeUsers": 0,
+      "verified": true,
+      "_id": "5ec38da6680b16255c87d1cc",
+      "name": "vada pav",
+      "categoryTag": "north indian",
+      "proteinTag": "medium",
+      "fatTag": "high",
+      "carbohydratesTag": "high",
+      "__v": 0
+    },
+    {
+      "energy": { "amount": 40, "unit": "kcal" },
+      "nutrients": {
+        "protein": { "amount": 1.2, "unit": "g" },
+        "fat": { "amount": 1.6, "unit": "g" },
+        "carbohydrates": { "amount": 5.5, "unit": "g" }
+      },
+      "activeUsers": 0,
+      "verified": true,
+      "_id": "5ec38da6680b16255c87d1cd",
+      "name": "mixed vegetables",
+      "categoryTag": "north indian",
+      "proteinTag": "medium",
+      "fatTag": "low",
+      "carbohydratesTag": "medium",
+      "__v": 0
+    },
+    {
+      "energy": { "amount": 130, "unit": "kcal" },
+      "nutrients": {
+        "protein": { "amount": 2.6, "unit": "g" },
+        "fat": { "amount": 1.5, "unit": "g" },
+        "carbohydrates": { "amount": 26.9, "unit": "g" }
+      },
+      "activeUsers": 0,
+      "verified": true,
+      "_id": "5ec38da6680b16255c87d1ce",
+      "name": "poha",
+      "categoryTag": "north indian",
+      "proteinTag": "medium",
+      "fatTag": "low",
+      "carbohydratesTag": "high",
+      "__v": 0
+    },
+    {
+      "energy": { "amount": 131, "unit": "kcal" },
+      "nutrients": {
+        "protein": { "amount": 3.4, "unit": "g" },
+        "fat": { "amount": 4.8, "unit": "g" },
+        "carbohydrates": { "amount": 18.7, "unit": "g" }
+      },
+      "activeUsers": 0,
+      "verified": true,
+      "_id": "5ec38da6680b16255c87d1cf",
+      "name": "upma",
+      "categoryTag": "north indian",
+      "proteinTag": "medium",
+      "fatTag": "low",
+      "carbohydratesTag": "high",
+      "__v": 0
+    },
+    {
+      "energy": { "amount": 50, "unit": "kcal" },
+      "nutrients": {
+        "protein": { "amount": 0.6, "unit": "g" },
+        "fat": { "amount": 3.7, "unit": "g" },
+        "carbohydrates": { "amount": 3.7, "unit": "g" }
+      },
+      "activeUsers": 0,
+      "verified": true,
+      "_id": "5ec38da6680b16255c87d1d0",
+      "name": "bottle gourd sabzi",
+      "categoryTag": "north indian",
+      "proteinTag": "low",
+      "fatTag": "low",
+      "carbohydratesTag": "low",
+      "__v": 0
+    },
+    {
+      "energy": { "amount": 55, "unit": "kcal" },
+      "nutrients": {
+        "protein": { "amount": 2.2, "unit": "g" },
+        "fat": { "amount": 2.3, "unit": "g" },
+        "carbohydrates": { "amount": 6.5, "unit": "g" }
+      },
+      "activeUsers": 0,
+      "verified": true,
+      "_id": "5ec38da6680b16255c87d1d1",
+      "name": "beans",
+      "categoryTag": "north indian",
+      "proteinTag": "medium",
+      "fatTag": "low",
+      "carbohydratesTag": "medium",
+      "__v": 0
+    },
+    {
+      "energy": { "amount": 138, "unit": "kcal" },
+      "nutrients": {
+        "protein": { "amount": 4.1, "unit": "g" },
+        "fat": { "amount": 5.6, "unit": "g" },
+        "carbohydrates": { "amount": 17.9, "unit": "g" }
+      },
+      "activeUsers": 0,
+      "verified": true,
+      "_id": "5ec38da6680b16255c87d1d2",
+      "name": "dahi papdi chaat",
+      "categoryTag": "north indian",
+      "proteinTag": "medium",
+      "fatTag": "medium",
+      "carbohydratesTag": "high",
+      "__v": 0
+    },
+    {
+      "energy": { "amount": 216, "unit": "kcal" },
+      "nutrients": {
+        "protein": { "amount": 3.7, "unit": "g" },
+        "fat": { "amount": 8.7, "unit": "g" },
+        "carbohydrates": { "amount": 30.2, "unit": "g" }
+      },
+      "activeUsers": 0,
+      "verified": true,
+      "_id": "5ec38da6680b16255c87d1d3",
+      "name": "dabeli",
+      "categoryTag": "north indian",
+      "proteinTag": "medium",
+      "fatTag": "medium",
+      "carbohydratesTag": "high",
+      "__v": 0
+    },
+    {
+      "energy": { "amount": 445, "unit": "kcal" },
+      "nutrients": {
+        "protein": { "amount": 12.5, "unit": "g" },
+        "fat": { "amount": 15, "unit": "g" },
+        "carbohydrates": { "amount": 9, "unit": "g" }
+      },
+      "activeUsers": 0,
+      "verified": true,
+      "_id": "5ec38da6680b16255c87d1d4",
+      "name": "khakra",
+      "categoryTag": "north indian",
+      "proteinTag": "high",
+      "fatTag": "high",
+      "carbohydratesTag": "medium",
+      "__v": 0
+    },
+    {
+      "energy": { "amount": 267, "unit": "kcal" },
+      "nutrients": {
+        "protein": { "amount": 4.8, "unit": "g" },
+        "fat": { "amount": 13.7, "unit": "g" },
+        "carbohydrates": { "amount": 31.4, "unit": "g" }
+      },
+      "activeUsers": 0,
+      "verified": true,
+      "_id": "5ec38da6680b16255c87d1d5",
+      "name": "aloo puri",
+      "categoryTag": "north indian",
+      "proteinTag": "medium",
+      "fatTag": "high",
+      "carbohydratesTag": "high",
+      "__v": 0
+    },
+    {
+      "energy": { "amount": 267, "unit": "kcal" },
+      "nutrients": {
+        "protein": { "amount": 4.8, "unit": "g" },
+        "fat": { "amount": 13.7, "unit": "g" },
+        "carbohydrates": { "amount": 31.4, "unit": "g" }
+      },
+      "activeUsers": 0,
+      "verified": true,
+      "_id": "5ec38da6680b16255c87d1d6",
+      "name": "kachori",
+      "categoryTag": "north indian",
+      "proteinTag": "medium",
+      "fatTag": "high",
+      "carbohydratesTag": "high",
+      "__v": 0
+    },
+    {
+      "energy": { "amount": 93, "unit": "kcal" },
+      "nutrients": {
+        "protein": { "amount": 1.8, "unit": "g" },
+        "fat": { "amount": 4.3, "unit": "g" },
+        "carbohydrates": { "amount": 12, "unit": "g" }
+      },
+      "activeUsers": 0,
+      "verified": true,
+      "_id": "5ec38da6680b16255c87d1d7",
+      "name": "beans aloo",
+      "categoryTag": "north indian",
+      "proteinTag": "medium",
+      "fatTag": "low",
+      "carbohydratesTag": "high",
+      "__v": 0
+    },
+    {
+      "energy": { "amount": 210, "unit": "kcal" },
+      "nutrients": {
+        "protein": { "amount": 7.1, "unit": "g" },
+        "fat": { "amount": 1.5, "unit": "g" },
+        "carbohydrates": { "amount": 41, "unit": "g" }
+      },
+      "activeUsers": 0,
+      "verified": true,
+      "_id": "5ec38da6680b16255c87d1d8",
+      "name": "baguette",
+      "categoryTag": "bread",
+      "proteinTag": "high",
+      "fatTag": "low",
+      "carbohydratesTag": "high",
+      "__v": 0
+    },
+    {
+      "energy": { "amount": 226, "unit": "kcal" },
+      "nutrients": {
+        "protein": { "amount": 7, "unit": "g" },
+        "fat": { "amount": 2.4, "unit": "g" },
+        "carbohydrates": { "amount": 43.3, "unit": "g" }
+      },
+      "activeUsers": 0,
+      "verified": true,
+      "_id": "5ec38da6680b16255c87d1d9",
+      "name": "jalapeno breadsticks",
+      "categoryTag": "bread",
+      "proteinTag": "high",
+      "fatTag": "low",
+      "carbohydratesTag": "high",
+      "__v": 0
+    },
+    {
+      "energy": { "amount": 287, "unit": "kcal" },
+      "nutrients": {
+        "protein": { "amount": 9.5, "unit": "g" },
+        "fat": { "amount": 6, "unit": "g" },
+        "carbohydrates": { "amount": 47.5, "unit": "g" }
+      },
+      "activeUsers": 0,
+      "verified": true,
+      "_id": "5ec38da6680b16255c87d1da",
+      "name": "challah",
+      "categoryTag": "bread",
+      "proteinTag": "high",
+      "fatTag": "medium",
+      "carbohydratesTag": "high",
+      "__v": 0
+    },
+    {
+      "energy": { "amount": 220, "unit": "kcal" },
+      "nutrients": {
+        "protein": { "amount": 6.1, "unit": "g" },
+        "fat": { "amount": 2.6, "unit": "g" },
+        "carbohydrates": { "amount": 42.1, "unit": "g" }
+      },
+      "activeUsers": 0,
+      "verified": true,
+      "_id": "5ec38da6680b16255c87d1db",
+      "name": "ciabatta",
+      "categoryTag": "bread",
+      "proteinTag": "high",
+      "fatTag": "low",
+      "carbohydratesTag": "high",
+      "__v": 0
+    },
+    {
+      "energy": { "amount": 280, "unit": "kcal" },
+      "nutrients": {
+        "protein": { "amount": 6.3, "unit": "g" },
+        "fat": { "amount": 11.4, "unit": "g" },
+        "carbohydrates": { "amount": 38.5, "unit": "g" }
+      },
+      "activeUsers": 0,
+      "verified": true,
+      "_id": "5ec38da6680b16255c87d1dc",
+      "name": "cornbread",
+      "categoryTag": "bread",
+      "proteinTag": "high",
+      "fatTag": "high",
+      "carbohydratesTag": "high",
+      "__v": 0
+    },
+    {
+      "energy": { "amount": 249, "unit": "kcal" },
+      "nutrients": {
+        "protein": { "amount": 8.8, "unit": "g" },
+        "fat": { "amount": 7.9, "unit": "g" },
+        "carbohydrates": { "amount": 35.8, "unit": "g" }
+      },
+      "activeUsers": 0,
+      "verified": true,
+      "_id": "5ec38da6680b16255c87d1dd",
+      "name": "focaccia",
+      "categoryTag": "bread",
+      "proteinTag": "high",
+      "fatTag": "medium",
+      "carbohydratesTag": "high",
+      "__v": 0
+    },
+    {
+      "energy": { "amount": 260, "unit": "kcal" },
+      "nutrients": {
+        "protein": { "amount": 9, "unit": "g" },
+        "fat": { "amount": 4, "unit": "g" },
+        "carbohydrates": { "amount": 47, "unit": "g" }
+      },
+      "activeUsers": 0,
+      "verified": true,
+      "_id": "5ec38da6680b16255c87d1de",
+      "name": "multigrain bread",
+      "categoryTag": "bread",
+      "proteinTag": "high",
+      "fatTag": "low",
+      "carbohydratesTag": "high",
+      "__v": 0
+    },
+    {
+      "energy": { "amount": 230, "unit": "kcal" },
+      "nutrients": {
+        "protein": { "amount": 6.5, "unit": "g" },
+        "fat": { "amount": 2.6, "unit": "g" },
+        "carbohydrates": { "amount": 44.5, "unit": "g" }
+      },
+      "activeUsers": 0,
+      "verified": true,
+      "_id": "5ec38da6680b16255c87d1df",
+      "name": "pita bread",
+      "categoryTag": "bread",
+      "proteinTag": "high",
+      "fatTag": "low",
+      "carbohydratesTag": "high",
+      "__v": 0
+    },
+    {
+      "energy": { "amount": 258, "unit": "kcal" },
+      "nutrients": {
+        "protein": { "amount": 8.5, "unit": "g" },
+        "fat": { "amount": 3.3, "unit": "g" },
+        "carbohydrates": { "amount": 48.3, "unit": "g" }
+      },
+      "activeUsers": 0,
+      "verified": true,
+      "_id": "5ec38da6680b16255c87d1e1",
+      "name": "rye bread",
+      "categoryTag": "bread",
+      "proteinTag": "high",
+      "fatTag": "low",
+      "carbohydratesTag": "high",
+      "__v": 0
+    },
+    {
+      "energy": { "amount": 290, "unit": "kcal" },
+      "nutrients": {
+        "protein": { "amount": 6.6, "unit": "g" },
+        "fat": { "amount": 5, "unit": "g" },
+        "carbohydrates": { "amount": 56, "unit": "g" }
+      },
+      "activeUsers": 0,
+      "verified": true,
+      "_id": "5ec38da6680b16255c87d1e2",
+      "name": "white soda bread",
+      "categoryTag": "bread",
+      "proteinTag": "high",
+      "fatTag": "low",
+      "carbohydratesTag": "high",
+      "__v": 0
+    },
+    {
+      "energy": { "amount": 289, "unit": "kcal" },
+      "nutrients": {
+        "protein": { "amount": 11.8, "unit": "g" },
+        "fat": { "amount": 1.8, "unit": "g" },
+        "carbohydrates": { "amount": 56.4, "unit": "g" }
+      },
+      "activeUsers": 0,
+      "verified": true,
+      "_id": "5ec38da6680b16255c87d1e3",
+      "name": "sourdough",
+      "categoryTag": "bread",
+      "proteinTag": "high",
+      "fatTag": "low",
+      "carbohydratesTag": "high",
+      "__v": 0
+    },
+    {
+      "energy": { "amount": 270, "unit": "kcal" },
+      "nutrients": {
+        "protein": { "amount": 10.4, "unit": "g" },
+        "fat": { "amount": 3.4, "unit": "g" },
+        "carbohydrates": { "amount": 49.5, "unit": "g" }
+      },
+      "activeUsers": 0,
+      "verified": true,
+      "_id": "5ec38da6680b16255c87d1e4",
+      "name": "whole wheat bread",
+      "categoryTag": "bread",
+      "proteinTag": "high",
+      "fatTag": "low",
+      "carbohydratesTag": "high",
+      "__v": 0
+    },
+    {
+      "energy": { "amount": 293, "unit": "kcal" },
+      "nutrients": {
+        "protein": { "amount": 10.7, "unit": "g" },
+        "fat": { "amount": 3.3, "unit": "g" },
+        "carbohydrates": { "amount": 53.3, "unit": "g" }
+      },
+      "activeUsers": 0,
+      "verified": true,
+      "_id": "5ec38da6680b16255c87d1e5",
+      "name": "parmesan oregano bread",
+      "categoryTag": "bread",
+      "proteinTag": "high",
+      "fatTag": "low",
+      "carbohydratesTag": "high",
+      "__v": 0
+    },
+    {
+      "energy": { "amount": 197, "unit": "kcal" },
+      "nutrients": {
+        "protein": { "amount": 1.4, "unit": "g" },
+        "fat": { "amount": 6.7, "unit": "g" },
+        "carbohydrates": { "amount": 33.4, "unit": "g" }
+      },
+      "activeUsers": 0,
+      "verified": true,
+      "_id": "5ec38da6680b16255c87d1e6",
+      "name": "bammy",
+      "categoryTag": "bread",
+      "proteinTag": "medium",
+      "fatTag": "medium",
+      "carbohydratesTag": "high",
+      "__v": 0
+    },
+    {
+      "energy": { "amount": 260, "unit": "kcal" },
+      "nutrients": {
+        "protein": { "amount": 6.3, "unit": "g" },
+        "fat": { "amount": 6.2, "unit": "g" },
+        "carbohydrates": { "amount": 44, "unit": "g" }
+      },
+      "activeUsers": 0,
+      "verified": true,
+      "_id": "5ec38da6680b16255c87d1e7",
+      "name": "bloomer",
+      "categoryTag": "bread",
+      "proteinTag": "high",
+      "fatTag": "medium",
+      "carbohydratesTag": "high",
+      "__v": 0
+    },
+    {
+      "energy": { "amount": 218, "unit": "kcal" },
+      "nutrients": {
+        "protein": { "amount": 5.7, "unit": "g" },
+        "fat": { "amount": 2.9, "unit": "g" },
+        "carbohydrates": { "amount": 44.6, "unit": "g" }
+      },
+      "activeUsers": 0,
+      "verified": true,
+      "_id": "5ec38da6680b16255c87d1e8",
+      "name": "tortilla",
+      "categoryTag": "bread",
+      "proteinTag": "high",
+      "fatTag": "low",
+      "carbohydratesTag": "high",
+      "__v": 0
+    },
+    {
+      "energy": { "amount": 288, "unit": "kcal" },
+      "nutrients": {
+        "protein": { "amount": 6, "unit": "g" },
+        "fat": { "amount": 9.5, "unit": "g" },
+        "carbohydrates": { "amount": 44.2, "unit": "g" }
+      },
+      "activeUsers": 0,
+      "verified": true,
+      "_id": "5ec38da6680b16255c87d1e9",
+      "name": "damper bread",
+      "categoryTag": "bread",
+      "proteinTag": "high",
+      "fatTag": "medium",
+      "carbohydratesTag": "high",
+      "__v": 0
+    },
+    {
+      "energy": { "amount": 191, "unit": "g" },
+      "nutrients": {
+        "protein": { "amount": 6.4, "unit": "g" },
+        "fat": { "amount": 1, "unit": "g" },
+        "carbohydrates": { "amount": 38.5, "unit": "g" }
+      },
+      "activeUsers": 0,
+      "verified": true,
+      "_id": "5ec38da6680b16255c87d1ea",
+      "name": "bazlama",
+      "categoryTag": "bread",
+      "proteinTag": "high",
+      "fatTag": "low",
+      "carbohydratesTag": "high",
+      "__v": 0
+    },
+    {
+      "energy": { "amount": 308, "unit": "kcal" },
+      "nutrients": {
+        "protein": { "amount": 6.9, "unit": "g" },
+        "fat": { "amount": 9.5, "unit": "g" },
+        "carbohydrates": { "amount": 48.9, "unit": "g" }
+      },
+      "activeUsers": 0,
+      "verified": true,
+      "_id": "5ec38da6680b16255c87d1eb",
+      "name": "vanocka",
+      "categoryTag": "bread",
+      "proteinTag": "high",
+      "fatTag": "medium",
+      "carbohydratesTag": "high",
+      "__v": 0
+    },
+    {
+      "energy": { "amount": 269, "unit": "kcal" },
+      "nutrients": {
+        "protein": { "amount": 4.1, "unit": "g" },
+        "fat": { "amount": 10, "unit": "g" },
+        "carbohydrates": { "amount": 40.5, "unit": "g" }
+      },
+      "activeUsers": 0,
+      "verified": true,
+      "_id": "5ec38da6680b16255c87d1ec",
+      "name": "banana bread",
+      "categoryTag": "bread",
+      "proteinTag": "medium",
+      "fatTag": "high",
+      "carbohydratesTag": "high",
+      "__v": 0
+    },
+    {
+      "energy": { "amount": 297, "unit": "kcal" },
+      "nutrients": {
+        "protein": { "amount": 7.3, "unit": "g" },
+        "fat": { "amount": 9.1, "unit": "g" },
+        "carbohydrates": { "amount": 45.8, "unit": "g" }
+      },
+      "activeUsers": 0,
+      "verified": true,
+      "_id": "5ec38da6680b16255c87d1ed",
+      "name": "naan",
+      "categoryTag": "bread",
+      "proteinTag": "high",
+      "fatTag": "medium",
+      "carbohydratesTag": "high",
+      "__v": 0
+    },
+    {
+      "energy": { "amount": 360, "unit": "kcal" },
+      "nutrients": {
+        "protein": { "amount": 9.8, "unit": "g" },
+        "fat": { "amount": 2.5, "unit": "g" },
+        "carbohydrates": { "amount": 75.4, "unit": "g" }
+      },
+      "activeUsers": 0,
+      "verified": true,
+      "_id": "5ec38da6680b16255c87d1ee",
+      "name": "pretzels",
+      "categoryTag": "bread",
+      "proteinTag": "high",
+      "fatTag": "low",
+      "carbohydratesTag": "high",
+      "__v": 0
+    },
+    {
+      "energy": { "amount": 235, "unit": "kcal" },
+      "nutrients": {
+        "protein": { "amount": 11.8, "unit": "g" },
+        "fat": { "amount": 1.5, "unit": "g" },
+        "carbohydrates": { "amount": 44.1, "unit": "g" }
+      },
+      "activeUsers": 0,
+      "verified": true,
+      "_id": "5ec38da6680b16255c87d1ef",
+      "name": "ezekiel bread",
+      "categoryTag": "bread",
+      "proteinTag": "high",
+      "fatTag": "low",
+      "carbohydratesTag": "high",
+      "__v": 0
+    },
+    {
+      "energy": { "amount": 304, "unit": "kcal" },
+      "nutrients": {
+        "protein": { "amount": 5.4, "unit": "g" },
+        "fat": { "amount": 5.3, "unit": "g" },
+        "carbohydrates": { "amount": 59.7, "unit": "g" }
+      },
+      "activeUsers": 0,
+      "verified": true,
+      "_id": "5ec38da6680b16255c87d1f0",
+      "name": "gluten free bread",
+      "categoryTag": "bread",
+      "proteinTag": "high",
+      "fatTag": "medium",
+      "carbohydratesTag": "high",
+      "__v": 0
+    },
+    {
+      "energy": { "amount": 256, "unit": "kcal" },
+      "nutrients": {
+        "protein": { "amount": 8, "unit": "g" },
+        "fat": { "amount": 4.2, "unit": "g" },
+        "carbohydrates": { "amount": 46, "unit": "g" }
+      },
+      "activeUsers": 0,
+      "verified": true,
+      "_id": "5ec38da6680b16255c87d1f1",
+      "name": "oatmeal bread",
+      "categoryTag": "bread",
+      "proteinTag": "high",
+      "fatTag": "low",
+      "carbohydratesTag": "high",
+      "__v": 0
+    },
+    {
+      "energy": { "amount": 266, "unit": "kcal" },
+      "nutrients": {
+        "protein": { "amount": 12.5, "unit": "g" },
+        "fat": { "amount": 3.1, "unit": "g" },
+        "carbohydrates": { "amount": 47.1, "unit": "g" }
+      },
+      "activeUsers": 0,
+      "verified": true,
+      "_id": "5ec38da6680b16255c87d1f2",
+      "name": "potato bread",
+      "categoryTag": "bread",
+      "proteinTag": "high",
+      "fatTag": "low",
+      "carbohydratesTag": "high",
+      "__v": 0
+    },
+    {
+      "energy": { "amount": 271, "unit": "kcal" },
+      "nutrients": {
+        "protein": { "amount": 8.8, "unit": "g" },
+        "fat": { "amount": 3.5, "unit": "g" },
+        "carbohydrates": { "amount": 50, "unit": "g" }
+      },
+      "activeUsers": 0,
+      "verified": true,
+      "_id": "5ec38da6680b16255c87d1f3",
+      "name": "italian bread",
+      "categoryTag": "bread",
+      "proteinTag": "high",
+      "fatTag": "low",
+      "carbohydratesTag": "high",
+      "__v": 0
+    },
+    {
+      "energy": { "amount": 244, "unit": "kcal" },
+      "nutrients": {
+        "protein": { "amount": 8.6, "unit": "g" },
+        "fat": { "amount": 1.2, "unit": "g" },
+        "carbohydrates": { "amount": 49.6, "unit": "g" }
+      },
+      "activeUsers": 0,
+      "verified": true,
+      "_id": "5ec38da6680b16255c87d1f4",
+      "name": "indian flatbread",
+      "categoryTag": "bread",
+      "proteinTag": "high",
+      "fatTag": "low",
+      "carbohydratesTag": "high",
+      "__v": 0
+    },
+    {
+      "energy": { "amount": 152, "unit": "kcal" },
+      "nutrients": {
+        "protein": { "amount": 4.9, "unit": "g" },
+        "fat": { "amount": 2.6, "unit": "g" },
+        "carbohydrates": { "amount": 27.1, "unit": "g" }
+      },
+      "activeUsers": 0,
+      "verified": true,
+      "_id": "5ec38da6680b16255c87d1f5",
+      "name": "injera",
+      "categoryTag": "bread",
+      "proteinTag": "medium",
+      "fatTag": "low",
+      "carbohydratesTag": "high",
+      "__v": 0
+    },
+    {
+      "energy": { "amount": 375, "unit": "kcal" },
+      "nutrients": {
+        "protein": { "amount": 12.5, "unit": "g" },
+        "fat": { "amount": 1.6, "unit": "g" },
+        "carbohydrates": { "amount": 81.2, "unit": "g" }
+      },
+      "activeUsers": 0,
+      "verified": true,
+      "_id": "5ec38da6680b16255c87d1f6",
+      "name": "matzo bread",
+      "categoryTag": "bread",
+      "proteinTag": "high",
+      "fatTag": "low",
+      "carbohydratesTag": "high",
+      "__v": 0
+    },
+    {
+      "energy": { "amount": 379, "unit": "kcal" },
+      "nutrients": {
+        "protein": { "amount": 6.7, "unit": "g" },
+        "fat": { "amount": 14.4, "unit": "g" },
+        "carbohydrates": { "amount": 54.4, "unit": "g" }
+      },
+      "activeUsers": 0,
+      "verified": true,
+      "_id": "5ec38da6680b16255c87d1f7",
+      "name": "panettone",
+      "categoryTag": "bread",
+      "proteinTag": "high",
+      "fatTag": "high",
+      "carbohydratesTag": "high",
+      "__v": 0
+    },
+    {
+      "energy": { "amount": 187, "unit": "kcal" },
+      "nutrients": {
+        "protein": { "amount": 7.1, "unit": "g" },
+        "fat": { "amount": 8.2, "unit": "g" },
+        "carbohydrates": { "amount": 21.1, "unit": "g" }
+      },
+      "activeUsers": 0,
+      "verified": true,
+      "_id": "5ec38da6680b16255c87d1f8",
+      "name": "popover",
+      "categoryTag": "bread",
+      "proteinTag": "high",
+      "fatTag": "medium",
+      "carbohydratesTag": "high",
+      "__v": 0
+    },
+    {
+      "energy": { "amount": 192, "unit": "kcal" },
+      "nutrients": {
+        "protein": { "amount": 5.8, "unit": "g" },
+        "fat": { "amount": 0.4, "unit": "g" },
+        "carbohydrates": { "amount": 40.4, "unit": "g" }
+      },
+      "activeUsers": 0,
+      "verified": true,
+      "_id": "5ec38da6680b16255c87d1f9",
+      "name": "marraqueta",
+      "categoryTag": "bread",
+      "proteinTag": "medium",
+      "fatTag": "low",
+      "carbohydratesTag": "high",
+      "__v": 0
+    },
+    {
+      "energy": { "amount": 349, "unit": "kcal" },
+      "nutrients": {
+        "protein": { "amount": 10.4, "unit": "g" },
+        "fat": { "amount": 12, "unit": "g" },
+        "carbohydrates": { "amount": 50.1, "unit": "g" }
+      },
+      "activeUsers": 0,
+      "verified": true,
+      "_id": "5ec38da6680b16255c87d1fa",
+      "name": "garlic bread",
+      "categoryTag": "bread",
+      "proteinTag": "high",
+      "fatTag": "high",
+      "carbohydratesTag": "high",
+      "__v": 0
+    },
+    {
+      "energy": { "amount": 230, "unit": "kcal" },
+      "nutrients": {
+        "protein": { "amount": 5.9, "unit": "g" },
+        "fat": { "amount": 3.8, "unit": "g" },
+        "carbohydrates": { "amount": 42.3, "unit": "g" }
+      },
+      "activeUsers": 0,
+      "verified": true,
+      "_id": "5ec38da6680b16255c87d1fb",
+      "name": "pan cubano",
+      "categoryTag": "bread",
+      "proteinTag": "high",
+      "fatTag": "low",
+      "carbohydratesTag": "high",
+      "__v": 0
+    },
+    {
+      "energy": { "amount": 272, "unit": "kcal" },
+      "nutrients": {
+        "protein": { "amount": 6.9, "unit": "g" },
+        "fat": { "amount": 8.8, "unit": "g" },
+        "carbohydrates": { "amount": 40.7, "unit": "g" }
+      },
+      "activeUsers": 0,
+      "verified": true,
+      "_id": "5ec38da6680b16255c87d1fc",
+      "name": "pai bao",
+      "categoryTag": "bread",
+      "proteinTag": "high",
+      "fatTag": "medium",
+      "carbohydratesTag": "high",
+      "__v": 0
+    },
+    {
+      "energy": { "amount": 185, "unit": "kcal" },
+      "nutrients": {
+        "protein": { "amount": 5.9, "unit": "g" },
+        "fat": { "amount": 4.4, "unit": "g" },
+        "carbohydrates": { "amount": 30.7, "unit": "g" }
+      },
+      "activeUsers": 0,
+      "verified": true,
+      "_id": "5ec38da6680b16255c87d1fd",
+      "name": "sangak",
+      "categoryTag": "bread",
+      "proteinTag": "high",
+      "fatTag": "low",
+      "carbohydratesTag": "high",
+      "__v": 0
+    },
+    {
+      "energy": { "amount": 292, "unit": "kcal" },
+      "nutrients": {
+        "protein": { "amount": 3.3, "unit": "g" },
+        "fat": { "amount": 8.6, "unit": "g" },
+        "carbohydrates": { "amount": 51.1, "unit": "g" }
+      },
+      "activeUsers": 0,
+      "verified": true,
+      "_id": "5ec38da6680b16255c87d1fe",
+      "name": "gingerbread",
+      "categoryTag": "bread",
+      "proteinTag": "medium",
+      "fatTag": "medium",
+      "carbohydratesTag": "high",
+      "__v": 0
+    },
+    {
+      "energy": { "amount": 260, "unit": "kcal" },
+      "nutrients": {
+        "protein": { "amount": 6.5, "unit": "g" },
+        "fat": { "amount": 0, "unit": "g" },
+        "carbohydrates": { "amount": 58.69, "unit": "g" }
+      },
+      "activeUsers": 0,
+      "verified": true,
+      "_id": "5ec38da6680b16255c87d1ff",
+      "name": "swedish limpa",
+      "categoryTag": "bread",
+      "proteinTag": "medium",
+      "fatTag": "low",
+      "carbohydratesTag": "high",
+      "__v": 0
+    },
+    {
+      "energy": { "amount": 293, "unit": "kcal" },
+      "nutrients": {
+        "protein": { "amount": 11.2, "unit": "g" },
+        "fat": { "amount": 4.3, "unit": "g" },
+        "carbohydrates": { "amount": 52.6, "unit": "g" }
+      },
+      "activeUsers": 0,
+      "verified": true,
+      "_id": "5ec38da6680b16255c87d200",
+      "name": "simit",
+      "categoryTag": "bread",
+      "proteinTag": "high",
+      "fatTag": "low",
+      "carbohydratesTag": "high",
+      "__v": 0
+    },
+    {
+      "energy": { "amount": 192, "unit": "kcal" },
+      "nutrients": {
+        "protein": { "amount": 7.7, "unit": "g" },
+        "fat": { "amount": 17.2, "unit": "g" },
+        "carbohydrates": { "amount": 3.2, "unit": "g" }
+      },
+      "activeUsers": 0,
+      "verified": true,
+      "_id": "5ec38da6680b16255c87d201",
+      "name": "almond flax bread",
+      "categoryTag": "bread",
+      "proteinTag": "high",
+      "fatTag": "high",
+      "carbohydratesTag": "low",
+      "__v": 0
+    },
+    {
+      "energy": { "amount": 258, "unit": "kcal" },
+      "nutrients": {
+        "protein": { "amount": 8.5, "unit": "g" },
+        "fat": { "amount": 3.3, "unit": "g" },
+        "carbohydrates": { "amount": 48.3, "unit": "g" }
+      },
+      "activeUsers": 0,
+      "verified": true,
+      "_id": "5ec3918d25449811ac2bc591",
+      "name": "pumpernickel",
+      "categoryTag": "bread",
+      "proteinTag": "high",
+      "fatTag": "low",
+      "carbohydratesTag": "high",
+      "addedBy": "5ec38f2025449811ac2bc58e",
+      "__v": 0,
+      "verifiedBy": "5ec38f2025449811ac2bc58e"
+    }
+  ]
+}

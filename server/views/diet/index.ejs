@@ -1,0 +1,210 @@
+<%- include("../partials/header")  %>
+
+<script src="/scripts/diet.js"></script>
+
+<div class="w3-container" style="min-height: 100vh;">
+    <!-- SEARCH BAR START -->
+<div class="w3-card topPage">
+    <form autocomplete="off" action="/diet" method="GET" id="input_div">
+        <div class="autocomplete">  
+            <!-- <i class="fa fa-search"></i> -->
+            <label for="searchbar"></label><input class="w3-input w3-border searchBar" type="text" name="search" placeholder="Search" id="searchbar" value="<%= search %>">
+            <input class="w3-button w3-blue" type="submit" id="submitbutton1" value="Search">
+        </div>        
+		<!-- <div class="w3-card test"> -->
+            <p>   
+            <% categories.forEach(function(category){ %>
+                <label class="foodTags"><%= category %> </label> 
+                    <input class="tagCheck" type="checkbox" name="tags[<%= category %>]" value="<%= category %>" <%if(tags && tags.length!==0 && tags[category]){%> checked <%}%>>
+                    <span style='font-size: 14px;'>&#9474;</span>
+            <% }); %>
+            </p>
+            <span class="foodTags">Protein:</span> <select id="ptag" class="w3-select tagSelector" name="proteinTag">
+                <option <%if(!proteinTag){%>selected<%}%> value=""> Choose your option </option>
+                <option <%if(proteinTag==="low"){%>selected<%}%> value="low">Low</option>
+                <option <%if(proteinTag==="medium"){%>selected<%}%> value="medium">Medium</option>
+                <option <%if(proteinTag==="high"){%>selected<%}%> value="high">High</option>
+            </select>
+            <span class="foodTags">Fat:</span> <select id="ftag" class="w3-select tagSelector" name="fatTag">
+                <option <%if(!fatTag){%>selected<%}%> value=""> Choose your option </option>
+                <option <%if(fatTag==="low"){%>selected<%}%> value="low">Low</option>
+                <option <%if(fatTag==="medium"){%>selected<%}%> value="medium">Medium</option>
+                <option <%if(fatTag==="high"){%>selected<%}%> value="high">High</option>
+            </select>
+            <span class="foodTags">Carbohydrates:</span> <select id="ctag" class="w3-select tagSelector" name="carbohydratesTag">
+                <option <%if(!carbohydratesTag){%>selected<%}%> value=""> Choose your option </option>
+                <option <%if(carbohydratesTag==="low"){%>selected<%}%> value="low">Low</option>
+                <option <%if(carbohydratesTag==="medium"){%>selected<%}%> value="medium">Medium</option>
+                <option <%if(carbohydratesTag==="high"){%>selected<%}%> value="high">High</option>
+            </select>
+    </form>   
+</div>
+<!-- SEARCH BAR END  -->
+<div class="bottomPage">
+<!-- CLEAR FILTERS BUTTON -->
+<form autocomplete="off" action="/diet" method="GET">
+    <button class="w3-button w3-red w3-round clearfilterBtn">Clear Filters</button>
+</form>
+<!-- Trigger/Open the Modal -->
+<button id="chk" class="w3-button w3-blue w3-right w3-round checkoutListBtn" onclick="document.getElementById('checkoutModal').style.display='block'">Checkout List</button>
+
+<a href="/diet/food/new"><button class="w3-button w3-teal w3-round checkoutListBtn" style="margin-left: 70%;">New Food</button></a>
+<!-- FOOD LIST START -->
+<h2 class="font-DancingList" style="margin-top: -20px;">Food Catalogue :</h2><hr>
+<div class="w3-row">
+        <% foods.forEach(function(food){ %>
+            <div class="w3-container w3-col s4 columns">
+                <div class="w3-card-4 flip-card" style="height: fit-content;">
+                    <div class="flip-card">
+                        <div class="flip-card-inner">
+                            <div class="flip-card-front">
+                                <img src="/foods/<%= food.name %>.jpg" width="100%" alt="eat" style="height: 270px;">
+                            </div>
+                            <div class="flip-card-back">
+                               <h2><strong><%= capitalizeFirstLetter(food.name) %></strong></h2>
+                                <h4>nutrition per 100g serving:</h4>
+                                <ul>
+                                    <li><strong>protein:</strong> <%= food.nutrients.protein.amount %> <%= food.nutrients.protein.unit %></li>
+                                    <li><strong>carbohydrates:</strong> <%= food.nutrients.carbohydrates.amount %> <%= food.nutrients.carbohydrates.unit %></li>
+                                    <li><strong>fat:</strong> <%= food.nutrients.fat.amount %> <%= food.nutrients.fat.unit %></li>
+                                </ul>
+                                <h1><strong><%= food.energy.amount %> <%= food.energy.unit %></strong></h1> 
+                            </div>  
+                        </div>
+                    </div>
+                  <div class="w3-container w3-center">
+                    <h3><%= capitalizeFirstLetter(food.name) %>&ensp;&ensp;<% if(food.verified){ %><i style="font-size: 24px;" class="fa fa-check-circle" aria-hidden="true"></i><% } %></h3>
+                    
+                    <form action="/diet" method="POST" style="margin-top: 20px;">
+                        <label>
+                            <input class="w3-round" type="number" name="quantity[amount]" step="1" min="1" value="100" max="3000" style="height: 30px;padding: 10px 0 10px 5px;width: 60px;">
+                            <input class="w3-round" type="text" name="quantity[unit]" value="g" style="width: 20px;height: 30px;margin-left:-5px ;" disabled>
+                            <button type="submit" class="w3-button w3-blue w3-round w3-margin-left" value="<%= food._id %>" name="food[_id]">Add</button>
+                        </label>
+                    </form>
+                    <% if(currentUser.admin || (!food.verified && food.addedBy.equals(currentUser._id))){ %>
+                        <form action="/diet/food/<%= food._id %>?_method=DELETE" method="POST" class="dietlist">
+                            <label>
+                                <button type="button" onclick="window.location = '/diet/food/<%= food._id %>/edit';" class="w3-button w3-teal w3-round">Edit</button>
+                            </label>
+                            <label>
+                                <button type="submit" class="w3-button w3-red w3-round" style="margin-left: 5px;" value="<%= food._id %>" name="food[_id]">Delete</button>
+                            </label>
+                        </form>
+                    <% } %>    
+                    <% if(currentUser.admin && !food.verified){ %>
+                        <form action="/diet/food/<%= food._id %>/verify" method="POST" class="dietlist">
+                            <label>
+                                <button type="submit" class="w3-button w3-blue w3-round" value="<%= food._id %>" name="food[_id]">Verify</button>
+                            </label>
+                        </form>
+                    <% } %>
+                  </div>
+                </div>
+              </div>
+        <% }); %>
+</div>
+</div>
+<!-- FOOD LIST END -->
+<!-- PAGINATION START -->
+
+<% var tagsQuery = ""; %>
+<% for(var key in tags){ %>
+    <% tagsQuery += "&tags%5B"; %>
+    <% tagsQuery += key; %>
+    <% tagsQuery += "%5D="; %>
+    <% tagsQuery += tags[key]; %>
+<% } %>
+
+<div class="row text-center">
+    <% if (pages && pages > 0) { %>
+    <ul class="pagination text-center">
+        <% if (current === 1) { %>
+        <li class="disabled"><a>First</a></li>
+        <% } else { %>
+        <li><a href="/diet?page=<%= 1 %><%if(search){%>&search=<%=search%><%}%><%if(tags){%><%=tagsQuery%><%}%><%if(proteinTag){%>&proteinTag=<%=proteinTag%><%}%><%if(fatTag){%>&fatTag=<%=fatTag%><%}%><%if(carbohydratesTag){%>&carbohydratesTag=<%=carbohydratesTag%><%}%>">First</a></li>
+        <% } %>
+ 
+        <% if (current === 1) { %>
+        <li class="disabled"><a>«</a></li>
+        <% } else { %>
+        <li><a href="/diet?page=<%= Number(current) - 1 %><%if(search){%>&search=<%=search%><%}%><%if(tags){%><%=tagsQuery%><%}%><%if(proteinTag){%>&proteinTag=<%=proteinTag%><%}%><%if(fatTag){%>&fatTag=<%=fatTag%><%}%><%if(carbohydratesTag){%>&carbohydratesTag=<%=carbohydratesTag%><%}%>">«</a></li>
+        <% } %>
+ 
+        <% var i = (Number(current) > 5 ? Number(current) - 4 : 1) %>
+        <% if (i !== 1) { %>
+        <li class="disabled"><a>...</a></li>
+        <% } %>
+        <% for (; i <= (Number(current) + 4) && i <= pages; i++) { %>
+        <% if (i === current) { %>
+        <li class="active"><a><%= i %></a></li>
+        <% } else { %>
+        <li><a href="/diet?page=<%= i %><%if(search){%>&search=<%=search%><%}%><%if(tags){%><%=tagsQuery%><%}%><%if(proteinTag){%>&proteinTag=<%=proteinTag%><%}%><%if(fatTag){%>&fatTag=<%=fatTag%><%}%><%if(carbohydratesTag){%>&carbohydratesTag=<%=carbohydratesTag%><%}%>"><%= i %></a></li>
+        <% } %>
+        <% if (i === Number(current) + 4 && i < pages) { %>
+        <li class="disabled"><a>...</a></li>
+        <% } %>
+        <% } %>
+ 
+        <% if (current === pages) { %>
+        <li class="disabled"><a>»</a></li>
+        <% } else { %>
+        <li><a href="/diet?page=<%= Number(current) + 1 %><%if(search){%>&search=<%=search%><%}%><%if(tags){%><%=tagsQuery%><%}%><%if(proteinTag){%>&proteinTag=<%=proteinTag%><%}%><%if(fatTag){%>&fatTag=<%=fatTag%><%}%><%if(carbohydratesTag){%>&carbohydratesTag=<%=carbohydratesTag%><%}%>">»</a></li>
+        <% } %>
+ 
+        <% if (current === pages) { %>
+        <li class="disabled"><a>Last</a></li>
+        <% } else { %>
+        <li><a href="/diet?page=<%= pages %><%if(search){%>&search=<%=search%><%}%><%if(tags){%><%=tagsQuery%><%}%><%if(proteinTag){%>&proteinTag=<%=proteinTag%><%}%><%if(fatTag){%>&fatTag=<%=fatTag%><%}%><%if(carbohydratesTag){%>&carbohydratesTag=<%=carbohydratesTag%><%}%>">Last</a></li>
+        <% } %>
+    </ul>
+    <% } %>
+</div>  
+<!-- PAGINATION END -->
+<!-- The Modal -->
+<div class="w3-modal" id="checkoutModal" style="z-index: 4;">
+    <div class="w3-modal-content">
+        <div class="w3-container w3-border-bottom">
+            <span class="w3-button w3-display-topright" onclick="document.getElementById('checkoutModal').style.display='none'" style="font-size: xx-large;">&times;</span>
+            <h1>Your Checkout List</h1><hr>
+        <!-- CHECKOUT LIST START -->
+        <div class="w3-row">
+            <% user.diet.forEach(function(foodInDiet){ %>
+                <div class="w3-container w3-col s3" style="margin-bottom: 5px;">
+                    <div class="w3-card-4 w3-center" style="min-height: 150px;">
+                        <img src="/foods/<%= foodInDiet.food.name %>.jpg" width="100%" alt="eat" style="height: 150px;">
+                        <h4><%= capitalizeFirstLetter(foodInDiet.food.name) %></h4>   
+                        <div>                                
+                            <form action="/diet?_method=PUT" method="POST" style="display: inline-block;">       
+                                <input type="number" name="quantity[amount]" step="1" min="1" max="3000" style="height: 30px;padding: 10px 0 10px 5px;width: 60px;" value="<%= foodInDiet.quantity.amount %>" >
+                                <input type="text" name="quantity[unit]" value="<%= foodInDiet.quantity.unit %>" style="width: 20px;height:30px;margin-left:-5px;" disabled>
+                                <br><button style="margin-top: 5px;" class="w3-button  w3-blue w3-tiny" name="foodInDiet[_id]" value="<%= foodInDiet.food._id %>"><b>Change</b></button>                                         
+                            </form>                                                 
+                            <form action="/diet?_method=DELETE" method="POST" style="display: inline-block;">
+                                <label>    
+                                    <button style="margin-top: 5px;" class="w3-button  w3-red w3-tiny" type="submit" value="<%= foodInDiet.food._id %>" name="foodInDiet[_id]">Remove</button>
+                                </label>                            
+                            </form>
+                            </div>      
+                        </div>                                                       
+                    </div>
+
+            <% }); %>
+        </div>
+        
+        <!-- CHECKOUT LIST END -->
+        <div style="margin-bottom: 20px;"></div>
+    </div>
+        <!-- TOTAL INFO  -->
+            <div class="totalInfo w3-container w3-light-gray">
+                <h3>Total Calories :  <span id="total"></span> </h3>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- MODAL END -->
+<% function capitalizeFirstLetter(string) { %>
+    <% return string.charAt(0).toUpperCase() + string.slice(1); %>
+<%  } %>
+
+<%- include("../partials/footer")  %>

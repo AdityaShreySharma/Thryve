@@ -1,0 +1,22 @@
+<%- include("../partials/header")  %>
+<div class="w3-container w3-padding-large w3-light-gray" style="min-height: 100vh;">
+    <h1 style="text-align: center;" >Edit Exercise</h1>
+        <form action="/workout/exercise/<%= exercise._id %>?_method=PUT" method="POST" class="w3-padding-small">
+            <div style="width: 50%;margin-bottom: 10px;">
+                <input class="w3-input w3-border w3-round-large" type="text" name="exercise[name]" placeholder="name" value="<%= exercise.name %>" required>
+            </div>
+            <div style="width: 50%;margin-bottom: 10px;">
+                <input class="w3-input w3-border w3-round-large" type="text" name="exercise[tag]" placeholder="tag" value="<%= exercise.tag %>" required>
+            </div>
+            <div  style="width: 50%;margin-bottom: 20px;">
+                <input type="number" name="exercise[MET]" placeholder="MET" value="<%= exercise.MET %>" min="0" step="0.1" max="15">
+            </div>
+            <div style="width: 50%;">
+                <textarea class="w3-round-large" name="exercise[steps]"  rows="25" cols="150" required><%= exercise.steps %></textarea>
+            </div>
+            <button class="w3-button w3-blue">Submit</button>
+            <!-- <span class="w3-button w3-blue">Submit</span> -->
+            <a class="w3-button w3-blue" style="text-decoration: none;" href="/workout">BACK</a>
+        </form>
+</div>
+<%- include("../partials/footer")  %>

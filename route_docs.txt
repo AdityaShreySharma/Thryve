@@ -1,0 +1,107 @@
+// IMPORTS
+// ENVIRONMENT SETUP
+//  MIDDLEWARE
+
+//	Home Route
+app.use('/', homeRoute)
+//	Profile Route
+app.use('/profile', profileRoute)
+//	History Route Subdivision
+app.use('/history', historyRoute)
+/*
+* Add Sugar
+* Remove Sugar
+*  */
+
+//	Diet Route
+app.use('/diet', dietRoute)
+/*
+ * Index
+ * Add diet
+ * Remove Diet
+ * Change Diet
+ *  */
+
+//	Food Route Subdivision
+
+//NEW : get /diet/food/new
+
+//CREATE post: /diet/food
+
+//VERIFY post: /diet/food/:fdid/verify
+//EDIT get: /diet/food/:fdid/edit
+
+//UPDATE put: /diet/food/:fdid
+//DELETE delete: /diet/food/:fdid 
+// Workout Route
+// INDEX
+// ADD workout
+// REMOVE workout
+//CHANGE workout
+// Exercise Route
+//NEW workout
+//CREATE workout
+//VERIFY
+// verify workouts
+//SHOW
+// show Workouts
+//EDIT
+//UPDATE
+//DELETE
+
+//	Health-Info Route
+/*
+* Index
+* Edit Weight
+* Update Target Weight
+* Edit Blood Pressure
+* Edit Sugar
+* */
+app.use('/healthinfo', healthInfoRoute)
+/* END */
+
+//	TEMPORARY API ROUTES
+
+//	Authentication Route
+/*
+* Register route
+* Login route
+* Logout route
+* */
+app.use('/auth', authRoute)
+/* END */
+
+//	OTP Route subdivision
+/*
+* Index route
+* CREATE
+* create otp route
+* ENTER
+* get otp check
+* post otp check
+*
+* */
+app.use('/otp', otpRoute)
+/* END */
+
+// Password Reset route subdivision
+/*
+* ENTER
+* GET: password reset
+* CREATE
+* POST: password reset
+* */
+
+// Token Route
+/*
+* GET: otp/reset/:token
+* POST: otp/reset/:token
+* */
+
+//	Admin Route subdivision
+/*
+* GET: Form apply admin /auth/admin
+* POST: /auth/admin
+* */
+
+

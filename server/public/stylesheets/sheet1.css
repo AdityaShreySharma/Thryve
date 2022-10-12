@@ -1,0 +1,292 @@
+                                                /* GLOBAL CLASSES */
+
+.font-Roboto{
+  font-family: 'Roboto', sans-serif;
+}
+
+.font-Baloo2{
+  font-family: 'Baloo 2', cursive;
+}
+.font-DancingList{
+  font-family: 'Dancing Script', cursive;
+  font-size: 64px;
+}
+
+*:focus{
+  outline: none;
+}
+/*-----------------------------------------------------------------------------------------------------------------*/
+
+                                                  /* SIDE BAR */
+#mySidebar{
+  display:none;
+  z-index:5;
+}
+/*-----------------------------------------------------------------------------------------------------------------*/
+
+                                                  /* NAV BAR */
+
+.login_msg{
+  margin-top: 15px;
+  background-color: black;
+}
+
+.dropdown_user{
+  background-color: rgb(0, 0, 0);
+  color: white;
+}
+
+.msg_alert{
+  padding: 0 5px;
+}
+
+.msg_alert:hover{
+  background-color: rgba(255, 255, 255, 0.63);
+}
+/*-----------------------------------------------------------------------------------------------------------------*/
+                                                  /* LANDING PAGE */
+.signUp{
+  margin-left: 30px;
+  margin-bottom: 120px;
+} 
+.logIn{
+  margin-left: 30px;
+  margin-right: 10px;
+  margin-bottom: 120px;
+}   
+
+.landingInputs{
+  width: 90%;
+  color: black;
+}
+/*-----------------------------------------------------------------------------------------------------------------*/
+                                                  /*  HOME   */
+.homeSection{
+  color: black;
+}
+
+.homeCards{
+  min-height: 300px;
+}  
+
+.homeh1{
+  padding: 10px 0 5px 0;
+  border-bottom: solid black 2px;
+}
+
+.sectionList li{
+  list-style-type: none;
+  padding: 10px;
+  margin: 3px 0 3px 0;
+  background-color: #e9e9e9a1;
+}
+.sectionList li:hover{
+  background-color: #ffffffda;
+}
+
+/*-----------------------------------------------------------------------------------------------------------------*/
+
+                                                  /* DIETS PAGE */
+/* i{
+  position: absolute;
+  font-size: xx-large;
+  top: 26%;
+  left: 30.5%;
+} */
+.autocomplete:before {
+  content: "";
+  position: absolute;
+  left: 30.5%;
+  top: 0;
+  bottom: 20%;
+  width: 30px;
+  background: url("../assets/search_icon.svg") center / contain no-repeat;
+}
+
+#input_div{
+    margin: 0 30px 20px 30px;
+    /* background-color: thistle; */
+}
+
+.searchBar:focus{
+  outline: none;
+}
+#submitbutton1{
+  position: absolute;
+  top: 9.7%;
+  left: 25.5%;
+  margin: 0 45% 3px 45%;
+}
+
+.searchBar{
+  width: 40%;
+  margin: 5px 30% 20px 30%;
+  padding-left: 40px;
+  background-color: #f1f1f1;
+}
+
+.autocomplete{
+  position: relative;
+  display: inline-block;
+  /* background-color: aquamarine; */
+  width: 100%;
+}
+.autocomplete-items {
+  position: absolute;
+  border: 1px solid #d4d4d4;
+  border-bottom: none;
+  border-top: none;
+  z-index: 99;
+  /*position the autocomplete items to be the same width as the container:*/
+  top: 43px;
+  left: 30%;
+  right: 30%;
+}
+
+.autocomplete-items div{
+  /* width: 40%;
+  margin: 20px 30% 20px 30%; */
+  padding: 10px;
+  cursor: pointer;
+  background-color: #fff; 
+  border-bottom: 1px solid #d4d4d4; 
+}
+.autocomplete-items div:hover {
+  /*when hovering an item:*/
+  background-color: #e9e9e9;
+}
+.autocomplete-active {
+  /*when navigating through the items using the arrow keys:*/
+  background-color: DodgerBlue !important;
+  color: #ffffff;
+}
+
+.foodTags{
+  text-transform: capitalize;
+  font-weight: 500;
+  font-size: 16px;
+  margin-right: 1px;
+}
+.tagSelector{
+  width: 20%;
+  background-color: whitesmoke;
+  margin-right: 30px;
+}
+.topPage{
+  position: absolute;
+  /* position: fixed; */
+  right: 0;
+  left: 0;
+  background-color: whitesmoke;
+}
+.bottomPage{
+  margin-top: 17%;
+}
+input.tagCheck{
+  position: relative;
+  top: 1.5px;
+  width: 14px;
+  height: 14px;
+}
+.clearfilterBtn{
+  position: absolute;
+  right: 13%;
+  /* top: 45%; */
+}
+
+.checkoutListBtn{
+  margin-right: 18px;
+}
+.totalInfo{
+  min-height: 100px;
+}
+.columns{
+  margin-top: 20px;
+}
+
+.dietlist{
+  margin-top: 40px;
+}
+
+/*-----------------------------------------------------------------------------------------------------------------*/
+
+                                                  /* WORKOUTS PAGE */
+
+.a_tag{
+  text-decoration: none;
+  margin: 0 5px 30px 5px;
+}
+
+/*-----------------------------------------------------------------------------------------------------------------*/
+
+                                                  /* FLIP CARD */
+
+/* The flip card container - set the width and height to whatever you want. 
+Added the border property to demonstrate that the flip itself goes out of the box on hover
+(remove perspective if 3D effect is not required */
+.flip-card {
+    background-color: transparent;
+    /* width: 300px; */
+    height: 270px;
+    border: 1px solid #f1f1f1;
+    perspective: 1000px; /* Remove this if you don't want the 3D effect */
+  }
+  
+  /* This container is needed to position the front and back side */
+  .flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+  }
+  /* ADDONS */
+  .flip-card-inner h4{
+    text-align: left;
+    margin-left: 10px;
+  }
+  .flip-card-inner li{
+    text-align: left;
+  }
+  .flip-card-inner h1{
+    text-align: end;
+    margin-right: 30px;
+  }
+  /*       */
+  /* Do an horizontal flip when you move the mouse over the flip box container */
+  .flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+  }
+  
+  /* Position the front and back side */
+  .flip-card-front, .flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden; /* Safari */
+    backface-visibility: hidden;
+  }
+  
+  /* Style the front side (fallback if image is missing) */
+  .flip-card-front {
+    background-color: #bbb;
+    color: black;
+  }
+  
+  /* Style the back side */
+  .flip-card-back {
+    background-color: dodgerblue;
+    color: white;
+    transform: rotateY(180deg);
+  }
+
+                                                  /* FLIP CARD END */
+/*-----------------------------------------------------------------------------------------------------------------*/
+
+                                                  /* HEALTH INFO */
+
+                                                  /* FOOTER  */
+.footer{
+  background-color: black;
+}

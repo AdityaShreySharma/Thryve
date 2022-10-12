@@ -1,0 +1,30 @@
+<%- include("../partials/header")  %>
+
+
+<div style="min-height: 100vh;">
+    <div class="w3-container w3-card" style="width: 95%;margin: 1% auto;">
+<h1 class="font-Roboto">Weight Record</h1><hr>
+<form action="/history/weight" method="POST" style="margin: 30px auto;">
+    <div>
+        <label class="font-Roboto" style="font-size: 24px;">Weight : <input style="display: inline;width: 60%;margin-left: 12px;" class="w3-input" type="number" name="data[magnitude]" step="0.1" min="10" max="650kg" autofocus required>
+        <input style="width: 8%;display: inline;" class="w3-input" type="text" name="data[unit]" value="kg" disabled></label>
+    </div>
+    <div class="w3-container">
+        <button class="w3-button w3-blue w3-ripple w3-round w3-large" style="margin: 30px auto 10px auto;">Update</button>
+    </div>
+</form>
+<hr>
+<h3 class="font-Roboto">Weight History :</h3>
+<% profile.weightHist.forEach(function(data){ %>
+    <div>
+        Date: <%= data.timestamp.toDateString() %>  Weight: <%= data.weight.magnitude %> <%= data.weight.unit %>
+        <form action="/history/weight?_method=DELETE" method="POST">
+            <input type="hidden" name="timestamp" value="<%= new Date(data.timestamp) %>">
+            <button class="w3-button w3-red w3-round w3-tiny w3-margin-top" >Remove</button>
+        </form>
+    </div>
+    <hr>
+<% }); %>
+    </div>
+
+<%- include("../partials/footer")  %>

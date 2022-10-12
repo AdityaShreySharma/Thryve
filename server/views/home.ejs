@@ -1,0 +1,82 @@
+<%- include("partials/header")  %>
+<script src="/scripts/home.js"></script>
+
+<!-- DASHBOARD -->
+<div class="totalInfo w3-container w3-light-gray">
+    <h3>
+        Target Calories : <span id="calorieTotal"></span>&ensp;
+        | Total Protein : <span id="proteinTotal"></span>&ensp;|
+         Total Fat : <span id="fatTotal"></span>&ensp;|
+         Total Carbohydrates : <span id="carbohydratesTotal"></span>&ensp;
+         <br><br>
+         Target Calories Burn : <span id="targetCalorieBurnId"></span>&ensp;
+    </h3>
+    <h4>
+        Calorie Intake: <span id="currentCalorieTotal"></span>&nbsp&nbsp | &nbsp;&nbspCalories Burned: <span id="currentCalorieBurnId"></span>
+    </h4>
+</div>
+
+<!-- CHARTS -->
+<div class="w3-container">
+    <div class="w3-card-4" style="width: 90%;margin:2% auto 0 auto;min-height: 100vh;">
+        <br><br>
+        <div class="w3-container">
+            <div id="foodsTrending" style="height: 370px; max-width: 920px; margin: 0 auto;"></div>
+            <br><br><br><br>
+            <div id="exercisesTrending" style="height: 370px; max-width: 920px; margin: 0 auto;"></div>
+        </div>
+    </div>
+</div>
+
+<!-- CHECK LIST -->
+
+<div class="w3-row">
+    <div class="w3-container w3-col s6 homeSection">  
+		<div class="w3-card-4 homeCards w3-round-large">
+            <h1 class="w3-center homeh1 w3-light-gray">CURRENT DIET</h1>
+			<ul class="w3-ul sectionList">
+                <form action="/home/foods?_method=PUT" method="POST" style="padding-bottom: 2px;">
+                    <% user.diet.forEach((foodInDiet) => { %>
+                        <li style="text-transform: capitalize;">
+                            <div style="margin-bottom: 0;padding: 10px;">
+                            <%= foodInDiet.food.name %>
+                                <div style="display: inline;">
+                                    <input  class="w3-check" style="width:20px;height:20px;float: right;" type="checkbox"
+                                            name="tick[<%= foodInDiet.food.name %>]"
+                                            value="<%= foodInDiet.food._id %>"
+                                    <%if(foodInDiet.check){%> checked <%}%>></div>
+                            </div>        
+                        </li>
+                    <% }); %>
+                    <div style="margin: 20px 12px;" >
+                        <button class="w3-button w3-ripple w3-blue w3-large w3-round">Update</button>
+                    </div>
+                </form>
+			</ul>
+        </div>
+</div>
+
+<div class="w3-container w3-col s6 homeSection">
+    <div class="w3-card-4 homeCards w3-round-large">
+        <h1 class="w3-center homeh1 w3-light-gray">WORKOUT</h1>
+            <ul class="w3-ul sectionList">
+                <form action="/home/exercises?_method=PUT" method="POST" style="padding-bottom: 2px;">
+                    <% user.workout.forEach(function(e){ %>
+                        <li>
+                            <div style="margin-bottom: 0;padding: 10px;">
+                            <%= e.exercise.name %>
+                                <div style="margin-bottom: 60px;display: inline;"><input class="w3-check" style="width:20px;height:20px;float: right;" type="checkbox" name="tick[<%= e.exercise.name %>]" value="<%= e.exercise._id %>" <%if(e.check){%> checked <%}%>></div>
+                            </div>
+                        </li>
+                    <% }); %>
+                    <div style="margin: 20px 12px;" >
+                        <button class="w3-button w3-ripple w3-blue w3-large w3-round">Update</button>
+                    </div>
+                </form>
+            </ul>
+    </div>
+</div>
+
+</div>
+
+<%- include("partials/footer")  %>

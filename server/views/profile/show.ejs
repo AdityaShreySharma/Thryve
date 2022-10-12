@@ -1,0 +1,67 @@
+<%- include("../partials/header")  %>
+
+<style>
+    *{
+        overflow: hidden;
+    }
+    #gender{
+        text-transform: capitalize;
+    }
+</style>
+
+<div style="min-height: 100vh;">
+    <div class="w3-card-4" style="width: 90%;margin: 5% auto;">
+        <div class="w3-container">
+            <h1 class="w3-center">My Profile</h1><hr>
+            <h2><strong>Name :</strong> <%= profile.name.first %> <%= profile.name.last %><h2>
+            <h4 style="w3-margin-top"><strong>Gender : </strong><span id="gender"><%= profile.gender %></span></h4>
+            <h4 class="w3-margin-top"><strong>Date of Birth : </strong><%= profile.dob.toDateString() %></h4>
+            <h4 class="w3-margin-top"><strong>Age : </strong><%= moment(profile.dob).fromNow().slice(0, moment(profile.dob).fromNow().length-4) %></h4>
+        </div>
+<div class="w3-container w3-margin-top">
+    <form action="/auth/reset/password" method="POST">
+        <p class="w3-center">
+            <a class="w3-button w3-blue w3-ripple" style="text-decoration:none;margin-right:5px;" href="/profile/edit">Edit Profile</a>
+            <button class="w3-button  w3-teal w3-ripple" name="email" value="<%= currentUser.email %>"> Change Password </button>
+        </p>
+    </form>
+</div> 
+
+<form action="/profile?_method=DELETE" method="POST">
+    <p>
+        <button class="w3-button w3-section w3-red w3-ripple w3-right w3-margin-right"> Delete Profile </button>
+    </p>
+</form>
+    </div>
+            <!-- SCRIPT -->
+    <script>
+        $(document).ready(function() {
+            $.get("/info", function(data, status){
+                var points = [];
+                data.forEach(function(d){
+                    var date = new Date(d.x)
+                    var dd = date.getDate();
+                    var mm = date.getMonth();
+                    var yyyy = date.getFullYear();
+                    var HH = date.getHours();
+                    var MM = date.getMinutes();
+                    var SS = date.getSeconds();
+                    points.push({x: new Date(yyyy, mm, dd, HH, MM, SS), y: d.y});
+                });
+               
+            });
+    
+            $.get("/api", function(user, status){
+                var data = []
+                var points = []
+                var sum = 0
+                
+                for(var key in data){
+                    points.push({y: data[key]/sum*100, label: key})
+                }
+               
+            });
+        });
+      </script>
+
+<%- include("../partials/footer")  %>

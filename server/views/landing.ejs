@@ -1,0 +1,72 @@
+<%- include("partials/header")  %>
+        <div class="w3-card-4">
+            <div class="w3-display-container">
+                <img src="/assets/jumbotron.jpg" width="100%"  alt="Eat">
+                <!-- Login||Sign UP Buttons -->
+                <div class="w3-center w3-display-middle">
+                    <div class="w3-bar">
+                      <button onclick="document.getElementById('signup').style.display='block';" class="w3-button w3-black w3-opacity-min" style="margin-left: 30px;margin-bottom: 120px;">Sign Up</button>
+                      <button onclick="document.getElementById('login').style.display='block';" class="w3-button w3-green w3-opacity-min" style="margin-left: 30px;margin-right: 10px;margin-bottom: 120px;">Log In</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+<!-- The Modal -->
+<div id="login" class="w3-modal w3-text-white" style="background-color: rgba(0, 0, 0, 0.589);">
+    <div class="w3-modal-content" style="background-color:rgba(0, 0, 0, 0.801);">
+      <div class="w3-container" >
+        <span onclick="document.getElementById('login').style.display='none'"
+        class="w3-button w3-display-topright w3-hover-black w3-hover-opacity">&times;</span>
+        <h1>Login</h1>
+        <form action="/auth/login" method="POST">
+            <p>
+                <label>Name:</label>
+                <input class="w3-input" type="text" name="username" style="width: 90%;color:black;" required>
+            </p>
+            <p>
+                <label>Password:</label>
+                <input class="w3-input" type="password" name="password" style="width: 90%;color: black;" required>
+            </p>
+            <p>
+                <button class="w3-button w3-section w3-teal w3-ripple"> Log In </button>
+            </p>
+            <p>
+                <a href="/auth/reset/password">Forgot Password?</a>
+            </p>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <div id="signup" class="w3-modal w3-text-white" style="background-color: rgba(0, 0, 0, 0.589);">
+    <div class="w3-modal-content" style="background-color:rgba(0, 0, 0, 0.801);">
+      <div class="w3-container">
+        <span onclick="document.getElementById('signup').style.display='none'"
+        class="w3-button w3-display-topright w3-hover-black w3-hover-opacity">&times;</span>
+        <h1>Sign Up</h1>
+        <form action="/auth/register" method="POST">
+            <p>
+                <label>Username:</label>
+                <input class="w3-input" type="text" name="username" style="width: 90%;color: black;" required>
+            </p>
+            <p>
+              <label>E-mail:</label>
+              <input class="w3-input" type="text" name="email" style="width: 90%;color: black;" required>
+          </p>
+            <p>
+                <label>Password:</label>
+                <input class="w3-input" type="password" name="password" style="width: 90%;color: black;" required>
+            </p>
+            <p>
+                <label>Retype Password:</label>
+                <input class="w3-input" type="password" name="passwordCheck" style="width: 90%;color: black;" required>
+            </p>
+            <p>
+                <button class="w3-button w3-section w3-teal w3-ripple"> Sign Up </button>
+            </p>
+        </form>
+      </div>
+    </div>
+  </div>
+<%- include("partials/footerLanding")  %>

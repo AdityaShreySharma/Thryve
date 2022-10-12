@@ -1,0 +1,25 @@
+<%- include("partials/header") %>
+
+<style>
+    * {
+        overflow: hidden;
+    }
+
+    body {
+        background-color: rgba(128, 128, 128, 0.479);
+    }
+</style>
+
+<div style="min-height: 100vh;">
+    <div class="w3-container">
+        <form action="/otp" method="POST" style="margin: 20% auto;">
+            <div style="margin: 0 auto;width: fit-content;">
+                <button class="w3-button w3-section w3-teal w3-ripple w3-jumbo
+                 w3-border w3-border-black"
+                > Send Otp
+                </button>
+            </div>
+        </form>
+    </div>
+
+<%- include("partials/footer") %>

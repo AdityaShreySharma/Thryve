@@ -1,0 +1,55 @@
+<!-- Sidebar -->
+<div class="w3-sidebar w3-bar-block w3-animate-left" style="display:none;z-index:5;" id="mySidebar">
+    <button class="w3-bar-item w3-button w3-large w3-black" onclick="w3_close()">Close &times;</button>
+    <a href="/home" class="w3-bar-item w3-button">HOME</a>
+    <a href="/diet" class="w3-bar-item w3-button">DIET MAKER</a>
+    <a href="/workout" class="w3-bar-item w3-button">WORKOUT BUILDER</a>
+    <a href="/healthinfo" class="w3-bar-item w3-button">HEALTH INFO</a>
+    <% if(currentUser && !currentUser.admin){ %><a href="/auth/admin" class="w3-bar-item w3-button">ADMIN</a><% } %>
+  </div>
+  
+  <!-- Page Content -->
+  <div class="w3-overlay w3-animate-opacity" onclick="w3_close()" style="cursor:pointer" id="myOverlay"></div>
+  
+  <div>
+      <!--Nav bar Div-->
+      <div class="w3-bar w3-black"> 
+            <h1 class="w3-display-topmiddle w3-wide font-Baloo2">Thryve</h1>
+        <% if(!currentUser){ %>
+            <!-- <li class="authen"><a href="/login">LogIn</a></li>
+            <li class="authen"><a href="/register">Sign Up</a></li> -->
+        <% } else{ %>
+            <div class="w3-display-topright login_msg w3-dropdown-hover w3-right" >
+                <span style="color: black;" >SS</span>
+                    <a href="#" class="w3-btn"><% if(currentUser.admin){ %><i class="fa fa-hashtag" style="font-size:24px; color: red;"></i><% } %> <i style="font-size: 24px;margin-right: 10px;" class="fa fa-user-circle" aria-hidden="true"></i></a>
+                    <div class="w3-dropdown-content w3-bar-block w3-border dropdown_user">
+                        <a href="/profile" class="w3-bar-item w3-button"><%= currentUser.username %></a>
+                        <a href="/auth/logout" class="w3-bar-item w3-button">Log Out</a>
+                    </div>
+                    <!-- <strong style="font-size: large;"><%= currentUser.username %> </strong> -->
+            </div>
+        <% } %>      
+          
+          <button class="w3-button w3-xxlarge w3-black" onclick="w3_open()">&#9776;</button>
+      </div>
+      
+  <div>
+    <% if(error && error.length > 0){ %>
+        <div style="color: white; background-color: red;">
+            <li class="w3-display-container" style="list-style-type:none;">        
+                <%= error %>
+                <span onclick="this.parentElement.style.display='none'"
+                class="w3-display-right msg_alert" style="margin-right: 10px;cursor: pointer;">&times;</span>
+            </li>    
+        </div>
+    <% } %>
+    <% if(success && success.length > 0){ %>
+        <div style="color: white;background-color: darkgreen;">
+            <li class="w3-display-container" style="list-style-type:none;">        
+                <%= success %>
+                <span onclick="this.parentElement.style.display='none'"
+                class="w3-display-right msg_alert" style="margin-right: 10px;cursor: pointer;">&times;</span>
+            </li>   
+        </div>
+    <% } %>
+</div>

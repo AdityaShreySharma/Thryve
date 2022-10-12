@@ -1,0 +1,12 @@
+<%- include("partials/header")  %>
+
+<form action="/auth/reset/password" method="POST">
+    <p>
+        <label>Email:</label>
+        <input class="w3-input" type="email" name="email" style="width: 90%;color:black;" autofocus required>
+    </p>
+    <p>
+        <button class="w3-button w3-section w3-teal w3-ripple"> Reset Password </button>
+    </p>
+</form>
+<%- include("partials/footer")  %>

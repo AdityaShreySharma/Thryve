@@ -1,0 +1,26 @@
+<%- include("../partials/header")  %>
+<style>
+    *{
+        overflow: hidden;
+    }
+</style>
+
+<div style="min-height: 100vh;">
+<div class="w3-container w3-card-4" style="margin: 10% auto 0 auto;width: 70%;">
+    <h1 class="font-Roboto w3-xxlarge" style="margin-bottom: 30px;">Edit Profile</h1>
+    <form action="/profile?_method=PUT" method="POST">
+        <div class="w3-margin-bottom">
+            <span class="font-Roboto w3-xlarge">First Name : </span><input class="w3-input" style="width: 50%;margin-left: 7.6%;display: inline;" type="text" name="profile[name][first]" value="<%= profile.name.first %>">
+        </div>
+        <div class="w3-margin-bottom">
+            <span class="font-Roboto w3-xlarge">Last Name : </span><input class="w3-input" style="width: 50%;margin-left: 7.6%;display: inline;" type="text" name="profile[name][last]" value="<%= profile.name.last %>">
+        </div>
+                <span class="font-Roboto w3-xlarge">Height : </span><input class="w3-input" style="width: 20%;margin-left: 12.5%;display: inline;" type="number" name="profile[height][magnitude]" step="0.01" min="0.00" value="<%= profile.height.magnitude %>">
+               <input class="w3-input" style="width: 10%;display: inline;" type="text" name="profile[height][unit]" value="<%= profile.height.unit %>">
+        <div class="w3-margin-bottom">
+            <button class="w3-button w3-blue w3-ripple w3-large w3-round" style="margin: 20px 20px 20px 85%;">Submit</button>
+        </div>
+    </form>
+</div>
+
+<%- include("../partials/footer")  %>

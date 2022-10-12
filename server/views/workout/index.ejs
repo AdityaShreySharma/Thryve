@@ -1,0 +1,102 @@
+<%- include("../partials/header")  %>
+<div class="w3-container" style="min-height: 100vh;">
+
+<a class="w3-button w3-teal w3-right" style="margin: 50px 0 0 20px;text-decoration: none;" href="/workout/exercise/new">Add new exercise</a>
+<!--  -->
+<!-- Trigger/Open the Modal -->
+<button class="w3-button w3-teal w3-right checkoutListBtn" style="margin-top:50px;" onclick="document.getElementById('checkoutModal').style.display='block'">Checkout List</button>
+
+<!-- EXERCISE LIST START -->
+<h2 class="font-DancingList" >Exercise List:</h2><hr>
+<div class="w3-row">
+    <% exercises.forEach(function(exercise){ %>
+        <div class="w3-container w3-col s4 columns">
+            <div class="w3-card-4" style="height: fit-content;min-height: 250px;">
+                <div class="w3-container" style="margin-bottom: 50px;"></div> <!-- empty container for pushing the content down-->
+                <div class="w3-container w3-center">
+                <h3><%= capitalizeFirstLetter(exercise.name) %>&ensp;&ensp;<% if(exercise.verified){ %><i style="font-size: 24px;" class="fa fa-check-circle" aria-hidden="true"></i><% } %></h3>
+                <form action="/workout" method="POST" class="dietlist">
+                    <label>
+                        <label class="font-Roboto">Duration(min) : </label>  <input type="number" style="padding-left: 10px;" name="duration" step="0.1" min="0.1" max="1440" width="40px" value="15" placeholder="(in minutes)">
+                       <div style="margin-top: 30px;">
+                            <button type="submit" class="w3-button w3-blue a_tag" value="<%= exercise._id %>" name="exercise[_id]">Add</button>
+                            <a class="w3-button w3-blue a_tag" style="text-decoration: none;" onclick="document.getElementById('viewModal<%=exercise._id%>').style.display='block'">View</a>
+                        </div>
+            
+                        <!-- <a class="w3-button w3-blue a_tag" style="text-decoration: none;" href="/workout/exercise/<%= exercise._id %>">View</a> -->
+                    </label>
+                </form>
+                </div>
+            </div>
+        </div>
+        <!-- VIEW MODAL -->
+        <div class="w3-modal" id="viewModal<%=exercise._id%>" style="z-index: 4;">
+            <div class="w3-modal-content">
+                <div class="w3-container w3-padding-16">
+                    <span class="w3-button w3-display-topright" onclick="document.getElementById('viewModal<%=exercise._id%>').style.display='none'" style="font-size: xx-large;">&times;</span>
+                    <div class="w3-display-container">
+                        <h1 style="margin: 20px;"><%= exercise.name %></h1><hr>
+                    <h3 style="margin: 20px;">Exercise No. : <%= exercise.tag %></h3>
+                    <p><%- exercise.steps %></p>
+                    <% if(currentUser.admin && !exercise.verified){ %>
+                        <form action="/workout/exercise/<%= exercise._id %>/verify" method="POST">
+                            <button class="w3-button w3-red">Verify</button>
+                        </form>
+                    <% } %>
+                  
+                    <% if(currentUser.admin || (!exercise.verified && exercise.addedBy.equals(currentUser._id))){ %>
+                        <form action="/workout/exercise/<%= exercise._id %>?_method=DELETE" method="POST">
+                            <a class="w3-button w3-teal" style="text-decoration: none;margin-right: 5px;" href="/workout/exercise/<%= exercise._id %>/edit">EDIT</a>
+                            <button class="w3-button w3-red">Delete</button>
+                        </form>
+                    <% } %>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- VIEW MODAL END -->
+    <% }); %>
+
+<!-- EXERCISE LIST END -->
+</div>
+</div>
+<!-- MAIN CONTAINER END -->
+
+<!-- The exercise list Modal -->
+<div class="w3-modal" id="checkoutModal" style="z-index: 4;">
+    <div class="w3-modal-content">
+        <div class="w3-container">
+            <span class="w3-button w3-display-topright" onclick="document.getElementById('checkoutModal').style.display='none'" style="font-size: xx-large;">&times;</span>
+            <h1>Your Checkout List</h1><hr>
+        <!-- CHECKOUT LIST START -->
+        <div class="w3-row">
+            <% user.workout.forEach(function(e){ %>
+                    <div class="w3-container w3-col s3" style="margin-bottom: 5px;min-height: 270px;">
+                        <div class="w3-card-4 w3-center" style="min-height: 250px;">
+                            <div class="w3-container" style="margin-top: 10px;">
+                                <h4><%= capitalizeFirstLetter(e.exercise.name) %></h4>
+                            </div><hr>
+                            <form action="/workout?_method=PUT" method="POST">
+                                Duration(min) : <br><br>
+                                <button class="w3-teal" style="border: none;padding: 3px 4px 2px 4px;" value="<%= e.exercise._id %>" name="exercise[_id]">Change</button>  <input type="number" name="duration" width="30px" step = "0.1" min="0.1" max="1440" value="<%= e.duration %>" placeholder="(in minutes)">                       
+                            </form><hr>
+                            <form action="/workout?_method=DELETE" method="POST" style="margin-top: 10px;">
+                                <label>    
+                                    <button style="font-size: larger;" class="w3-button w3-tiny w3-red" type="submit" value="<%= e.exercise._id %>" name="exercise[_id]">Remove</button>
+                                </label>                            
+                            </form>
+                        </div>
+                    </div>
+            <% }); %>
+        </div>
+        <!-- CHECKOUT LIST END -->
+        <div style="margin-top: 30px;"></div>
+        </div>
+    </div>
+</div>
+<!-- MODAL END -->
+
+<% function capitalizeFirstLetter(string) { %>
+    <% return string.charAt(0).toUpperCase() + string.slice(1); %>
+<%  } %>
+<%- include("../partials/footer")  %>

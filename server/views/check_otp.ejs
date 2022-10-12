@@ -1,0 +1,19 @@
+<%- include("partials/header")  %>
+
+<style>
+    *{
+        overflow: hidden;
+    }
+</style>
+
+<div style="min-height: 100vh;">
+<div class="w3-container w3-card-4" style="width: 50%;margin: 10% auto;">
+    <form autocomplete="off" action="/otp/check" method="POST">
+        <div style="margin: 20px 0;">
+            <input style="margin-bottom: 20px;" class="w3-input" type="text" name="otp" placeholder="OTP" autofocus required>
+            <button class="w3-button w3-section w3-teal w3-ripple" style="margin-left: 85%;"> Verify </button>
+        </div>
+    </form>
+</div>
+
+<%- include("partials/footer")  %>
