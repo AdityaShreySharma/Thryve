@@ -1,10 +1,3 @@
-# Thryve
-## Health and Fitness Website
-1) Build your custom diet and workout.
-2) Monitor health info. 
-3) Track your diet, weight, blood pressure and sugar.
-
-
 # Landing Page
 ![landing](https://user-images.githubusercontent.com/65895246/195422272-4442ea37-6529-4841-82b2-c740dab3dbe7.png)
 
