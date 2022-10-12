@@ -36,7 +36,7 @@
 <img width="960" alt="sugar_history" src="https://user-images.githubusercontent.com/65895246/195423446-1bf3c423-02e3-45a3-89c6-bf228e0e7dc2.png">
 ![weight_history](https://user-images.githubusercontent.com/65895246/195423473-516b5ce8-321c-43de-8383-96f5e9adfee4.png)
 
-# Trending Foods
+# Trending Foods and Exercises
 ![trend_1](https://user-images.githubusercontent.com/65895246/195423513-c72c22a4-8af3-46eb-8a09-d05fe7e2e800.png)
 ![trending_2](https://user-images.githubusercontent.com/65895246/195423534-75e6de5e-7f3f-4661-bb2d-cc7f6886e798.png)
 
